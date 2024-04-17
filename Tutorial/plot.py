@@ -15,6 +15,7 @@ path = atoms.cell.bandpath('GMKG', npoints=31).kpts
 
 energies_q = []
 magmoms_q = []
+q = []
 
 print('Calculating ground state')
 print(len(path), "q-points in the path")
@@ -22,6 +23,7 @@ print("=====================================")
 
 for i, q_c in enumerate(path):
     print(f'Calculating q={q_c}')
+    q.append(q_c)
     # Spin-spiral calculations require non-collinear calculations
     # without symmetry or spin-orbit coupling
     calc = GPAW(mode={'name': 'pw',
@@ -49,4 +51,5 @@ for i, q_c in enumerate(path):
 
 energies_q = np.array(energies_q)
 magmoms_q = np.array(magmoms_q)
-np.savez('data.npz', energies=energies_q, magmoms=magmoms_q)
+q = np.array(q)
+np.savez('data.npz', energies=energies_q, magmoms=magmoms_q, q=q)
