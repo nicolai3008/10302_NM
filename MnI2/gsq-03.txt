@@ -1,0 +1,260 @@
+#  __  _  _
+# | _ |_)|_||  |
+# |__||  | ||/\| - 24.1.0
+
+User:   s194099@n-62-29-26
+Date:   Wed Apr 17 14:12:15 2024
+Arch:   x86_64
+Pid:    20525
+CWD:    /zhome/84/5/147090/10302_NM/MnI2
+Python: 3.8.5
+gpaw:   /zhome/84/5/147090/venv1/gpaw/gpaw (10808453a8)
+_gpaw:  /zhome/84/5/147090/venv1/gpaw/
+        _gpaw.cpython-38-x86_64-linux-gnu.so (10808453a8)
+ase:    /zhome/84/5/147090/venv1/ase/ase (version 3.23.0b1-c36115a2db)
+numpy:  /zhome/84/5/147090/venv1/lib/python3.8/site-packages/numpy (version 1.24.4)
+scipy:  /zhome/84/5/147090/venv1/lib/python3.8/site-packages/scipy (version 1.10.1)
+libxc:  4.3.4
+units:  Angstrom and eV
+cores: 12
+OpenMP: False
+OMP_NUM_THREADS: 1
+
+---
+input parameters:
+  kpts: 
+    density: 6.0
+    gamma: True
+  magmoms: [[1, 0, 0], [0, 0, 0], [0, 0, 0]]
+  mixer: 
+    backend: 'pulay'
+    beta: 0.05
+    method: 'sum'
+    nmaxold: 5
+    weight: 100
+  mode: 
+    name: 'pw'
+    ecut: 600
+    qspiral: array([0.15, 0.  , 0.  ])
+  parallel: 
+    kpt: None
+    domain: 1
+    band: 1
+    order: 'kdb'
+    stridebands: False
+    augment_grids: False
+    sl_auto: False
+    sl_default: None
+    sl_diagonalize: None
+    sl_inverse_cholesky: None
+    sl_lcao: None
+    sl_lrtddft: None
+    use_elpa: False
+    elpasolver: '2stage'
+    buffer_size: None
+    gpu: False
+  symmetry: 
+    point_group: False
+    time_reversal: False
+  xc: 
+    name: 'LDA'
+
+#                        
+#                        
+#                        
+#                        
+#                        
+#              I         
+#                        
+#        Mn              
+#          I             
+#                        
+#                        
+#                        
+#                        
+#                        
+
+atoms: [  # symbols, positions [Ang] and initial magnetic moments
+  [ Mn, [   0.000000,    0.000000,    5.513573], [ 1.000,  0.000,  0.000]], # 0
+  [  I, [   1.984831,    1.145943,    7.027147], [ 0.000,  0.000,  0.000]], # 1
+  [  I, [  -0.000000,    2.291886,    4.000000], [ 0.000,  0.000,  0.000]]] # 2
+
+cell: [  # Ang
+#     x            y            z
+  [   3.969662,    0.000000,    0.000000],
+  [  -1.984831,    3.437828,    0.000000],
+  [   0.000000,   -0.000000,   11.027147]]
+
+periodic: [True      , True      , False     ]
+lengths:  [  3.969662,   3.969662,  11.027147]  # Ang
+angles:   [ 90.000000,  90.000000, 120.000000]
+
+symmetry:
+  number of symmetries: 1
+  rotations: [
+    [[ 1,  0,  0], [ 0,  1,  0], [ 0,  0,  1]]]
+
+bz sampling:
+  number of bz points: 121
+  number of ibz points: 121
+  monkhorst-pack size: [11, 11, 1]
+  monkhorst-pack shift: [0, 0, 0]
+  points and weights: [
+    [[ -0.45454545,  -0.45454545,   0.00000000], 0.00826446],  # 0
+    [[ -0.45454545,  -0.36363636,   0.00000000], 0.00826446],  # 1
+    [[ -0.45454545,  -0.27272727,   0.00000000], 0.00826446],  # 2
+    [[ -0.45454545,  -0.18181818,   0.00000000], 0.00826446],  # 3
+    [[ -0.45454545,  -0.09090909,   0.00000000], 0.00826446],  # 4
+    [[ -0.45454545,   0.00000000,   0.00000000], 0.00826446],  # 5
+    [[ -0.45454545,   0.09090909,   0.00000000], 0.00826446],  # 6
+    [[ -0.45454545,   0.18181818,   0.00000000], 0.00826446],  # 7
+    [[ -0.45454545,   0.27272727,   0.00000000], 0.00826446],  # 8
+    [[ -0.45454545,   0.36363636,   0.00000000], 0.00826446],  # 9
+    # ...
+    [[  0.45454545,   0.45454545,   0.00000000], 0.00826446]]  # 120
+
+plane wave coefficients: 5038
+cutoff: 600.0 eV
+
+spin-components: 4  # (non-collinear spins)
+bands: 42
+valence electrons: 29.0
+spin-degeneracy: 1
+dtype: complex128
+
+memory:
+    wave functions: 817_673_472  # bytes  (68_139_456 per core)
+
+parallelization:
+    kpt:    12
+    domain: 1
+    band:   1
+
+density:
+  components: 4
+  grid points: [24 24 63]
+  charge: 0.0  # |e|
+
+potential:
+  grid points: [24 24 63]
+
+species:
+  Mn:
+    name: Manganese
+    id: 0d715a8018be061a6e9ea6f2d364ac92
+    Z: 25.0
+    valence: 15
+    core: 10
+    charge: 0.0
+    file: /zhome/86/d/1666/PAW/gpaw-setups-0.9.20000/Mn.LDA.gz
+    compensation charges: {type: gauss,
+                           rc: 0.38,
+                           lmax: 2}
+    cutoffs: {filter: 2.14,
+              core: 0.86}
+    valence states:
+      #              energy  rcut
+      - 3s(2.00)   -85.387   1.275
+      - 4s(2.00)    -5.282   1.275
+      - 3p(6.00)   -54.493   1.281
+      - 4p(0.00)    -1.471   1.281
+      - 3d(5.00)    -7.009   1.138
+      -  d          20.203   1.138
+  
+    # Using partial waves for Mn as LCAO basis
+
+  I:
+    name: Iodine
+    id: b559721c0c096a7b4c8fc0e0f4de5cf4
+    Z: 53.0
+    valence: 7
+    core: 46
+    charge: 0.0
+    file: /zhome/86/d/1666/PAW/gpaw-setups-0.9.20000/I.LDA.gz
+    compensation charges: {type: gauss,
+                           rc: 0.37,
+                           lmax: 2}
+    cutoffs: {filter: 2.06,
+              core: 2.90}
+    valence states:
+      #              energy  rcut
+      - 5s(2.00)   -17.626   1.164
+      - 5p(5.00)    -7.241   1.164
+      -  s           9.585   1.164
+      -  p          19.970   1.164
+      -  d           0.000   1.164
+  
+    # Using partial waves for I as LCAO basis
+
+Reference energy: -418222.442431  # eV
+
+eigensolver:
+  name: 'Davidson'
+  niter: 2
+  converge_bands: 'occupied'
+Density mixing:
+  Method: sum
+  Backend: pulay
+  Linear mixing parameter: 0.05
+  old densities: 5
+  Damping of long wavelength oscillations: 100
+occupation numbers:
+  Fermi-Dirac:
+    width: 0.1000  # eV
+  
+
+poisson solver:
+  ecut: 4800.0  # eV
+
+xc functional:
+  name: None
+
+convergence criteria:
+- Maximum [total energy] change in last 3 cyles: 0.0005 eV / valence electron
+- Maximum integral of absolute [dens]ity change: 0.0001 electrons / valence electron
+- Maximum integral of absolute [eigenst]ate change: 4e-08 eV^2 / valence electron
+maximum number of iterations: 333
+
+#      iter     time        total  log10-change:
+#                          energy   eigst   dens
+# iter:   1 14:12:37   -15.938440                  +1.0,+0.0,+0.0
+# iter:   2 14:12:50   -14.423282   -0.50  -1.06   +0.9,-0.0,-0.0
+# iter:   3 14:13:03   -14.154158   -0.94  -1.32   +0.9,-0.0,+0.0
+# iter:   4 14:13:16   -14.349793   -0.88  -1.48   +1.1,-0.0,+0.0
+# iter:   5 14:13:29   -14.163056   -1.98  -1.60   +1.4,-0.0,-0.0
+# iter:   6 14:13:43   -14.186005   -1.30  -1.74   +1.7,-0.0,-0.0
+# iter:   7 14:13:55   -14.168938   -2.42  -1.97   +1.7,-0.0,+0.0
+# iter:   8 14:14:08   -14.211715   -2.30  -2.04   +1.9,-0.0,+0.0
+# iter:   9 14:14:21   -14.191221   -3.02  -1.81   +2.1,-0.0,+0.0
+# iter:  10 14:14:34   -14.111331   -2.71  -1.88   +1.9,-0.0,+0.0
+# iter:  11 14:14:47   -14.389051   -2.55  -2.00   +2.3,+0.0,-0.0
+# iter:  12 14:15:00   -14.263250   -3.19  -1.83   +2.4,-0.0,-0.0
+# iter:  13 14:15:13   -14.939177   -1.56  -1.77   +3.6,+0.0,-0.0
+# iter:  14 14:15:26   -15.040834   -2.51  -1.95   +3.9,+0.0,-0.0
+# iter:  15 14:15:38   -14.692727   -2.57  -1.65   +3.6,+0.0,-0.0
+# iter:  16 14:15:51   -14.701582   -3.41  -1.83   +3.5,+0.0,-0.0
+# iter:  17 14:16:04   -14.589521   -3.52  -1.74   +3.3,+0.0,-0.0
+# iter:  18 14:16:17   -15.009619   -1.84  -1.77   +4.0,+0.0,-0.0
+# iter:  19 14:16:30   -15.074995   -2.16  -2.02   +4.3,+0.0,-0.0
+# iter:  20 14:16:42   -14.956170   -2.98  -2.21   +4.0,+0.0,-0.0
+# iter:  21 14:16:55   -15.136287   -2.41  -2.07   +4.5,+0.0,-0.0
+# iter:  22 14:17:08   -15.141695   -3.23  -2.21   +4.7,+0.0,-0.0
+# iter:  23 14:17:21   -15.124143   -2.87  -2.27   +4.6,+0.0,-0.0
+# iter:  24 14:17:34   -15.128746   -3.86  -2.29   +4.7,+0.0,-0.0
+# iter:  25 14:17:47   -15.130743c  -3.14  -2.37   +4.8,+0.0,-0.0
+# iter:  26 14:17:59   -15.133655c  -3.36  -2.76   +4.8,+0.0,-0.0
+# iter:  27 14:18:12   -15.131045c  -3.88  -2.76   +4.8,+0.0,-0.0
+# iter:  28 14:18:25   -15.130897c  -4.22  -3.01   +4.8,+0.0,-0.0
+# iter:  29 14:18:38   -15.132989c  -3.68  -3.07   +4.8,+0.0,-0.0
+# iter:  30 14:18:51   -15.131033c  -3.82  -3.00   +4.8,+0.0,-0.0
+# iter:  31 14:19:04   -15.130990c  -5.05  -3.55   +4.8,+0.0,-0.0
+# iter:  32 14:19:16   -15.131458c  -4.27  -3.54   +4.8,+0.0,-0.0
+# iter:  33 14:19:29   -15.130896c  -4.33  -3.35   +4.8,+0.0,-0.0
+# iter:  34 14:19:42   -15.130871c  -5.92  -3.88   +4.8,+0.0,-0.0
+# iter:  35 14:19:55   -15.130914c  -5.58  -4.05c  +4.8,+0.0,-0.0
+# iter:  36 14:20:07   -15.130928c  -5.98  -4.15c  +4.8,+0.0,-0.0
+# iter:  37 14:20:20   -15.130937c  -6.97  -4.30c  +4.8,+0.0,-0.0
+# iter:  38 14:20:33   -15.130976c  -6.01  -4.37c  +4.8,+0.0,+0.0
+# iter:  39 14:20:46   -15.130966c  -6.93  -4.21c  +4.8,+0.0,+0.0
+# iter:  40 14:20:58   -15.130943c  -6.42  -4.38c  +4.8,+0.0,+0.0
+# iter:  41 14:21:11   -15.130936c  -6.90  -4.61c  +4.8,+0.0,+0.0
