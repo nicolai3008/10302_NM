@@ -1,0 +1,258 @@
+venv: /zhome/87/8/147075/venv-name/bin/activate
+[1713563874.592980] [n-62-28-31:15206:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1713563874.593016] [n-62-28-31:15206:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1713563874.593061] [n-62-28-31:15207:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1713563874.593091] [n-62-28-31:15207:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1713563874.598332] [n-62-28-31:15217:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1713563874.598367] [n-62-28-31:15217:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1713563874.599358] [n-62-28-31:15213:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1713563874.599443] [n-62-28-31:15213:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1713563874.599788] [n-62-28-31:15214:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1713563874.599818] [n-62-28-31:15214:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1713563874.600103] [n-62-28-31:15211:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1713563874.600182] [n-62-28-31:15211:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1713563874.600189] [n-62-28-31:15210:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1713563874.600276] [n-62-28-31:15210:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1713563874.600276] [n-62-28-31:15209:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1713563874.600305] [n-62-28-31:15209:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1713563874.600539] [n-62-28-31:15215:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1713563874.600572] [n-62-28-31:15215:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1713563874.600734] [n-62-28-31:15212:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1713563874.600763] [n-62-28-31:15212:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1713563874.602193] [n-62-28-31:15208:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1713563874.602227] [n-62-28-31:15208:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1713563874.604816] [n-62-28-31:15218:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1713563874.604851] [n-62-28-31:15218:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating q=[0.3, 0.3, 0]
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating ground state
+4 q-points in the path
+Calculating q=[0.3, 0.3, 0]
+=====================================
+Calculating q=[0.3, 0.3, 0]
+Calculating ground state
+4 q-points in the path
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating q=[0.3, 0.3, 0]
+=====================================
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating q=[0.3, 0.3, 0]
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating q=[0.3, 0.3, 0]
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating ground state
+Calculating q=[0.3, 0.3, 0]
+4 q-points in the path
+=====================================
+Calculating q=[0.3, 0.3, 0]
+Calculating q=[0.3, 0.3, 0]
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating q=[0.3, 0.3, 0]
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating q=[0.3, 0.3, 0]
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating q=[0.3, 0.3, 0]
+Energy: -11.908852911108026 eV
+Energy: -11.908852911108026 eV
+Magnetic moment: -2.9072671872823166e-14 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -11.908852911108026 eV
+Magnetic moment: -2.9072671872823166e-14 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -11.908852911108026 eV
+Magnetic moment: -2.9072671872823166e-14 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -11.908852911108026 eV
+Magnetic moment: -2.9072671872823166e-14 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -11.908852911108026 eV
+Magnetic moment: -2.9072671872823166e-14 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -11.908852911108026 eV
+Magnetic moment: -2.9072671872823166e-14 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -11.908852911108026 eV
+Magnetic moment: -2.9072671872823166e-14 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -11.908852911108026 eV
+Magnetic moment: -2.9072671872823166e-14 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -11.908852911108026 eV
+Magnetic moment: -2.9072671872823166e-14 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -11.908852911108026 eV
+Magnetic moment: -2.9072671872823166e-14 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -11.908852911108026 eV
+Magnetic moment: -2.9072671872823166e-14 Bohr magnetons
+Magnetic moment: -2.9072671872823166e-14 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -11.908867131717473 eV
+Magnetic moment: 1.821766841845048e-14 Bohr magnetons
+Energy: -11.908867131717473 eV
+Magnetic moment: 1.821766841845048e-14 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -11.908867131717473 eV
+Magnetic moment: 1.821766841845048e-14 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -11.908867131717473 eV
+Magnetic moment: 1.821766841845048e-14 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -11.908867131717473 eV
+Magnetic moment: 1.821766841845048e-14 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -11.908867131717473 eV
+Magnetic moment: 1.821766841845048e-14 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -11.908867131717473 eV
+Magnetic moment: 1.821766841845048e-14 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -11.908867131717473 eV
+Magnetic moment: 1.821766841845048e-14 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -11.908867131717473 eV
+Magnetic moment: 1.821766841845048e-14 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -11.908867131717473 eV
+Magnetic moment: 1.821766841845048e-14 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -11.908867131717473 eV
+Energy: -11.908867131717473 eV
+Magnetic moment: 1.821766841845048e-14 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Calculating q=[0.3333333333333333, 0.3, 0]
+Magnetic moment: 1.821766841845048e-14 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -11.908872979453475 eV
+Magnetic moment: -6.805803272499823e-14 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Energy: -11.908872979453475 eV
+Magnetic moment: -6.805803272499823e-14 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Energy: -11.908872979453475 eV
+Magnetic moment: -6.805803272499823e-14 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Energy: -11.908872979453475 eV
+Magnetic moment: -6.805803272499823e-14 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Energy: -11.908872979453475 eV
+Magnetic moment: -6.805803272499823e-14 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Energy: -11.908872979453475 eV
+Magnetic moment: -6.805803272499823e-14 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Energy: -11.908872979453475 eV
+Magnetic moment: -6.805803272499823e-14 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Energy: -11.908872979453475 eV
+Magnetic moment: -6.805803272499823e-14 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Energy: -11.908872979453475 eV
+Energy: -11.908872979453475 eV
+Magnetic moment: -6.805803272499823e-14 Bohr magnetons
+Energy: -11.908872979453475 eV
+Magnetic moment: -6.805803272499823e-14 Bohr magnetons
+Magnetic moment: -6.805803272499823e-14 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Energy: -11.908872979453475 eV
+Magnetic moment: -6.805803272499823e-14 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Calculating q=[0.35, 0.3, 0]
+Calculating q=[0.35, 0.3, 0]
+Energy: -11.90886719709619 eV
+Magnetic moment: 1.755537656264232e-14 Bohr magnetons
+Energy: -11.90886719709619 eV
+Magnetic moment: 1.755537656264232e-14 Bohr magnetons
+Energy: -11.90886719709619 eV
+Magnetic moment: 1.755537656264232e-14 Bohr magnetons
+Energy: -11.90886719709619 eV
+Energy: -11.90886719709619 eV
+Magnetic moment: 1.755537656264232e-14 Bohr magnetons
+Energy: -11.90886719709619 eV
+Magnetic moment: 1.755537656264232e-14 Bohr magnetons
+Energy: -11.90886719709619 eV
+Magnetic moment: 1.755537656264232e-14 Bohr magnetons
+Energy: -11.90886719709619 eV
+Magnetic moment: 1.755537656264232e-14 Bohr magnetons
+Energy: -11.90886719709619 eV
+Magnetic moment: 1.755537656264232e-14 Bohr magnetons
+Energy: -11.90886719709619 eV
+Magnetic moment: 1.755537656264232e-14 Bohr magnetons
+Energy: -11.90886719709619 eV
+Magnetic moment: 1.755537656264232e-14 Bohr magnetons
+Energy: -11.90886719709619 eV
+Magnetic moment: 1.755537656264232e-14 Bohr magnetons
+Magnetic moment: 1.755537656264232e-14 Bohr magnetons
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21504707: <plot_21.py> in cluster <dcc> Done
+
+Job <plot_21.py> was submitted from host <n-62-30-5> by user <s194113> in cluster <dcc> at Fri Apr 19 18:00:18 2024
+Job was executed on host(s) <12*n-62-28-31>, in queue <hpc>, as user <s194113> in cluster <dcc> at Fri Apr 19 23:57:50 2024
+</zhome/87/8/147075> was used as the home directory.
+</zhome/87/8/147075/10302/10302_NM/NiI2_2D> was used as the working directory.
+Started at Fri Apr 19 23:57:50 2024
+Terminated at Sat Apr 20 00:36:24 2024
+Results reported at Sat Apr 20 00:36:24 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash -l
+id=$LSB_JOBID
+mq=/zhome/87/8/147075/.myqueue/lsf-$id
+source /zhome/87/8/147075/venv-name/bin/activate
+echo "venv: /zhome/87/8/147075/venv-name/bin/activate"
+(touch $mq-0 && \
+ cd '/zhome/87/8/147075/10302/10302_NM/NiI2_2D' && \
+ mpiexec python3 plot_21.py && \
+ touch $mq-1) || \
+(touch $mq-2; exit 1)
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27721.22 sec.
+    Max Memory :                                 5772 MB
+    Average Memory :                             4305.00 MB
+    Total Requested Memory :                     73728.00 MB
+    Delta Memory :                               67956.00 MB
+    Max Swap :                                   -
+    Max Processes :                              17
+    Max Threads :                                57
+    Run time :                                   2314 sec.
+    Turnaround time :                            23766 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </zhome/87/8/147075/10302/10302_NM/NiI2_2D/plot_21.py.21504707.err> for stderr output of this job.
+

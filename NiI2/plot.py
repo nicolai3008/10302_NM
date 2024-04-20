@@ -2,7 +2,7 @@ from ase.build import mx2
 from gpaw.new.ase_interface import GPAW
 import numpy as np
 
-atoms = mx2('NiI2', kind='1T', a=3.969662131560825,
+atoms = mx2('NiI2', kind='1T', a=4.166,
             thickness=3.027146598949815, vacuum=4)
 
 # Align the magnetic moment in the xy-plane
