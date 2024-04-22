@@ -13,8 +13,7 @@ plt.rcParams.update({
     'text.latex.preamble': r'\boldmath',
     "figure.autolayout": True})
 import os
-os.chdir('C:/Users/Mads_/Dropbox/Uni/5 sem/DFT/Project (local)')
-d = np.load('data.npz')
+d = np.load('NiI2_2d/data.npz')
 E = d["energies"]
 E = (E - np.min(E))*10**3
 q = d["q"]
