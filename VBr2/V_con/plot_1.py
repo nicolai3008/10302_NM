@@ -7,7 +7,7 @@ ecut = 600
 v = 1
 
 atoms = mx2('VBr2', kind='1T', a=3.84,
-            thickness=3.027146598949815, vacuum=6)
+            thickness=3.027146598949815, vacuum=v)
 
 # Align the magnetic moment in the xy-plane
 magmoms = [[1, 0, 0], [0, 0, 0], [0, 0, 0]]
