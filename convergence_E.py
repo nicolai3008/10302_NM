@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Check for convergence when changing parameter
 
-folder = "VBr2/E_con"
+folder = "MnI2/E_con"
 var = [100,200,300,400,500,600,700,800,900,1000]
 e = []
 

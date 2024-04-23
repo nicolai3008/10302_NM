@@ -7623,3 +7623,79 @@ maximum number of iterations: 333
 # iter: 308 20:25:02   -14.716620   -4.76  -2.95   -3.0,-0.0,+0.0
 # iter: 309 20:25:14   -14.843956   -3.43  -3.01   -3.2,-0.0,+0.0
 # iter: 310 20:25:27   -14.820453   -5.25  -3.04   -3.2,-0.0,+0.0
+# iter: 311 20:25:39   -14.800600   -4.78  -3.02   -3.2,-0.0,+0.0
+# iter: 312 20:25:52   -14.669628   -3.32  -2.83   -3.0,-0.0,+0.0
+# iter: 313 20:26:04   -14.746226   -4.22  -2.79   -3.1,-0.0,+0.0
+# iter: 314 20:26:16   -14.919694   -2.99  -2.88   -3.3,-0.0,+0.0
+# iter: 315 20:26:29   -14.948214   -3.80  -3.17   -3.4,-0.0,+0.0
+# iter: 316 20:26:41   -14.928602   -5.04  -3.12   -3.4,-0.0,+0.0
+# iter: 317 20:26:53   -14.650682   -2.77  -3.04   -3.0,-0.0,+0.0
+# iter: 318 20:27:05   -14.645194   -3.96  -2.99   -2.9,-0.0,+0.0
+# iter: 319 20:27:18   -14.686756   -4.89  -3.09   -3.0,-0.0,+0.0
+# iter: 320 20:27:30   -14.708353   -4.81  -2.93   -3.0,-0.0,+0.0
+# iter: 321 20:27:43   -14.665488   -4.75  -2.92   -3.0,-0.0,+0.0
+# iter: 322 20:27:55   -14.651579   -4.61  -3.06   -2.9,-0.0,+0.0
+# iter: 323 20:28:07   -14.554122   -3.72  -2.89   -2.8,-0.0,+0.0
+# iter: 324 20:28:20   -14.935017   -2.47  -3.02   -3.3,-0.0,+0.0
+# iter: 325 20:28:32   -15.193764   -1.93  -3.10   -4.3,-0.0,+0.0
+# iter: 326 20:28:45   -15.052100   -2.54  -2.57   -3.6,-0.0,+0.0
+# iter: 327 20:28:57   -15.067675   -4.16  -3.09   -3.6,-0.0,+0.0
+# iter: 328 20:29:09   -14.794033   -2.57  -3.08   -3.2,-0.0,+0.0
+# iter: 329 20:29:22   -14.855381   -4.36  -3.14   -3.2,-0.0,+0.0
+# iter: 330 20:29:34   -14.779945   -3.83  -3.20   -3.1,-0.0,+0.0
+# iter: 331 20:29:46   -15.055490   -2.72  -3.17   -3.6,-0.0,+0.0
+# iter: 332 20:29:58   -15.019979   -4.56  -3.24   -3.5,-0.0,+0.0
+# iter: 333 20:30:11   -14.993866   -4.53  -3.28   -3.5,-0.0,+0.0
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21540904: <plot_5.py> in cluster <dcc> Exited
+
+Job <plot_5.py> was submitted from host <n-62-27-22> by user <s194113> in cluster <dcc> at Mon Apr 22 12:36:56 2024
+Job was executed on host(s) <12*n-62-29-8>, in queue <hpc>, as user <s194113> in cluster <dcc> at Mon Apr 22 16:12:44 2024
+</zhome/87/8/147075> was used as the home directory.
+</zhome/87/8/147075/10302/10302_NM/MnI2/K_con> was used as the working directory.
+Started at Mon Apr 22 16:12:44 2024
+Terminated at Mon Apr 22 20:30:23 2024
+Results reported at Mon Apr 22 20:30:23 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash -l
+id=$LSB_JOBID
+mq=/zhome/87/8/147075/.myqueue/lsf-$id
+source /zhome/87/8/147075/venv-name/bin/activate
+echo "venv: /zhome/87/8/147075/venv-name/bin/activate"
+(touch $mq-0 && \
+ cd '/zhome/87/8/147075/10302/10302_NM/MnI2/K_con' && \
+ mpiexec python3 plot_5.py && \
+ touch $mq-1) || \
+(touch $mq-2; exit 1)
+
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   185275.00 sec.
+    Max Memory :                                 11803 MB
+    Average Memory :                             9508.33 MB
+    Total Requested Memory :                     73728.00 MB
+    Delta Memory :                               61925.00 MB
+    Max Swap :                                   -
+    Max Processes :                              17
+    Max Threads :                                57
+    Run time :                                   15575 sec.
+    Turnaround time :                            28407 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </zhome/87/8/147075/10302/10302_NM/MnI2/K_con/plot_5.py.21540904.err> for stderr output of this job.
+

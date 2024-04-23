@@ -719,3 +719,128 @@ Calculating q=[0.28571429 0.28571429 0.        ]
 Calculating q=[0.28571429 0.28571429 0.        ]
 Calculating q=[0.28571429 0.28571429 0.        ]
 Calculating q=[0.28571429 0.28571429 0.        ]
+Energy: -15.193397933013582 eV
+Magnetic moment: 1.4324316353184414e-14 Bohr magnetons
+Energy: -15.193397933013582 eV
+Magnetic moment: 1.4324316353184414e-14 Bohr magnetons
+Energy: -15.193397933013582 eV
+Magnetic moment: 1.4324316353184414e-14 Bohr magnetons
+Energy: -15.193397933013582 eV
+Magnetic moment: 1.4324316353184414e-14 Bohr magnetons
+Energy: -15.193397933013582 eV
+Magnetic moment: 1.4324316353184414e-14 Bohr magnetons
+Energy: -15.193397933013582 eV
+Magnetic moment: 1.4324316353184414e-14 Bohr magnetons
+Energy: -15.193397933013582 eV
+Magnetic moment: 1.4324316353184414e-14 Bohr magnetons
+Energy: -15.193397933013582 eV
+Magnetic moment: 1.4324316353184414e-14 Bohr magnetons
+Energy: -15.193397933013582 eV
+Magnetic moment: 1.4324316353184414e-14 Bohr magnetons
+Energy: -15.193397933013582 eV
+Magnetic moment: 1.4324316353184414e-14 Bohr magnetons
+Energy: -15.193397933013582 eV
+Magnetic moment: 1.4324316353184414e-14 Bohr magnetons
+Energy: -15.193397933013582 eV
+Magnetic moment: 1.4324316353184414e-14 Bohr magnetons
+Calculating q=[0.26190476 0.26190476 0.        ]
+Calculating q=[0.26190476 0.26190476 0.        ]
+Calculating q=[0.26190476 0.26190476 0.        ]
+Calculating q=[0.26190476 0.26190476 0.        ]
+Calculating q=[0.26190476 0.26190476 0.        ]
+Calculating q=[0.26190476 0.26190476 0.        ]
+Calculating q=[0.26190476 0.26190476 0.        ]
+Calculating q=[0.26190476 0.26190476 0.        ]
+Calculating q=[0.26190476 0.26190476 0.        ]
+Calculating q=[0.26190476 0.26190476 0.        ]
+Calculating q=[0.26190476 0.26190476 0.        ]
+Calculating q=[0.26190476 0.26190476 0.        ]
+Energy: -15.1919123424499 eV
+Magnetic moment: 4.507530616807776e-13 Bohr magnetons
+Energy: -15.1919123424499 eV
+Magnetic moment: 4.507530616807776e-13 Bohr magnetons
+Energy: -15.1919123424499 eV
+Magnetic moment: 4.507530616807776e-13 Bohr magnetons
+Energy: -15.1919123424499 eV
+Magnetic moment: 4.507530616807776e-13 Bohr magnetons
+Energy: -15.1919123424499 eV
+Magnetic moment: 4.507530616807776e-13 Bohr magnetons
+Energy: -15.1919123424499 eV
+Magnetic moment: 4.507530616807776e-13 Bohr magnetons
+Energy: -15.1919123424499 eV
+Magnetic moment: 4.507530616807776e-13 Bohr magnetons
+Energy: -15.1919123424499 eV
+Magnetic moment: 4.507530616807776e-13 Bohr magnetons
+Energy: -15.1919123424499 eV
+Magnetic moment: 4.507530616807776e-13 Bohr magnetons
+Energy: -15.1919123424499 eV
+Magnetic moment: 4.507530616807776e-13 Bohr magnetons
+Energy: -15.1919123424499 eV
+Magnetic moment: 4.507530616807776e-13 Bohr magnetons
+Energy: -15.1919123424499 eV
+Magnetic moment: 4.507530616807776e-13 Bohr magnetons
+Calculating q=[0.23809524 0.23809524 0.        ]
+Calculating q=[0.23809524 0.23809524 0.        ]
+Calculating q=[0.23809524 0.23809524 0.        ]
+Calculating q=[0.23809524 0.23809524 0.        ]
+Calculating q=[0.23809524 0.23809524 0.        ]
+Calculating q=[0.23809524 0.23809524 0.        ]
+Calculating q=[0.23809524 0.23809524 0.        ]
+Calculating q=[0.23809524 0.23809524 0.        ]
+Calculating q=[0.23809524 0.23809524 0.        ]
+Calculating q=[0.23809524 0.23809524 0.        ]
+Calculating q=[0.23809524 0.23809524 0.        ]
+Calculating q=[0.23809524 0.23809524 0.        ]
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21540888: <plot_7.py> in cluster <dcc> Exited
+
+Job <plot_7.py> was submitted from host <n-62-27-22> by user <s194113> in cluster <dcc> at Mon Apr 22 12:35:44 2024
+Job was executed on host(s) <12*n-62-29-20>, in queue <hpc>, as user <s194113> in cluster <dcc> at Mon Apr 22 12:58:05 2024
+</zhome/87/8/147075> was used as the home directory.
+</zhome/87/8/147075/10302/10302_NM/MnI2/E_con> was used as the working directory.
+Started at Mon Apr 22 12:58:05 2024
+Terminated at Tue Apr 23 00:13:49 2024
+Results reported at Tue Apr 23 00:13:49 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash -l
+id=$LSB_JOBID
+mq=/zhome/87/8/147075/.myqueue/lsf-$id
+source /zhome/87/8/147075/venv-name/bin/activate
+echo "venv: /zhome/87/8/147075/venv-name/bin/activate"
+(touch $mq-0 && \
+ cd '/zhome/87/8/147075/10302/10302_NM/MnI2/E_con' && \
+ mpiexec python3 plot_7.py && \
+ touch $mq-1) || \
+(touch $mq-2; exit 1)
+
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   486148.00 sec.
+    Max Memory :                                 16997 MB
+    Average Memory :                             11684.83 MB
+    Total Requested Memory :                     73728.00 MB
+    Delta Memory :                               56731.00 MB
+    Max Swap :                                   -
+    Max Processes :                              17
+    Max Threads :                                57
+    Run time :                                   40543 sec.
+    Turnaround time :                            41885 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </zhome/87/8/147075/10302/10302_NM/MnI2/E_con/plot_7.py.21540888.err> for stderr output of this job.
+

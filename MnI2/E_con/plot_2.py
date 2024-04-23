@@ -2,7 +2,7 @@ from ase.build import mx2
 from gpaw.new.ase_interface import GPAW
 import numpy as np
 
-k = 9
+k = 6
 ecut = 200
 v = 6
 
