@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Check for convergence when changing parameter
 
-folder = "NiI2/V_con"
+folder = "VBr2/V_con"
 var = [1,2,3,4,5,6,7]
 e = []
 

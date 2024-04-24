@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 plt.rcParams.update({
-    "text.usetex": True,
+#    "text.usetex": True,
     "font.family": "serif",
     "font.sans-serif": ["Computer Modern Roman"],
     "font.size": 14,
@@ -10,10 +10,10 @@ plt.rcParams.update({
     "legend.edgecolor": [0.2, 0.2, 0.2],
     "axes.linewidth": 1.75,
     "axes.titlesize": 20,
-    'text.latex.preamble': r'\boldmath',
+#    'text.latex.preamble': r'\boldmath',
     "figure.autolayout": True})
 import os
-d = np.load('NiI2_2d/data.npz')
+d = np.load('NiI2_2D/data.npz')
 E = d["energies"]
 E = (E - np.min(E))*10**3
 q = d["q"]
