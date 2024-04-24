@@ -20,4 +20,10 @@ Type = "Band"
 # Type = "Conv_K"
 # Type = "2D"
 
+if Type == "Band":
+    k = 6
+    ecut = 600
+    v = 6
+    
+    
 
