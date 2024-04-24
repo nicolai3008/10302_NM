@@ -2,10 +2,20 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 
-mol = "VBr2"
+Type = "Band"
+Type = "Conv_E"
+Type = "Conv_V"
+Type = "Conv_K"
+Type = "2D"
+
+
+mol = "NiI2"
 
 xyz = "Materials/1{}-1.xyz".format(mol)
-template = "template.py"
+if Type == "2D":
+    template = "template_2d.py"
+else:
+    template = "template.py"
 with open(template, "r") as file:
     template = file.readlines()
     file.close()
@@ -13,12 +23,6 @@ with open(template, "r") as file:
 # Check if folder with molecule name exists
 if not os.path.exists(mol):
     os.makedirs(mol)
-
-#Type = "Band"
-Type = "Conv_E"
-#Type = "Conv_V"
-#Type = "Conv_K"
-#Type = "2D"
 
 if Type == "Band":
     k = 6
@@ -119,3 +123,31 @@ elif Type == "Conv_K":
                 file.write("#!/bin/bash\n")
             file.write("mq submit Conv_K/Conv_K_{}.py -R 12:1d\n".format(k[i]))
             file.close()    
+
+elif Type == "2D":
+    if not os.path.exists("{}_2D".format(mol)):
+        os.makedirs("{}_2D".format(mol))
+    k = 6
+    v = 6
+    E = 600
+    n = 31
+    h = np.linspace(0,20,21)
+    for i in range(len(h)):
+        template_copy = template[:]
+        template_copy[6] = template_copy[6].replace("ECUT", str(E))
+        template_copy[7] = template_copy[7].replace("KDENS", str(k))
+        template_copy[8] = template_copy[8].replace("VACUUM", str(v))
+        template_copy[9] = template_copy[9].replace("FOLDER", "H_{}".format(h[i]))
+        template_copy[10] = template_copy[10].replace("TYPE", "2D")
+        template_copy[11] = template_copy[11].replace("NPOINTS", str(n))
+        template_copy[13] = template_copy[13].replace("XYZ", xyz)
+        template_copy[22] = template_copy[22].replace("HEIGHT", str(h[i]))
+        
+        with open("{}_2D/H_{}.py".format(mol,h[i]), "w") as file:
+            file.writelines(template_copy)
+            file.close()
+        with open("{}_2D/2D.sh".format(mol), "a") as file:
+            if i == 0:
+                file.write("#!/bin/bash\n")
+            file.write("mq submit H_{}.py -R 12:3d\n".format(h[i]))
+            file.close()

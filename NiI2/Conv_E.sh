@@ -1,0 +1,21 @@
+#!/bin/bash
+mq submit Conv_E/Conv_E_50.0.py -R 12:1d
+mq submit Conv_E/Conv_E_100.0.py -R 12:1d
+mq submit Conv_E/Conv_E_150.0.py -R 12:1d
+mq submit Conv_E/Conv_E_200.0.py -R 12:1d
+mq submit Conv_E/Conv_E_250.0.py -R 12:1d
+mq submit Conv_E/Conv_E_300.0.py -R 12:1d
+mq submit Conv_E/Conv_E_350.0.py -R 12:1d
+mq submit Conv_E/Conv_E_400.0.py -R 12:1d
+mq submit Conv_E/Conv_E_450.0.py -R 12:1d
+mq submit Conv_E/Conv_E_500.0.py -R 12:1d
+mq submit Conv_E/Conv_E_550.0.py -R 12:1d
+mq submit Conv_E/Conv_E_600.0.py -R 12:1d
+mq submit Conv_E/Conv_E_650.0.py -R 12:1d
+mq submit Conv_E/Conv_E_700.0.py -R 12:1d
+mq submit Conv_E/Conv_E_750.0.py -R 12:1d
+mq submit Conv_E/Conv_E_800.0.py -R 12:1d
+mq submit Conv_E/Conv_E_850.0.py -R 12:1d
+mq submit Conv_E/Conv_E_900.0.py -R 12:1d
+mq submit Conv_E/Conv_E_950.0.py -R 12:1d
+mq submit Conv_E/Conv_E_1000.0.py -R 12:1d
