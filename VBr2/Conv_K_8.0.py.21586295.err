@@ -1,0 +1,401 @@
+Modules Release 4.8.0 (2021-07-14)
+DCC-SW: Added modules (2023-aug/XeonE5-2660v3)
+DCC-SW: Removed standard modules: /apps/dcc/etc/ModulesSL73/modulefiles
+DCC-SW: Using gnu/12.3.0 compiler (requested)
+DCC-SW: Released modules (2023-aug/XeonE5-2660v3)
+DCC-SW: Added modules (2020-aug/XeonE5-2660v3)
+DCC-SW: Removed standard modules: /apps/dcc/etc/ModulesSL73/modulefiles
+DCC-SW: Using gnu/9.3.0 compiler
+Loading python/3.8.5
+  Loading requirement: build-tools/1.0 gcc/9.3.0 zlib/1.2.11 expat/2.2.0
+    libffi/3.3
+Loading scalapack/2.1.0
+  Loading requirement: numactl/2.0.12 libxml2/2.9.10 hwloc/2.2.0 knem/1.1.4
+    ucx/1.8.1 openmpi/4.0.4
+mpiexec: Forwarding signal 18 to job
+rank=00 L00: Traceback (most recent call last):
+rank=00 L01:   File "/zhome/87/8/147075/10302/10302_NM/VBr2/Conv_K/Conv_K_8.0.py", line 54, in <module>
+rank=00 L02:     energy = atoms.get_potential_energy()
+rank=00 L03:   File "/zhome/87/8/147075/venv-name/ase/ase/atoms.py", line 755, in get_potential_energy
+rank=00 L04:     energy = self._calc.get_potential_energy(self)
+rank=00 L05:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 253, in get_potential_energy
+rank=00 L06:     return self.calculate_property(atoms,
+rank=00 L07:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 167, in calculate_property
+rank=00 L08:     self.converge()
+rank=00 L09:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 226, in converge
+rank=00 L10:     self.calculation.converge(calculate_forces=self._calculate_forces)
+rank=00 L11:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 171, in converge
+rank=00 L12:     for step, _ in enumerate(self.iconverge(convergence,
+rank=00 L13:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 158, in iconverge
+rank=00 L14:     yield from self.scf_loop.iterate(self.state,
+rank=00 L15:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/scf.py", line 78, in iterate
+rank=00 L16:     wfs_error = self.eigensolver.iterate(state, self.hamiltonian)
+rank=00 L17:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 110, in iterate
+rank=00 L18:     e = self.iterate1(wfs, Ht, dH, dS_aii, weight_n)
+rank=00 L19:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 184, in iterate1
+rank=00 L20:     me(psit2_nX, psit2_nX, function=Ht)
+rank=00 L21:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 150, in me
+rank=00 L22:     return a.matrix_elements(b,
+rank=00 L23:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/arrays.py", line 152, in matrix_elements
+rank=00 L24:     other = function(other)
+rank=00 L25:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pw/hamiltonian.py", line 172, in apply
+rank=00 L26:     g_R.data = a * (x + iy) + b * (v - z)
+rank=00 L27: KeyboardInterrupt
+GPAW CLEANUP (node 0): <class 'KeyboardInterrupt'> occurred.  Calling MPI_Abort!
+rank=01 L00: Traceback (most recent call last):
+rank=01 L01:   File "/zhome/87/8/147075/10302/10302_NM/VBr2/Conv_K/Conv_K_8.0.py", line 54, in <module>
+rank=01 L02:     energy = atoms.get_potential_energy()
+rank=01 L03:   File "/zhome/87/8/147075/venv-name/ase/ase/atoms.py", line 755, in get_potential_energy
+rank=01 L04:     energy = self._calc.get_potential_energy(self)
+rank=01 L05:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 253, in get_potential_energy
+rank=01 L06:     return self.calculate_property(atoms,
+rank=01 L07:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 167, in calculate_property
+rank=01 L08:     self.converge()
+rank=01 L09:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 226, in converge
+rank=01 L10:     self.calculation.converge(calculate_forces=self._calculate_forces)
+rank=01 L11:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 171, in converge
+rank=01 L12:     for step, _ in enumerate(self.iconverge(convergence,
+rank=01 L13:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 158, in iconverge
+rank=01 L14:     yield from self.scf_loop.iterate(self.state,
+rank=01 L15:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/scf.py", line 78, in iterate
+rank=01 L16:     wfs_error = self.eigensolver.iterate(state, self.hamiltonian)
+rank=01 L17:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 110, in iterate
+rank=01 L18:     e = self.iterate1(wfs, Ht, dH, dS_aii, weight_n)
+rank=01 L19:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 184, in iterate1
+rank=01 L20:     me(psit2_nX, psit2_nX, function=Ht)
+rank=01 L21:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 150, in me
+rank=01 L22:     return a.matrix_elements(b,
+rank=01 L23:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/arrays.py", line 152, in matrix_elements
+rank=01 L24:     other = function(other)
+rank=01 L25:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pw/hamiltonian.py", line 173, in apply
+rank=01 L26:     o_sG.data[1] += g_R.fft(pw=pw).data
+rank=01 L27:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/uniform_grid.py", line 458, in fft
+rank=01 L28:     coefs = plan.fft_sphere(input.data, pw)
+rank=01 L29:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/fftw.py", line 154, in fft_sphere
+rank=01 L30:     self.fft()
+rank=01 L31:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/fftw.py", line 169, in fft
+rank=01 L32:     _gpaw.FFTWExecute(self._fftplan)
+rank=01 L33: KeyboardInterrupt
+GPAW CLEANUP (node 1): <class 'KeyboardInterrupt'> occurred.  Calling MPI_Abort!
+rank=11 L00: Traceback (most recent call last):
+rank=11 L01:   File "/zhome/87/8/147075/10302/10302_NM/VBr2/Conv_K/Conv_K_8.0.py", line 54, in <module>
+rank=11 L02:     energy = atoms.get_potential_energy()
+rank=11 L03:   File "/zhome/87/8/147075/venv-name/ase/ase/atoms.py", line 755, in get_potential_energy
+rank=11 L04:     energy = self._calc.get_potential_energy(self)
+rank=11 L05:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 253, in get_potential_energy
+rank=11 L06:     return self.calculate_property(atoms,
+rank=11 L07:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 167, in calculate_property
+rank=11 L08:     self.converge()
+rank=11 L09:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 226, in converge
+rank=11 L10:     self.calculation.converge(calculate_forces=self._calculate_forces)
+rank=11 L11:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 171, in converge
+rank=11 L12:     for step, _ in enumerate(self.iconverge(convergence,
+rank=11 L13:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 158, in iconverge
+rank=11 L14:     yield from self.scf_loop.iterate(self.state,
+rank=11 L15:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/scf.py", line 78, in iterate
+rank=11 L16:     wfs_error = self.eigensolver.iterate(state, self.hamiltonian)
+rank=11 L17:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 110, in iterate
+rank=11 L18:     e = self.iterate1(wfs, Ht, dH, dS_aii, weight_n)
+rank=11 L19:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 184, in iterate1
+rank=11 L20:     me(psit2_nX, psit2_nX, function=Ht)
+rank=11 L21:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 150, in me
+rank=11 L22:     return a.matrix_elements(b,
+rank=11 L23:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/arrays.py", line 156, in matrix_elements
+rank=11 L24:     out = M1.multiply(M2, opb='C', alpha=self.dv,
+rank=11 L25:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/matrix.py", line 180, in multiply
+rank=11 L26:     dist.multiply(alpha, A, opa, B, opb, beta, out, symmetric=symmetric)
+rank=11 L27:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/matrix.py", line 655, in multiply
+rank=11 L28:     blas.r2k(0.5 * alpha, a.data, b.data, beta, c.data)
+rank=11 L29: KeyboardInterrupt
+GPAW CLEANUP (node 11): <class 'KeyboardInterrupt'> occurred.  Calling MPI_Abort!
+rank=02 L00: Traceback (most recent call last):
+rank=02 L01:   File "/zhome/87/8/147075/10302/10302_NM/VBr2/Conv_K/Conv_K_8.0.py", line 54, in <module>
+rank=02 L02:     energy = atoms.get_potential_energy()
+rank=02 L03:   File "/zhome/87/8/147075/venv-name/ase/ase/atoms.py", line 755, in get_potential_energy
+rank=02 L04:     energy = self._calc.get_potential_energy(self)
+rank=02 L05:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 253, in get_potential_energy
+rank=02 L06:     return self.calculate_property(atoms,
+rank=02 L07:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 167, in calculate_property
+rank=02 L08:     self.converge()
+rank=02 L09:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 226, in converge
+rank=02 L10:     self.calculation.converge(calculate_forces=self._calculate_forces)
+rank=02 L11:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 171, in converge
+rank=02 L12:     for step, _ in enumerate(self.iconverge(convergence,
+rank=02 L13:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 158, in iconverge
+rank=02 L14:     yield from self.scf_loop.iterate(self.state,
+rank=02 L15:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/scf.py", line 78, in iterate
+rank=02 L16:     wfs_error = self.eigensolver.iterate(state, self.hamiltonian)
+rank=02 L17:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 110, in iterate
+rank=02 L18:     e = self.iterate1(wfs, Ht, dH, dS_aii, weight_n)
+rank=02 L19:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 184, in iterate1
+rank=02 L20:     me(psit2_nX, psit2_nX, function=Ht)
+rank=02 L21:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 150, in me
+rank=02 L22:     return a.matrix_elements(b,
+rank=02 L23:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/arrays.py", line 152, in matrix_elements
+rank=02 L24:     other = function(other)
+rank=02 L25:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pw/hamiltonian.py", line 173, in apply
+rank=02 L26:     o_sG.data[1] += g_R.fft(pw=pw).data
+rank=02 L27:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/uniform_grid.py", line 458, in fft
+rank=02 L28:     coefs = plan.fft_sphere(input.data, pw)
+rank=02 L29:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/fftw.py", line 155, in fft_sphere
+rank=02 L30:     coefs = pw.cut(self.tmp_Q) * (1 / self.tmp_R.size)
+rank=02 L31:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/plane_waves.py", line 160, in cut
+rank=02 L32:     return array_Q.ravel()[self.indices(array_Q.shape)]
+rank=02 L33: KeyboardInterrupt
+GPAW CLEANUP (node 2): <class 'KeyboardInterrupt'> occurred.  Calling MPI_Abort!
+rank=03 L00: Traceback (most recent call last):
+rank=03 L01:   File "/zhome/87/8/147075/10302/10302_NM/VBr2/Conv_K/Conv_K_8.0.py", line 54, in <module>
+rank=03 L02:     energy = atoms.get_potential_energy()
+rank=03 L03:   File "/zhome/87/8/147075/venv-name/ase/ase/atoms.py", line 755, in get_potential_energy
+rank=03 L04:     energy = self._calc.get_potential_energy(self)
+rank=03 L05:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 253, in get_potential_energy
+rank=03 L06:     return self.calculate_property(atoms,
+rank=03 L07:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 167, in calculate_property
+rank=03 L08:     self.converge()
+rank=03 L09:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 226, in converge
+rank=03 L10:     self.calculation.converge(calculate_forces=self._calculate_forces)
+rank=03 L11:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 171, in converge
+rank=03 L12:     for step, _ in enumerate(self.iconverge(convergence,
+rank=03 L13:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 158, in iconverge
+rank=03 L14:     yield from self.scf_loop.iterate(self.state,
+rank=03 L15:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/scf.py", line 78, in iterate
+rank=03 L16:     wfs_error = self.eigensolver.iterate(state, self.hamiltonian)
+rank=03 L17:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 110, in iterate
+rank=03 L18:     e = self.iterate1(wfs, Ht, dH, dS_aii, weight_n)
+rank=03 L19:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 184, in iterate1
+rank=03 L20:     me(psit2_nX, psit2_nX, function=Ht)
+rank=03 L21:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 150, in me
+rank=03 L22:     return a.matrix_elements(b,
+rank=03 L23:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/arrays.py", line 152, in matrix_elements
+rank=03 L24:     other = function(other)
+rank=03 L25:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pw/hamiltonian.py", line 172, in apply
+rank=03 L26:     g_R.data = a * (x + iy) + b * (v - z)
+rank=03 L27: KeyboardInterrupt
+GPAW CLEANUP (node 3): <class 'KeyboardInterrupt'> occurred.  Calling MPI_Abort!
+rank=04 L00: Traceback (most recent call last):
+rank=04 L01:   File "/zhome/87/8/147075/10302/10302_NM/VBr2/Conv_K/Conv_K_8.0.py", line 54, in <module>
+rank=04 L02:     energy = atoms.get_potential_energy()
+rank=04 L03:   File "/zhome/87/8/147075/venv-name/ase/ase/atoms.py", line 755, in get_potential_energy
+rank=04 L04:     energy = self._calc.get_potential_energy(self)
+rank=04 L05:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 253, in get_potential_energy
+rank=04 L06:     return self.calculate_property(atoms,
+rank=04 L07:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 167, in calculate_property
+rank=04 L08:     self.converge()
+rank=04 L09:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 226, in converge
+rank=04 L10:     self.calculation.converge(calculate_forces=self._calculate_forces)
+rank=04 L11:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 171, in converge
+rank=04 L12:     for step, _ in enumerate(self.iconverge(convergence,
+rank=04 L13:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 158, in iconverge
+rank=04 L14:     yield from self.scf_loop.iterate(self.state,
+rank=04 L15:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/scf.py", line 78, in iterate
+rank=04 L16:     wfs_error = self.eigensolver.iterate(state, self.hamiltonian)
+rank=04 L17:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 110, in iterate
+rank=04 L18:     e = self.iterate1(wfs, Ht, dH, dS_aii, weight_n)
+rank=04 L19:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 184, in iterate1
+rank=04 L20:     me(psit2_nX, psit2_nX, function=Ht)
+rank=04 L21:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 150, in me
+rank=04 L22:     return a.matrix_elements(b,
+rank=04 L23:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/arrays.py", line 152, in matrix_elements
+rank=04 L24:     other = function(other)
+rank=04 L25:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pw/hamiltonian.py", line 170, in apply
+rank=04 L26:     g_R.data = a * (v + z) + b * (x - iy)
+rank=04 L27: KeyboardInterrupt
+GPAW CLEANUP (node 4): <class 'KeyboardInterrupt'> occurred.  Calling MPI_Abort!
+rank=05 L00: Traceback (most recent call last):
+rank=05 L01:   File "/zhome/87/8/147075/10302/10302_NM/VBr2/Conv_K/Conv_K_8.0.py", line 54, in <module>
+rank=05 L02:     energy = atoms.get_potential_energy()
+rank=05 L03:   File "/zhome/87/8/147075/venv-name/ase/ase/atoms.py", line 755, in get_potential_energy
+rank=05 L04:     energy = self._calc.get_potential_energy(self)
+rank=05 L05:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 253, in get_potential_energy
+rank=05 L06:     return self.calculate_property(atoms,
+rank=05 L07:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 167, in calculate_property
+rank=05 L08:     self.converge()
+rank=05 L09:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 226, in converge
+rank=05 L10:     self.calculation.converge(calculate_forces=self._calculate_forces)
+rank=05 L11:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 171, in converge
+rank=05 L12:     for step, _ in enumerate(self.iconverge(convergence,
+rank=05 L13:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 158, in iconverge
+rank=05 L14:     yield from self.scf_loop.iterate(self.state,
+rank=05 L15:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/scf.py", line 78, in iterate
+rank=05 L16:     wfs_error = self.eigensolver.iterate(state, self.hamiltonian)
+rank=05 L17:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 110, in iterate
+rank=05 L18:     e = self.iterate1(wfs, Ht, dH, dS_aii, weight_n)
+rank=05 L19:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 184, in iterate1
+rank=05 L20:     me(psit2_nX, psit2_nX, function=Ht)
+rank=05 L21:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 150, in me
+rank=05 L22:     return a.matrix_elements(b,
+rank=05 L23:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/arrays.py", line 152, in matrix_elements
+rank=05 L24:     other = function(other)
+rank=05 L25:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pw/hamiltonian.py", line 171, in apply
+rank=05 L26:     o_sG.data[0] += g_R.fft(pw=pw).data
+rank=05 L27: KeyboardInterrupt
+GPAW CLEANUP (node 5): <class 'KeyboardInterrupt'> occurred.  Calling MPI_Abort!
+rank=06 L00: Traceback (most recent call last):
+rank=06 L01:   File "/zhome/87/8/147075/10302/10302_NM/VBr2/Conv_K/Conv_K_8.0.py", line 54, in <module>
+rank=06 L02:     energy = atoms.get_potential_energy()
+rank=06 L03:   File "/zhome/87/8/147075/venv-name/ase/ase/atoms.py", line 755, in get_potential_energy
+rank=06 L04:     energy = self._calc.get_potential_energy(self)
+rank=06 L05:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 253, in get_potential_energy
+rank=06 L06:     return self.calculate_property(atoms,
+rank=06 L07:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 167, in calculate_property
+rank=06 L08:     self.converge()
+rank=06 L09:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 226, in converge
+rank=06 L10:     self.calculation.converge(calculate_forces=self._calculate_forces)
+rank=06 L11:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 171, in converge
+rank=06 L12:     for step, _ in enumerate(self.iconverge(convergence,
+rank=06 L13:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 158, in iconverge
+rank=06 L14:     yield from self.scf_loop.iterate(self.state,
+rank=06 L15:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/scf.py", line 78, in iterate
+rank=06 L16:     wfs_error = self.eigensolver.iterate(state, self.hamiltonian)
+rank=06 L17:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 110, in iterate
+rank=06 L18:     e = self.iterate1(wfs, Ht, dH, dS_aii, weight_n)
+rank=06 L19:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 184, in iterate1
+rank=06 L20:     me(psit2_nX, psit2_nX, function=Ht)
+rank=06 L21:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 150, in me
+rank=06 L22:     return a.matrix_elements(b,
+rank=06 L23:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/arrays.py", line 152, in matrix_elements
+rank=06 L24:     other = function(other)
+rank=06 L25:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pw/hamiltonian.py", line 171, in apply
+rank=06 L26:     o_sG.data[0] += g_R.fft(pw=pw).data
+rank=06 L27:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/uniform_grid.py", line 457, in fft
+rank=06 L28:     plan = plan or self.desc.fft_plans(xp=self.xp)
+rank=06 L29:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/uniform_grid.py", line 264, in fft_plans
+rank=06 L30:     return fftw.create_plans(self.size_c, dtype, flags, xp)
+rank=06 L31:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/fftw.py", line 93, in create_plans
+rank=06 L32:     plan = FFTWPlans(size_c, dtype, flags)
+rank=06 L33:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/fftw.py", line 165, in __init__
+rank=06 L34:     self._fftplan = _gpaw.FFTWPlan(self.tmp_R, self.tmp_Q, -1, flags)
+rank=06 L35: KeyboardInterrupt
+GPAW CLEANUP (node 6): <class 'KeyboardInterrupt'> occurred.  Calling MPI_Abort!
+rank=07 L00: Traceback (most recent call last):
+rank=07 L01:   File "/zhome/87/8/147075/10302/10302_NM/VBr2/Conv_K/Conv_K_8.0.py", line 54, in <module>
+rank=07 L02:     energy = atoms.get_potential_energy()
+rank=07 L03:   File "/zhome/87/8/147075/venv-name/ase/ase/atoms.py", line 755, in get_potential_energy
+rank=07 L04:     energy = self._calc.get_potential_energy(self)
+rank=07 L05:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 253, in get_potential_energy
+rank=07 L06:     return self.calculate_property(atoms,
+rank=07 L07:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 167, in calculate_property
+rank=07 L08:     self.converge()
+rank=07 L09:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 226, in converge
+rank=07 L10:     self.calculation.converge(calculate_forces=self._calculate_forces)
+rank=07 L11:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 171, in converge
+rank=07 L12:     for step, _ in enumerate(self.iconverge(convergence,
+rank=07 L13:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 158, in iconverge
+rank=07 L14:     yield from self.scf_loop.iterate(self.state,
+rank=07 L15:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/scf.py", line 78, in iterate
+rank=07 L16:     wfs_error = self.eigensolver.iterate(state, self.hamiltonian)
+rank=07 L17:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 110, in iterate
+rank=07 L18:     e = self.iterate1(wfs, Ht, dH, dS_aii, weight_n)
+rank=07 L19:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 184, in iterate1
+rank=07 L20:     me(psit2_nX, psit2_nX, function=Ht)
+rank=07 L21:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 150, in me
+rank=07 L22:     return a.matrix_elements(b,
+rank=07 L23:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/arrays.py", line 152, in matrix_elements
+rank=07 L24:     other = function(other)
+rank=07 L25:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pw/hamiltonian.py", line 173, in apply
+rank=07 L26:     o_sG.data[1] += g_R.fft(pw=pw).data
+rank=07 L27:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/uniform_grid.py", line 457, in fft
+rank=07 L28:     plan = plan or self.desc.fft_plans(xp=self.xp)
+rank=07 L29:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/uniform_grid.py", line 264, in fft_plans
+rank=07 L30:     return fftw.create_plans(self.size_c, dtype, flags, xp)
+rank=07 L31:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/fftw.py", line 93, in create_plans
+rank=07 L32:     plan = FFTWPlans(size_c, dtype, flags)
+rank=07 L33:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/fftw.py", line 165, in __init__
+rank=07 L34:     self._fftplan = _gpaw.FFTWPlan(self.tmp_R, self.tmp_Q, -1, flags)
+rank=07 L35: KeyboardInterrupt
+GPAW CLEANUP (node 7): <class 'KeyboardInterrupt'> occurred.  Calling MPI_Abort!
+rank=08 L00: Traceback (most recent call last):
+rank=08 L01:   File "/zhome/87/8/147075/10302/10302_NM/VBr2/Conv_K/Conv_K_8.0.py", line 54, in <module>
+rank=08 L02:     energy = atoms.get_potential_energy()
+rank=08 L03:   File "/zhome/87/8/147075/venv-name/ase/ase/atoms.py", line 755, in get_potential_energy
+rank=08 L04:     energy = self._calc.get_potential_energy(self)
+rank=08 L05:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 253, in get_potential_energy
+rank=08 L06:     return self.calculate_property(atoms,
+rank=08 L07:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 167, in calculate_property
+rank=08 L08:     self.converge()
+rank=08 L09:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 226, in converge
+rank=08 L10:     self.calculation.converge(calculate_forces=self._calculate_forces)
+rank=08 L11:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 171, in converge
+rank=08 L12:     for step, _ in enumerate(self.iconverge(convergence,
+rank=08 L13:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 158, in iconverge
+rank=08 L14:     yield from self.scf_loop.iterate(self.state,
+rank=08 L15:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/scf.py", line 78, in iterate
+rank=08 L16:     wfs_error = self.eigensolver.iterate(state, self.hamiltonian)
+rank=08 L17:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 110, in iterate
+rank=08 L18:     e = self.iterate1(wfs, Ht, dH, dS_aii, weight_n)
+rank=08 L19:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 184, in iterate1
+rank=08 L20:     me(psit2_nX, psit2_nX, function=Ht)
+rank=08 L21:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 150, in me
+rank=08 L22:     return a.matrix_elements(b,
+rank=08 L23:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/arrays.py", line 152, in matrix_elements
+rank=08 L24:     other = function(other)
+rank=08 L25:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pw/hamiltonian.py", line 172, in apply
+rank=08 L26:     g_R.data = a * (x + iy) + b * (v - z)
+rank=08 L27: KeyboardInterrupt
+GPAW CLEANUP (node 8): <class 'KeyboardInterrupt'> occurred.  Calling MPI_Abort!
+rank=09 L00: Traceback (most recent call last):
+rank=09 L01:   File "/zhome/87/8/147075/10302/10302_NM/VBr2/Conv_K/Conv_K_8.0.py", line 54, in <module>
+rank=09 L02:     energy = atoms.get_potential_energy()
+rank=09 L03:   File "/zhome/87/8/147075/venv-name/ase/ase/atoms.py", line 755, in get_potential_energy
+rank=09 L04:     energy = self._calc.get_potential_energy(self)
+rank=09 L05:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 253, in get_potential_energy
+rank=09 L06:     return self.calculate_property(atoms,
+rank=09 L07:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 167, in calculate_property
+rank=09 L08:     self.converge()
+rank=09 L09:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 226, in converge
+rank=09 L10:     self.calculation.converge(calculate_forces=self._calculate_forces)
+rank=09 L11:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 171, in converge
+rank=09 L12:     for step, _ in enumerate(self.iconverge(convergence,
+rank=09 L13:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 158, in iconverge
+rank=09 L14:     yield from self.scf_loop.iterate(self.state,
+rank=09 L15:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/scf.py", line 78, in iterate
+rank=09 L16:     wfs_error = self.eigensolver.iterate(state, self.hamiltonian)
+rank=09 L17:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 110, in iterate
+rank=09 L18:     e = self.iterate1(wfs, Ht, dH, dS_aii, weight_n)
+rank=09 L19:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 184, in iterate1
+rank=09 L20:     me(psit2_nX, psit2_nX, function=Ht)
+rank=09 L21:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 150, in me
+rank=09 L22:     return a.matrix_elements(b,
+rank=09 L23:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/arrays.py", line 152, in matrix_elements
+rank=09 L24:     other = function(other)
+rank=09 L25:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pw/hamiltonian.py", line 171, in apply
+rank=09 L26:     o_sG.data[0] += g_R.fft(pw=pw).data
+rank=09 L27:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/uniform_grid.py", line 457, in fft
+rank=09 L28:     plan = plan or self.desc.fft_plans(xp=self.xp)
+rank=09 L29:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/uniform_grid.py", line 264, in fft_plans
+rank=09 L30:     return fftw.create_plans(self.size_c, dtype, flags, xp)
+rank=09 L31:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/fftw.py", line 93, in create_plans
+rank=09 L32:     plan = FFTWPlans(size_c, dtype, flags)
+rank=09 L33:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/fftw.py", line 166, in __init__
+rank=09 L34:     self._ifftplan = _gpaw.FFTWPlan(self.tmp_Q, self.tmp_R, 1, flags)
+rank=09 L35: KeyboardInterrupt
+GPAW CLEANUP (node 9): <class 'KeyboardInterrupt'> occurred.  Calling MPI_Abort!
+rank=10 L00: Traceback (most recent call last):
+rank=10 L01:   File "/zhome/87/8/147075/10302/10302_NM/VBr2/Conv_K/Conv_K_8.0.py", line 54, in <module>
+rank=10 L02:     energy = atoms.get_potential_energy()
+rank=10 L03:   File "/zhome/87/8/147075/venv-name/ase/ase/atoms.py", line 755, in get_potential_energy
+rank=10 L04:     energy = self._calc.get_potential_energy(self)
+rank=10 L05:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 253, in get_potential_energy
+rank=10 L06:     return self.calculate_property(atoms,
+rank=10 L07:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 167, in calculate_property
+rank=10 L08:     self.converge()
+rank=10 L09:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 226, in converge
+rank=10 L10:     self.calculation.converge(calculate_forces=self._calculate_forces)
+rank=10 L11:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 171, in converge
+rank=10 L12:     for step, _ in enumerate(self.iconverge(convergence,
+rank=10 L13:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 158, in iconverge
+rank=10 L14:     yield from self.scf_loop.iterate(self.state,
+rank=10 L15:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/scf.py", line 78, in iterate
+rank=10 L16:     wfs_error = self.eigensolver.iterate(state, self.hamiltonian)
+rank=10 L17:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 110, in iterate
+rank=10 L18:     e = self.iterate1(wfs, Ht, dH, dS_aii, weight_n)
+rank=10 L19:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 184, in iterate1
+rank=10 L20:     me(psit2_nX, psit2_nX, function=Ht)
+rank=10 L21:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 150, in me
+rank=10 L22:     return a.matrix_elements(b,
+rank=10 L23:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/arrays.py", line 152, in matrix_elements
+rank=10 L24:     other = function(other)
+rank=10 L25:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pw/hamiltonian.py", line 170, in apply
+rank=10 L26:     g_R.data = a * (v + z) + b * (x - iy)
+rank=10 L27: KeyboardInterrupt
+GPAW CLEANUP (node 10): <class 'KeyboardInterrupt'> occurred.  Calling MPI_Abort!
