@@ -12,6 +12,10 @@ type = "TYPE"
 n = int("NPOINTS")
 
 atoms = read("../"+"XYZ")
+
+"""---------------------------------"""
+
+
 MM = atoms.get_magnetic_moments()
 atoms.set_initial_magnetic_moments(MM)
 atoms.center(vacuum=v, axis=2)
