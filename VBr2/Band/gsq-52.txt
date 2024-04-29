@@ -1,0 +1,349 @@
+#  __  _  _
+# | _ |_)|_||  |
+# |__||  | ||/\| - 24.1.0
+
+User:   s194113@n-62-28-20
+Date:   Fri Apr 26 03:00:03 2024
+Arch:   x86_64
+Pid:    31927
+CWD:    /work3/s194113/10302/10302_NM/VBr2
+Python: 3.8.5
+gpaw:   /zhome/87/8/147075/venv-name/gpaw/gpaw (10808453a8)
+_gpaw:  /zhome/87/8/147075/venv-name/gpaw/
+        _gpaw.cpython-38-x86_64-linux-gnu.so (10808453a8)
+ase:    /zhome/87/8/147075/venv-name/ase/ase (version 3.23.0b1-c36115a2db)
+numpy:  /zhome/87/8/147075/venv-name/lib/python3.8/site-packages/numpy (version 1.24.4)
+scipy:  /zhome/87/8/147075/venv-name/lib/python3.8/site-packages/scipy (version 1.10.1)
+libxc:  4.3.4
+units:  Angstrom and eV
+cores: 12
+OpenMP: False
+OMP_NUM_THREADS: 1
+
+---
+input parameters:
+  kpts: 
+    density: 6.0
+    gamma: True
+  magmoms: [[2.64162512, 0, 0], [-0.02514574, 0, 0], [-0.02514574, 0, 0]]
+  mixer: 
+    backend: 'pulay'
+    beta: 0.05
+    method: 'sum'
+    nmaxold: 5
+    weight: 100
+  mode: 
+    name: 'pw'
+    ecut: 600
+    qspiral: array([0.37301587, 0.25396825, 0.        ])
+  parallel: 
+    kpt: None
+    domain: 1
+    band: 1
+    order: 'kdb'
+    stridebands: False
+    augment_grids: False
+    sl_auto: False
+    sl_default: None
+    sl_diagonalize: None
+    sl_inverse_cholesky: None
+    sl_lcao: None
+    sl_lrtddft: None
+    use_elpa: False
+    elpasolver: '2stage'
+    buffer_size: None
+    gpu: False
+  symmetry: 
+    point_group: False
+    time_reversal: False
+  xc: 
+    name: 'LDA'
+
+#                        
+#                        
+#                        
+#                        
+#              Br        
+#                        
+#                        
+#        V Br            
+#                        
+#                        
+#                        
+#                        
+#                        
+
+atoms: [  # symbols, positions [Ang] and initial magnetic moments
+  [  V, [   0.000000,    0.000000,    7.448555], [ 2.642,  0.000,  0.000]], # 0
+  [ Br, [   1.920224,    1.108642,    8.897111], [-0.025,  0.000,  0.000]], # 1
+  [ Br, [   0.000000,    2.217284,    6.000000], [-0.025,  0.000,  0.000]]] # 2
+
+cell: [  # Ang
+#     x            y            z
+  [   3.840448,    0.000000,    0.000000],
+  [  -1.920224,    3.325925,    0.000000],
+  [   0.000000,    0.000000,   14.897111]]
+
+periodic: [True      , True      , False     ]
+lengths:  [  3.840448,   3.840448,  14.897111]  # Ang
+angles:   [ 90.000000,  90.000000, 120.000000]
+
+symmetry:
+  number of symmetries: 1
+  rotations: [
+    [[ 1,  0,  0], [ 0,  1,  0], [ 0,  0,  1]]]
+
+bz sampling:
+  number of bz points: 144
+  number of ibz points: 144
+  monkhorst-pack size: [12, 12, 1]
+  monkhorst-pack shift: [0.041666666666666664, 0.041666666666666664, 0.0]
+  points and weights: [
+    [[ -0.41666667,  -0.41666667,   0.00000000], 0.00694444],  # 0
+    [[ -0.41666667,  -0.33333333,   0.00000000], 0.00694444],  # 1
+    [[ -0.41666667,  -0.25000000,   0.00000000], 0.00694444],  # 2
+    [[ -0.41666667,  -0.16666667,   0.00000000], 0.00694444],  # 3
+    [[ -0.41666667,  -0.08333333,   0.00000000], 0.00694444],  # 4
+    [[ -0.41666667,  -0.00000000,   0.00000000], 0.00694444],  # 5
+    [[ -0.41666667,   0.08333333,   0.00000000], 0.00694444],  # 6
+    [[ -0.41666667,   0.16666667,   0.00000000], 0.00694444],  # 7
+    [[ -0.41666667,   0.25000000,   0.00000000], 0.00694444],  # 8
+    [[ -0.41666667,   0.33333333,   0.00000000], 0.00694444],  # 9
+    # ...
+    [[  0.50000000,   0.50000000,   0.00000000], 0.00694444]]  # 143
+
+plane wave coefficients: 6385
+cutoff: 600.0 eV
+
+spin-components: 4  # (non-collinear spins)
+bands: 42
+valence electrons: 27.0
+spin-degeneracy: 1
+dtype: complex128
+
+memory:
+    wave functions: 1_232_437_248  # bytes  (102_703_104 per core)
+
+parallelization:
+    kpt:    12
+    domain: 1
+    band:   1
+
+density:
+  components: 4
+  grid points: [24 24 90]
+  charge: 0.0  # |e|
+
+potential:
+  grid points: [24 24 90]
+
+species:
+  V:
+    name: Vanadium
+    id: 7939ce69e6bb5930668dfcf9bb1979c3
+    Z: 23.0
+    valence: 13
+    core: 10
+    charge: 0.0
+    file: /zhome/86/d/1666/PAW/gpaw-setups-0.9.20000/V.LDA.gz
+    compensation charges: {type: gauss,
+                           rc: 0.37,
+                           lmax: 2}
+    cutoffs: {filter: 2.14,
+              core: 0.96}
+    valence states:
+      #              energy  rcut
+      - 3s(2.00)   -69.819   1.254
+      - 4s(2.00)    -4.846   1.254
+      - 3p(6.00)   -43.961   1.281
+      - 4p(0.00)    -1.526   1.281
+      - 3d(3.00)    -5.381   1.169
+      -  d          21.830   1.169
+  
+    # Using partial waves for V as LCAO basis
+
+  Br:
+    name: Bromine
+    id: 10a25bbcb3273ec7d8d7f6fc01d2618d
+    Z: 35.0
+    valence: 7
+    core: 28
+    charge: 0.0
+    file: /zhome/86/d/1666/PAW/gpaw-setups-0.9.20000/Br.LDA.gz
+    compensation charges: {type: gauss,
+                           rc: 0.35,
+                           lmax: 2}
+    cutoffs: {filter: 1.98,
+              core: 2.38}
+    valence states:
+      #              energy  rcut
+      - 4s(2.00)   -20.306   1.111
+      - 4p(5.00)    -8.003   1.111
+      -  s           6.906   1.111
+      -  p          19.208   1.111
+      -  d           0.000   1.111
+  
+    # Using partial waves for Br as LCAO basis
+
+Reference energy: -167392.690611  # eV
+
+eigensolver:
+  name: 'Davidson'
+  niter: 2
+  converge_bands: 'occupied'
+Density mixing:
+  Method: sum
+  Backend: pulay
+  Linear mixing parameter: 0.05
+  old densities: 5
+  Damping of long wavelength oscillations: 100
+occupation numbers:
+  Fermi-Dirac:
+    width: 0.1000  # eV
+  
+
+poisson solver:
+  ecut: 4800.0  # eV
+
+xc functional:
+  name: None
+
+convergence criteria:
+- Maximum [total energy] change in last 3 cyles: 0.0005 eV / valence electron
+- Maximum integral of absolute [dens]ity change: 0.0001 electrons / valence electron
+- Maximum integral of absolute [eigenst]ate change: 4e-08 eV^2 / valence electron
+maximum number of iterations: 333
+
+#      iter     time        total  log10-change:
+#                          energy   eigst   dens
+# iter:   1 03:00:37   -14.969166                  +2.6,+0.0,+0.0
+# iter:   2 03:00:58   -15.652595   +0.17  -1.41   +2.6,+0.0,-0.0
+# iter:   3 03:01:18   -15.626758   -0.70  -1.44   +2.6,+0.0,-0.0
+# iter:   4 03:01:39   -15.643933   -1.24  -1.54   +2.6,+0.0,+0.0
+# iter:   5 03:02:00   -15.714607   -1.47  -1.66   +2.6,+0.0,+0.0
+# iter:   6 03:02:20   -15.680642   -2.27  -2.04   +2.6,-0.0,-0.0
+# iter:   7 03:02:41   -15.676302   -2.39  -2.21   +2.6,-0.0,-0.0
+# iter:   8 03:03:01   -15.673514c  -3.16  -2.42   +2.6,-0.0,-0.0
+# iter:   9 03:03:21   -15.675363c  -3.18  -2.82   +2.6,-0.0,-0.0
+# iter:  10 03:03:42   -15.673729c  -3.51  -2.65   +2.6,-0.0,-0.0
+# iter:  11 03:04:02   -15.673588c  -4.13  -3.20   +2.6,-0.0,-0.0
+# iter:  12 03:04:22   -15.673575c  -4.46  -3.49   +2.6,-0.0,-0.0
+# iter:  13 03:04:43   -15.673584c  -4.78  -3.63   +2.6,-0.0,+0.0
+# iter:  14 03:05:03   -15.673588c  -4.99  -3.72   +2.6,-0.0,-0.0
+# iter:  15 03:05:23   -15.673574c  -5.19  -3.77   +2.6,-0.0,+0.0
+# iter:  16 03:05:43   -15.673572c  -5.50  -4.07c  +2.6,-0.0,-0.0
+# iter:  17 03:06:04   -15.673570c  -5.77  -4.17c  +2.6,-0.0,-0.0
+# iter:  18 03:06:24   -15.673567c  -5.97  -4.32c  +2.6,-0.0,+0.0
+# iter:  19 03:06:44   -15.673566c  -6.31  -4.44c  +2.6,-0.0,+0.0
+# iter:  20 03:07:05   -15.673566c  -6.55  -4.49c  +2.6,-0.0,-0.0
+# iter:  21 03:07:25   -15.673566c  -6.79  -4.64c  +2.6,-0.0,+0.0
+# iter:  22 03:07:46   -15.673568c  -6.94  -4.69c  +2.6,-0.0,+0.0
+# iter:  23 03:08:06   -15.673568c  -7.17  -5.09c  +2.6,-0.0,+0.0
+# iter:  24 03:08:26   -15.673568c  -7.44c -5.30c  +2.6,-0.0,+0.0
+scf_steps: 24
+energies:  # eV
+  coulomb:          -5.358928
+  zero:              0.040918
+  xc:              -16.395716
+  external:          0.000000
+  kinetic:           6.043542
+  spinorbit:         0.000000
+  entropy:          -0.006769
+  total:           -15.676953
+  extrapolated:    -15.673568
+
+dipole moment: [-4.521226, -7.994425, -7.694072]  # |e|*Ang
+
+total magnetic moment: [2.603889, -0.000140, 0.000000]
+
+local magnetic moments: [
+  [ 2.527349, -0.000006,  0.000000],  # V  0
+  [ 0.003663,  0.000054,  0.000000],  # Br 1
+  [-0.002518,  0.002659,  0.000000]]  # Br 2
+
+
+Fermi level: -0.650 eV
+
+kpt = [-0.417, -0.417, 0.000], weight = 0.007:
+  Band      eig [eV]   occ [0-1]
+     0       -65.399       1.000
+   ...
+    19        -5.169       1.000
+    20        -5.122       1.000
+    21        -5.011       1.000
+    22        -4.835       1.000
+    23        -4.696       1.000
+    24        -1.469       1.000
+    25        -1.314       0.999
+    26        -1.214       0.996
+    27        -0.042       0.002
+    28         0.093       0.001
+    29         0.824       0.000
+    30         0.849       0.000
+    31         0.995       0.000
+    32         1.475       0.000
+    33         1.537       0.000
+    34         3.535       0.000
+   ...
+    41         5.948       0.000
+
+kpt = [-0.417, -0.333, 0.000], weight = 0.007:
+  Band      eig [eV]   occ [0-1]
+     0       -65.399       1.000
+   ...
+    19        -5.161       1.000
+    20        -5.021       1.000
+    21        -4.909       1.000
+    22        -4.718       1.000
+    23        -4.496       1.000
+    24        -1.547       1.000
+    25        -1.329       0.999
+    26        -1.257       0.998
+    27        -0.093       0.004
+    28         0.117       0.000
+    29         0.735       0.000
+    30         0.912       0.000
+    31         0.942       0.000
+    32         1.421       0.000
+    33         1.534       0.000
+    34         3.204       0.000
+   ...
+    41         5.574       0.000
+
+kpt = [-0.417, -0.250, 0.000], weight = 0.007:
+  Band      eig [eV]   occ [0-1]
+     0       -65.400       1.000
+   ...
+    19        -5.111       1.000
+    20        -4.835       1.000
+    21        -4.707       1.000
+    22        -4.589       1.000
+    23        -4.319       1.000
+    24        -1.582       1.000
+    25        -1.405       0.999
+    26        -1.230       0.997
+    27        -0.067       0.003
+    28         0.053       0.001
+    29         0.638       0.000
+    30         0.842       0.000
+    31         0.985       0.000
+    32         1.368       0.000
+    33         1.446       0.000
+    34         3.129       0.000
+   ...
+    41         5.203       0.000
+(only showing first 3 out of 144 k-points)
+
+Gap: 0.882 eV
+Transition (v -> c):
+  (s=0, k=137, n=26, [0.50, -0.00, 0.00]) -> (s=0, k=68, n=27, [-0.00, 0.25, 0.00])
+# Writing to Band/gsq-52.gpw (mode='')
+
+---
+
+timing:  # [seconds]
+  Total: 503.179  # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Init:   14.607  # ━╸
+  SCF:   488.168  # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸
+
+Max RSS: 1324.750  # MiB
