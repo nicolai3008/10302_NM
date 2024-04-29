@@ -46,7 +46,7 @@ def sphere_points(distance=None):
     return thetas * 180 / math.pi, phis * 180 / math.pi
 
 
-energies = np.load('data_600.0_6.0_6.0.npz')['energies']
+energies = np.load('data_600_6.0_6.0.npz')['energies']
 minimum = np.argmin(energies)
 
 theta_tp, phi_tp = sphere_points(distance=1)
@@ -63,7 +63,5 @@ for theta, phi in zip(theta_tp, phi_tp):
     soc_tp.append(en_soc)
 
 np.savez('soc_data.npz', soc=soc_tp, theta=theta_tp, phi=phi_tp)
-
-
 
 
