@@ -20,7 +20,7 @@ atoms.center(vacuum=v, axis=2)
 magmoms = [[MM[0], 0, 0], [MM[1], 0, 0], [MM[2], 0, 0]]
 
 # Construct list of q-vectors
-h = int("7.0")
+h = int(float("7.0"))
 path1 = np.linspace(0,1/3,21)
 path2 = np.linspace(1/3,0.5,11)
 path2 = path2[1:]
@@ -47,6 +47,7 @@ print('Calculating ground state')
 print(len(path), "q-points in the path")
 print("=====================================")
 p = folder.split('/')
+os.makedirs(p[0], exist_ok=True)
 os.chdir(p[0])
 os.makedirs(p[1], exist_ok=True)
 os.chdir("..")

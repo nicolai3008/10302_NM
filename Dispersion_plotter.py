@@ -3,8 +3,8 @@ import numpy as np
 
 # Plot the energy bands from E and q
 
-folder = 'MnI2'
-data = np.load(f'{folder}/data.npz')
+folder = 'VBr2'
+data = np.load('{}/data_600_6.0_6.0.npz'.format(folder))
 energies = data['energies']*1000
 energies = energies - energies[0]
 q = data['q']
@@ -32,6 +32,6 @@ plt.xlim(normal_ticks[0], normal_ticks[-1])
 plt.xticks(normal_ticks, label_ticks)
 plt.grid(axis='x')
 plt.ylabel("Energy - $E_F$ [meV]")
-plt.savefig(f'{folder}-bands.png')
+plt.savefig('{}-bands.png'.format(folder))
 plt.show()
 # Plot the energy bands along high symmetry lines

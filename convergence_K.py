@@ -3,13 +3,13 @@ import matplotlib.pyplot as plt
 
 # Check for convergence when changing parameter
 
-folder = "NiI2/K_con"
-var = [2,3,4,5,6,7,8,9]
+folder = "VBr2/Conv_K"
+var = np.linspace(2,8,13)
 e = []
 
 for i in var:
     print(i)
-    data = np.load(f'{folder}/{i}-data.npz')
+    data = np.load(f'{folder}/data_600_{i}_6.0.npz')
     energies = data['energies']*1000
     energies = energies - energies[0]
     q = data['q']

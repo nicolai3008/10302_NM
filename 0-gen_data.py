@@ -9,7 +9,7 @@ Type = "Conv_K"
 Type = "2D"
 
 
-mol = "NiI2"
+mol = "VBr2"
 
 xyz = "Materials/1{}-1.xyz".format(mol)
 if Type == "2D":
