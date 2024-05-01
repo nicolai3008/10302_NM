@@ -21,12 +21,12 @@ magmoms = [[MM[0], 0, 0], [MM[1], 0, 0], [MM[2], 0, 0]]
 
 # Construct list of q-vectors
 h = int(float("6.0"))
-path1 = np.linspace(0,1/3,21)
-path2 = np.linspace(1/3,0.5,11)
+path1 = np.linspace(0,1/3,41)
+path2 = np.linspace(1/3,0.5,21)
 path2 = path2[1:]
 path = np.concatenate((path1,path2))
-diagonal1 = np.linspace(0,1/3,21)
-diagonal2 = np.linspace(1/3,0,11)
+diagonal1 = np.linspace(0,1/3,41)
+diagonal2 = np.linspace(1/3,0,21)
 diagonal2 = diagonal2[1:]
 diagonal = np.concatenate((diagonal1,diagonal2))
 idx =[]
@@ -46,11 +46,8 @@ q = []
 print('Calculating ground state')
 print(len(path), "q-points in the path")
 print("=====================================")
-p = folder.split('/')
-os.makedirs(p[0], exist_ok=True)
-os.chdir(p[0])
-os.makedirs(p[1], exist_ok=True)
-os.chdir("..")
+p = folder
+os.makedirs(p, exist_ok=True)
 for i, q_c in enumerate(path):
     print(f'Calculating q={q_c}')
     q.append(q_c)
@@ -68,11 +65,9 @@ for i, q_c in enumerate(path):
                 symmetry='off',
                 parallel={'domain': 1, 'band': 1},
                 magmoms=magmoms,
-                kpts={'density': k, 'gamma': True},
-                txt=f'{folder}/gsq-{i:02}.txt')
+                kpts={'density': k, 'gamma': True})
     atoms.calc = calc
     energy = atoms.get_potential_energy()
-    calc.write(f'{folder}/gsq-{i:02}.gpw')
     magmom = atoms.calc.get_magnetic_moment()
     energies_q.append(energy)
     magmoms_q.append(magmom)

@@ -9,7 +9,7 @@ Type = "Conv_K"
 Type = "2D"
 
 
-mol = "VBr2"
+mol = "MnI2"
 
 xyz = "Materials/1{}-1.xyz".format(mol)
 if Type == "2D":
@@ -131,7 +131,7 @@ elif Type == "2D":
     v = 6
     E = 600
     n = 31
-    h = np.linspace(0,20,21)
+    h = np.linspace(0,40,41)
     for i in range(len(h)):
         template_copy = template[:]
         template_copy[6] = template_copy[6].replace("ECUT", str(E))
