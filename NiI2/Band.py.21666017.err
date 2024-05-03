@@ -1,0 +1,41 @@
+Modules Release 4.8.0 (2021-07-14)
+DCC-SW: Added modules (2023-aug/XeonE5-2660v3)
+DCC-SW: Removed standard modules: /apps/dcc/etc/ModulesSL73/modulefiles
+DCC-SW: Using gnu/12.3.0 compiler (requested)
+DCC-SW: Released modules (2023-aug/XeonE5-2660v3)
+DCC-SW: Added modules (2020-aug/XeonE5-2660v3)
+DCC-SW: Removed standard modules: /apps/dcc/etc/ModulesSL73/modulefiles
+DCC-SW: Using gnu/9.3.0 compiler
+Loading python/3.8.5
+  Loading requirement: build-tools/1.0 gcc/9.3.0 zlib/1.2.11 expat/2.2.0
+    libffi/3.3
+Loading scalapack/2.1.0
+  Loading requirement: numactl/2.0.12 libxml2/2.9.10 hwloc/2.2.0 knem/1.1.4
+    ucx/1.8.1 openmpi/4.0.4
+(null): Forwarding signal 18 to job
+Traceback (most recent call last):
+  File "Band.py", line 52, in <module>
+    energy = atoms.get_potential_energy()
+  File "/zhome/87/8/147075/venv-name/ase/ase/atoms.py", line 755, in get_potential_energy
+    energy = self._calc.get_potential_energy(self)
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 253, in get_potential_energy
+    return self.calculate_property(atoms,
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 165, in calculate_property
+    self.create_new_calculation(atoms)
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 204, in create_new_calculation
+    self.calculation = DFTCalculation.from_parameters(
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 123, in from_parameters
+    ibzwfs = builder.create_ibz_wave_functions(
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/builder.py", line 123, in create_ibz_wave_functions
+    return create_ibzwfs(ibz=self.ibz,
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ibzwfs.py", line 42, in create_ibz_wave_functions
+    wfs = create_wfs_func(spin, q, k,
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/builder.py", line 97, in create_wfs
+    psit_nX = self.convert_wave_functions_from_uniform_grid(
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pw/builder.py", line 150, in convert_wave_functions_from_uniform_grid
+    psit_R.fft(out=psit_G)
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/uniform_grid.py", line 458, in fft
+    coefs = plan.fft_sphere(input.data, pw)
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/fftw.py", line 153, in fft_sphere
+    self.tmp_R[:] = in_R.data
+KeyboardInterrupt

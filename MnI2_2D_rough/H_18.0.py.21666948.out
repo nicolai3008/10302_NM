@@ -1,0 +1,1725 @@
+venv: /zhome/87/8/147075/venv-name/bin/activate
+[1714598091.756424] [n-62-29-16:27619:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714598091.756461] [n-62-29-16:27619:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714598091.756511] [n-62-29-16:27613:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714598091.756539] [n-62-29-16:27613:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714598091.757066] [n-62-29-16:27610:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714598091.757095] [n-62-29-16:27610:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714598091.757421] [n-62-29-16:27611:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714598091.757449] [n-62-29-16:27611:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714598091.757162] [n-62-29-16:27612:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714598091.757191] [n-62-29-16:27612:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714598091.756537] [n-62-29-16:27614:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714598091.756565] [n-62-29-16:27614:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714598091.756546] [n-62-29-16:27615:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714598091.756573] [n-62-29-16:27615:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714598091.756972] [n-62-29-16:27616:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714598091.757001] [n-62-29-16:27616:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714598091.756600] [n-62-29-16:27617:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714598091.756629] [n-62-29-16:27617:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714598091.757606] [n-62-29-16:27618:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714598091.757634] [n-62-29-16:27618:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714598091.758053] [n-62-29-16:27621:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714598091.758093] [n-62-29-16:27621:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714598091.758306] [n-62-29-16:27620:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714598091.758338] [n-62-29-16:27620:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating q=[0.3, 0.3, 0]
+#  __  _  _
+# | _ |_)|_||  |
+# |__||  | ||/\| - 24.1.0
+
+User:   s194113@n-62-29-16
+Date:   Wed May  1 23:14:52 2024
+Arch:   x86_64
+Pid:    27610
+CWD:    /work3/s194113/10302/10302_NM/MnI2_2D_rough
+Python: 3.8.5
+Calculating q=[0.3, 0.3, 0]
+Calculating q=[0.3, 0.3, 0]
+Calculating q=[0.3, 0.3, 0]
+gpaw:   /zhome/87/8/147075/venv-name/gpaw/gpaw (10808453a8)
+_gpaw:  /zhome/87/8/147075/venv-name/gpaw/
+        _gpaw.cpython-38-x86_64-linux-gnu.so (10808453a8)
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating q=[0.3, 0.3, 0]
+ase:    /zhome/87/8/147075/venv-name/ase/ase (version 3.23.0b1-c36115a2db)
+numpy:  /zhome/87/8/147075/venv-name/lib/python3.8/site-packages/numpy (version 1.24.4)
+scipy:  /zhome/87/8/147075/venv-name/lib/python3.8/site-packages/scipy (version 1.10.1)
+libxc:  4.3.4
+units:  Angstrom and eV
+cores: 12
+OpenMP: False
+OMP_NUM_THREADS: 1
+
+---
+input parameters:
+  kpts: 
+    density: 6.0
+    gamma: True
+  magmoms: [[4.4079912, 0, 0], [0.08032672, 0, 0], [0.08032672, 0, 0]]
+  mixer: 
+    backend: 'pulay'
+    beta: 0.05
+    method: 'sum'
+    nmaxold: 5
+    weight: 100
+  mode: 
+    name: 'pw'
+    ecut: 600.0
+    qspiral: [0.3, 0.3, 0]
+  parallel: 
+    kpt: None
+    domain: 1
+    band: 1
+    order: 'kdb'
+    stridebands: False
+    augment_grids: False
+    sl_auto: False
+    sl_default: None
+    sl_diagonalize: None
+    sl_inverse_cholesky: None
+    sl_lcao: None
+    sl_lrtddft: None
+    use_elpa: False
+    elpasolver: '2stage'
+    buffer_size: None
+    gpu: False
+  symmetry: 
+    point_group: False
+    time_reversal: False
+  xc: 
+    name: 'LDA'
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating q=[0.3, 0.3, 0]
+Calculating q=[0.3, 0.3, 0]
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating q=[0.3, 0.3, 0]
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating q=[0.3, 0.3, 0]
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating q=[0.3, 0.3, 0]
+Calculating q=[0.3, 0.3, 0]
+Calculating ground state
+4 q-points in the path
+=====================================
+Calculating q=[0.3, 0.3, 0]
+
+#                        
+#                        
+#                        
+#                        
+#              I         
+#                        
+#                        
+#        Mn              
+#          I             
+#                        
+#                        
+#                        
+#                        
+#                        
+
+atoms: [  # symbols, positions [Ang] and initial magnetic moments
+  [ Mn, [   0.000000,    0.000000,    7.649535], [ 4.408,  0.000,  0.000]], # 0
+  [  I, [   2.082858,    1.202539,    9.299069], [ 0.080,  0.000,  0.000]], # 1
+  [  I, [   0.000000,    2.405077,    6.000000], [ 0.080,  0.000,  0.000]]] # 2
+
+cell: [  # Ang
+#     x            y            z
+  [   4.165716,    0.000000,    0.000000],
+  [  -2.082858,    3.607616,    0.000000],
+  [   0.000000,    0.000000,   15.299069]]
+
+periodic: [True      , True      , False     ]
+lengths:  [  4.165716,   4.165716,  15.299069]  # Ang
+angles:   [ 90.000000,  90.000000, 120.000000]
+
+symmetry:
+  number of symmetries: 1
+  rotations: [
+    [[ 1,  0,  0], [ 0,  1,  0], [ 0,  0,  1]]]
+
+bz sampling:
+  number of bz points: 121
+  number of ibz points: 121
+  monkhorst-pack size: [11, 11, 1]
+  monkhorst-pack shift: [0, 0, 0]
+  points and weights: [
+    [[ -0.45454545,  -0.45454545,   0.00000000], 0.00826446],  # 0
+    [[ -0.45454545,  -0.36363636,   0.00000000], 0.00826446],  # 1
+    [[ -0.45454545,  -0.27272727,   0.00000000], 0.00826446],  # 2
+    [[ -0.45454545,  -0.18181818,   0.00000000], 0.00826446],  # 3
+    [[ -0.45454545,  -0.09090909,   0.00000000], 0.00826446],  # 4
+    [[ -0.45454545,   0.00000000,   0.00000000], 0.00826446],  # 5
+    [[ -0.45454545,   0.09090909,   0.00000000], 0.00826446],  # 6
+    [[ -0.45454545,   0.18181818,   0.00000000], 0.00826446],  # 7
+    [[ -0.45454545,   0.27272727,   0.00000000], 0.00826446],  # 8
+    [[ -0.45454545,   0.36363636,   0.00000000], 0.00826446],  # 9
+    # ...
+    [[  0.45454545,   0.45454545,   0.00000000], 0.00826446]]  # 120
+
+plane wave coefficients: 7719
+cutoff: 600.0 eV
+
+spin-components: 4  # (non-collinear spins)
+bands: 42
+valence electrons: 29.0
+spin-degeneracy: 1
+dtype: complex128
+
+memory:
+    wave functions: 1_248_301_824  # bytes  (104_025_152 per core)
+
+parallelization:
+    kpt:    12
+    domain: 1
+    band:   1
+
+density:
+  components: 4
+  grid points: [24 24 90]
+  charge: 0.0  # |e|
+
+potential:
+  grid points: [24 24 90]
+
+species:
+  Mn:
+    name: Manganese
+    id: 0d715a8018be061a6e9ea6f2d364ac92
+    Z: 25.0
+    valence: 15
+    core: 10
+    charge: 0.0
+    file: /zhome/86/d/1666/PAW/gpaw-setups-0.9.20000/Mn.LDA.gz
+    compensation charges: {type: gauss,
+                           rc: 0.38,
+                           lmax: 2}
+    cutoffs: {filter: 2.14,
+              core: 0.86}
+    valence states:
+      #              energy  rcut
+      - 3s(2.00)   -85.387   1.275
+      - 4s(2.00)    -5.282   1.275
+      - 3p(6.00)   -54.493   1.281
+      - 4p(0.00)    -1.471   1.281
+      - 3d(5.00)    -7.009   1.138
+      -  d          20.203   1.138
+  
+    # Using partial waves for Mn as LCAO basis
+
+  I:
+    name: Iodine
+    id: b559721c0c096a7b4c8fc0e0f4de5cf4
+    Z: 53.0
+    valence: 7
+    core: 46
+    charge: 0.0
+    file: /zhome/86/d/1666/PAW/gpaw-setups-0.9.20000/I.LDA.gz
+    compensation charges: {type: gauss,
+                           rc: 0.37,
+                           lmax: 2}
+    cutoffs: {filter: 2.06,
+              core: 2.90}
+    valence states:
+      #              energy  rcut
+      - 5s(2.00)   -17.626   1.164
+      - 5p(5.00)    -7.241   1.164
+      -  s           9.585   1.164
+      -  p          19.970   1.164
+      -  d           0.000   1.164
+  
+    # Using partial waves for I as LCAO basis
+
+Reference energy: -418222.442431  # eV
+
+eigensolver:
+  name: 'Davidson'
+  niter: 2
+  converge_bands: 'occupied'
+Density mixing:
+  Method: sum
+  Backend: pulay
+  Linear mixing parameter: 0.05
+  old densities: 5
+  Damping of long wavelength oscillations: 100
+occupation numbers:
+  Fermi-Dirac:
+    width: 0.1000  # eV
+  
+
+poisson solver:
+  ecut: 4800.0  # eV
+
+xc functional:
+  name: None
+
+convergence criteria:
+- Maximum [total energy] change in last 3 cyles: 0.0005 eV / valence electron
+- Maximum integral of absolute [dens]ity change: 0.0001 electrons / valence electron
+- Maximum integral of absolute [eigenst]ate change: 4e-08 eV^2 / valence electron
+maximum number of iterations: 333
+
+#      iter     time        total  log10-change:
+#                          energy   eigst   dens
+# iter:   1 23:15:23   -14.746668                  +4.6,+0.0,+0.0
+# iter:   2 23:15:41   -15.151586   -0.13  -1.49   +4.1,-0.0,-0.0
+# iter:   3 23:15:59   -15.139150   -0.75  -1.52   +4.1,-0.0,-0.0
+# iter:   4 23:16:17   -15.156410   -1.05  -1.56   +4.2,-0.0,-0.0
+# iter:   5 23:16:34   -15.246620   -1.35  -1.75   +4.4,+0.0,+0.0
+# iter:   6 23:16:52   -15.160391   -1.63  -2.16   +4.4,+0.0,+0.0
+# iter:   7 23:17:10   -15.159092   -1.62  -2.30   +4.4,+0.0,+0.0
+# iter:   8 23:17:28   -15.141311   -2.15  -2.17   +4.3,+0.0,+0.0
+# iter:   9 23:17:45   -15.141431   -2.43  -2.93   +4.3,+0.0,+0.0
+# iter:  10 23:18:03   -15.143167c  -2.62  -3.03   +4.3,+0.0,+0.0
+# iter:  11 23:18:21   -15.141495c  -2.80  -2.90   +4.3,+0.0,+0.0
+# iter:  12 23:18:39   -15.141604c  -3.05  -3.44   +4.4,+0.0,+0.0
+# iter:  13 23:18:57   -15.141630c  -3.24  -3.50   +4.4,+0.0,+0.0
+# iter:  14 23:19:15   -15.141692c  -3.41  -3.53   +4.4,+0.0,+0.0
+# iter:  15 23:19:33   -15.141703c  -3.60  -3.58   +4.4,+0.0,+0.0
+# iter:  16 23:19:51   -15.141705c  -3.77  -3.76   +4.4,+0.0,+0.0
+# iter:  17 23:20:08   -15.141699c  -3.94  -3.81   +4.4,+0.0,+0.0
+# iter:  18 23:20:26   -15.141696c  -4.11  -4.23c  +4.4,+0.0,+0.0
+# iter:  19 23:20:44   -15.141697c  -4.27  -4.45c  +4.4,+0.0,+0.0
+# iter:  20 23:21:02   -15.141700c  -4.43  -4.52c  +4.4,+0.0,+0.0
+# iter:  21 23:21:19   -15.141698c  -4.58  -4.60c  +4.4,+0.0,+0.0
+# iter:  22 23:21:37   -15.141699c  -4.73  -4.80c  +4.4,+0.0,+0.0
+# iter:  23 23:21:55   -15.141699c  -4.88  -4.77c  +4.4,+0.0,+0.0
+# iter:  24 23:22:13   -15.141699c  -5.03  -4.74c  +4.4,+0.0,+0.0
+# iter:  25 23:22:30   -15.141700c  -5.18  -4.82c  +4.4,+0.0,+0.0
+# iter:  26 23:22:48   -15.141700c  -5.33  -4.82c  +4.4,+0.0,+0.0
+# iter:  27 23:23:06   -15.141700c  -5.47  -4.81c  +4.4,+0.0,+0.0
+# iter:  28 23:23:24   -15.141700c  -5.61  -4.82c  +4.4,+0.0,+0.0
+# iter:  29 23:23:42   -15.141700c  -5.77  -4.81c  +4.4,+0.0,-0.0
+# iter:  30 23:24:00   -15.141700c  -5.93  -4.92c  +4.4,+0.0,-0.0
+# iter:  31 23:24:17   -15.141700c  -6.06  -5.17c  +4.4,+0.0,-0.0
+# iter:  32 23:24:35   -15.141700c  -6.19  -5.22c  +4.4,+0.0,-0.0
+# iter:  33 23:24:53   -15.141700c  -6.32  -5.29c  +4.4,+0.0,-0.0
+# iter:  34 23:25:11   -15.141700c  -6.44  -5.33c  +4.4,+0.0,-0.0
+# iter:  35 23:25:29   -15.141700c  -6.57  -5.54c  +4.4,+0.0,-0.0
+# iter:  36 23:25:47   -15.141700c  -6.69  -5.49c  +4.4,+0.0,-0.0
+# iter:  37 23:26:04   -15.141700c  -6.82  -5.55c  +4.4,+0.0,-0.0
+# iter:  38 23:26:22   -15.141700c  -6.94  -5.79c  +4.4,+0.0,-0.0
+# iter:  39 23:26:40   -15.141700c  -7.07  -5.95c  +4.4,+0.0,-0.0
+# iter:  40 23:26:58   -15.141700c  -7.18  -5.99c  +4.4,+0.0,-0.0
+# iter:  41 23:27:16   -15.141700c  -7.30  -6.09c  +4.4,+0.0,-0.0
+# iter:  42 23:27:34   -15.141700c  -7.41c -6.20c  +4.4,+0.0,-0.0
+scf_steps: 42
+energies:  # eV
+  coulomb:         -12.460829
+  zero:              0.093353
+  xc:              -17.138788
+  external:          0.000000
+  kinetic:          14.365031
+  spinorbit:         0.000000
+  entropy:          -0.000934
+  total:           -15.142167
+  extrapolated:    -15.141700
+
+dipole moment: [-4.805011, -8.322521, -9.648038]  # |e|*Ang
+
+total magnetic moment: [4.362394, 0.002593, -0.000000]
+
+local magnetic moments: [
+  [ 4.322790, -0.000068, -0.000000],  # Mn 0
+  [-0.002719, -0.008370, -0.000000],  # I  1
+  [-0.002720, -0.008370, -0.000000]]  # I  2
+
+
+Fermi level: -1.215 eV
+Energy: -15.141700294037697 eV
+Magnetic moment: -8.072438882175634e-15 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -15.141700294037697 eV
+Magnetic moment: -8.072438882175634e-15 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -15.141700294037697 eV
+Magnetic moment: -8.072438882175634e-15 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -15.141700294037697 eV
+Magnetic moment: -8.072438882175634e-15 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -15.141700294037697 eV
+Magnetic moment: -8.072438882175634e-15 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -15.141700294037697 eV
+Magnetic moment: -8.072438882175634e-15 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -15.141700294037697 eV
+Magnetic moment: -8.072438882175634e-15 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -15.141700294037697 eV
+Magnetic moment: -8.072438882175634e-15 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -15.141700294037697 eV
+Magnetic moment: -8.072438882175634e-15 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+
+kpt = [-0.455, -0.455, 0.000], weight = 0.008:
+  Band      eig [eV]   occ [0-1]
+     0       -82.168       1.000
+   ...
+    21        -4.233       1.000
+    22        -4.038       1.000
+    23        -3.762       1.000
+    24        -3.660       1.000
+    25        -3.564       1.000
+    26        -3.558       1.000
+    27        -2.213       1.000
+    28        -2.206       1.000
+    29        -0.325       0.000
+    30        -0.196       0.000
+    31        -0.143       0.000
+    32         0.444       0.000
+    33         0.465       0.000
+    34         1.757       0.000
+    35         2.531       0.000
+    36         3.893       0.000
+   ...
+    41         5.587       0.000
+
+kpt = [-0.455, -0.364, 0.000], weight = 0.008:
+  Band      eig [eV]   occ [0-1]
+     0       -82.168       1.000
+   ...
+    21        -4.051       1.000
+    22        -3.977       1.000
+    23        -3.778       1.000
+    24        -3.658       1.000
+    25        -3.534       1.000
+    26        -3.411       1.000
+    27        -2.271       1.000
+    28        -2.057       1.000
+    29        -0.350       0.000
+    30        -0.255       0.000
+    31        -0.154       0.000
+    32         0.441       0.000
+    33         0.526       0.000
+    34         1.587       0.000
+    35         2.351       0.000
+    36         3.408       0.000
+   ...
+    41         4.770       0.000
+
+kpt = [-0.455, -0.273, 0.000], weight = 0.008:
+  Band      eig [eV]   occ [0-1]
+Energy: -15.141700294037697 eV
+Magnetic moment: -8.072438882175634e-15 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+Energy: -15.141700294037697 eV
+Magnetic moment: -8.072438882175634e-15 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+     0       -82.168       1.000
+   ...
+    21        -3.947       1.000
+    22        -3.743       1.000
+    23        -3.725       1.000
+    24        -3.586       1.000
+    25        -3.449       1.000
+    26        -3.293       1.000
+    27        -2.249       1.000
+    28        -1.936       0.999
+    29        -0.462       0.001
+    30        -0.272       0.000
+    31        -0.151       0.000
+    32         0.441       0.000
+    33         0.569       0.000
+    34         1.448       0.000
+    35         2.134       0.000
+    36         3.023       0.000
+   ...
+    41         4.638       0.000
+(only showing first 3 out of 121 k-points)
+
+Gap: 1.408 eV
+Transition (v -> c):
+  (s=0, k=27, n=28, [-0.27, 0.00, 0.00]) -> (s=0, k=28, n=29, [-0.27, 0.09, 0.00])
+Energy: -15.141700294037697 eV
+Magnetic moment: -8.072438882175634e-15 Bohr magnetons
+Calculating q=[0.31666666666666665, 0.3, 0]
+#  __  _  _
+# | _ |_)|_||  |
+# |__||  | ||/\| - 24.1.0
+
+User:   s194113@n-62-29-16
+Date:   Wed May  1 23:27:34 2024
+Arch:   x86_64
+Pid:    27610
+CWD:    /work3/s194113/10302/10302_NM/MnI2_2D_rough
+Python: 3.8.5
+gpaw:   /zhome/87/8/147075/venv-name/gpaw/gpaw (10808453a8)
+_gpaw:  /zhome/87/8/147075/venv-name/gpaw/
+        _gpaw.cpython-38-x86_64-linux-gnu.so (10808453a8)
+ase:    /zhome/87/8/147075/venv-name/ase/ase (version 3.23.0b1-c36115a2db)
+numpy:  /zhome/87/8/147075/venv-name/lib/python3.8/site-packages/numpy (version 1.24.4)
+scipy:  /zhome/87/8/147075/venv-name/lib/python3.8/site-packages/scipy (version 1.10.1)
+libxc:  4.3.4
+units:  Angstrom and eV
+cores: 12
+OpenMP: False
+OMP_NUM_THREADS: 1
+
+---
+input parameters:
+  kpts: 
+    density: 6.0
+    gamma: True
+  magmoms: [[4.4079912, 0, 0], [0.08032672, 0, 0], [0.08032672, 0, 0]]
+  mixer: 
+    backend: 'pulay'
+    beta: 0.05
+    method: 'sum'
+    nmaxold: 5
+    weight: 100
+  mode: 
+    name: 'pw'
+    ecut: 600.0
+    qspiral: [0.31666666666666665, 0.3, 0]
+  parallel: 
+    kpt: None
+    domain: 1
+    band: 1
+    order: 'kdb'
+    stridebands: False
+    augment_grids: False
+    sl_auto: False
+    sl_default: None
+    sl_diagonalize: None
+    sl_inverse_cholesky: None
+    sl_lcao: None
+    sl_lrtddft: None
+    use_elpa: False
+    elpasolver: '2stage'
+    buffer_size: None
+    gpu: False
+  symmetry: 
+    point_group: False
+    time_reversal: False
+  xc: 
+    name: 'LDA'
+---
+
+timing:  # [seconds]
+  Total: 763.386  # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Init:   13.820  # ━
+  SCF:   748.189  # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Max RSS: 429.723  # MiB
+
+#                        
+#                        
+#                        
+#                        
+#              I         
+#                        
+#                        
+#        Mn              
+#          I             
+#                        
+#                        
+#                        
+#                        
+#                        
+
+atoms: [  # symbols, positions [Ang] and initial magnetic moments
+  [ Mn, [   0.000000,    0.000000,    7.649535], [ 4.408,  0.000,  0.000]], # 0
+  [  I, [   2.082858,    1.202539,    9.299069], [ 0.080,  0.000,  0.000]], # 1
+  [  I, [   0.000000,    2.405077,    6.000000], [ 0.080,  0.000,  0.000]]] # 2
+
+cell: [  # Ang
+#     x            y            z
+  [   4.165716,    0.000000,    0.000000],
+  [  -2.082858,    3.607616,    0.000000],
+  [   0.000000,    0.000000,   15.299069]]
+
+periodic: [True      , True      , False     ]
+lengths:  [  4.165716,   4.165716,  15.299069]  # Ang
+angles:   [ 90.000000,  90.000000, 120.000000]
+
+symmetry:
+  number of symmetries: 1
+  rotations: [
+    [[ 1,  0,  0], [ 0,  1,  0], [ 0,  0,  1]]]
+
+bz sampling:
+  number of bz points: 121
+  number of ibz points: 121
+  monkhorst-pack size: [11, 11, 1]
+  monkhorst-pack shift: [0, 0, 0]
+  points and weights: [
+    [[ -0.45454545,  -0.45454545,   0.00000000], 0.00826446],  # 0
+    [[ -0.45454545,  -0.36363636,   0.00000000], 0.00826446],  # 1
+    [[ -0.45454545,  -0.27272727,   0.00000000], 0.00826446],  # 2
+    [[ -0.45454545,  -0.18181818,   0.00000000], 0.00826446],  # 3
+    [[ -0.45454545,  -0.09090909,   0.00000000], 0.00826446],  # 4
+    [[ -0.45454545,   0.00000000,   0.00000000], 0.00826446],  # 5
+    [[ -0.45454545,   0.09090909,   0.00000000], 0.00826446],  # 6
+    [[ -0.45454545,   0.18181818,   0.00000000], 0.00826446],  # 7
+    [[ -0.45454545,   0.27272727,   0.00000000], 0.00826446],  # 8
+    [[ -0.45454545,   0.36363636,   0.00000000], 0.00826446],  # 9
+    # ...
+    [[  0.45454545,   0.45454545,   0.00000000], 0.00826446]]  # 120
+
+plane wave coefficients: 7719
+cutoff: 600.0 eV
+
+spin-components: 4  # (non-collinear spins)
+bands: 42
+valence electrons: 29.0
+spin-degeneracy: 1
+dtype: complex128
+
+memory:
+    wave functions: 1_248_301_824  # bytes  (104_025_152 per core)
+
+parallelization:
+    kpt:    12
+    domain: 1
+    band:   1
+
+density:
+  components: 4
+  grid points: [24 24 90]
+  charge: 0.0  # |e|
+
+potential:
+  grid points: [24 24 90]
+
+species:
+  Mn:
+    name: Manganese
+    id: 0d715a8018be061a6e9ea6f2d364ac92
+    Z: 25.0
+    valence: 15
+    core: 10
+    charge: 0.0
+    file: /zhome/86/d/1666/PAW/gpaw-setups-0.9.20000/Mn.LDA.gz
+    compensation charges: {type: gauss,
+                           rc: 0.38,
+                           lmax: 2}
+    cutoffs: {filter: 2.14,
+              core: 0.86}
+    valence states:
+      #              energy  rcut
+      - 3s(2.00)   -85.387   1.275
+      - 4s(2.00)    -5.282   1.275
+      - 3p(6.00)   -54.493   1.281
+      - 4p(0.00)    -1.471   1.281
+      - 3d(5.00)    -7.009   1.138
+      -  d          20.203   1.138
+  
+    # Using partial waves for Mn as LCAO basis
+
+  I:
+    name: Iodine
+    id: b559721c0c096a7b4c8fc0e0f4de5cf4
+    Z: 53.0
+    valence: 7
+    core: 46
+    charge: 0.0
+    file: /zhome/86/d/1666/PAW/gpaw-setups-0.9.20000/I.LDA.gz
+    compensation charges: {type: gauss,
+                           rc: 0.37,
+                           lmax: 2}
+    cutoffs: {filter: 2.06,
+              core: 2.90}
+    valence states:
+      #              energy  rcut
+      - 5s(2.00)   -17.626   1.164
+      - 5p(5.00)    -7.241   1.164
+      -  s           9.585   1.164
+      -  p          19.970   1.164
+      -  d           0.000   1.164
+  
+    # Using partial waves for I as LCAO basis
+
+Reference energy: -418222.442431  # eV
+
+eigensolver:
+  name: 'Davidson'
+  niter: 2
+  converge_bands: 'occupied'
+Density mixing:
+  Method: sum
+  Backend: pulay
+  Linear mixing parameter: 0.05
+  old densities: 5
+  Damping of long wavelength oscillations: 100
+occupation numbers:
+  Fermi-Dirac:
+    width: 0.1000  # eV
+  
+
+poisson solver:
+  ecut: 4800.0  # eV
+
+xc functional:
+  name: None
+
+convergence criteria:
+- Maximum [total energy] change in last 3 cyles: 0.0005 eV / valence electron
+- Maximum integral of absolute [dens]ity change: 0.0001 electrons / valence electron
+- Maximum integral of absolute [eigenst]ate change: 4e-08 eV^2 / valence electron
+maximum number of iterations: 333
+
+#      iter     time        total  log10-change:
+#                          energy   eigst   dens
+# iter:   1 23:28:03   -14.712569                  +4.6,+0.0,+0.0
+# iter:   2 23:28:21   -15.147290   -0.11  -1.49   +4.1,-0.0,-0.0
+# iter:   3 23:28:39   -15.138733   -0.74  -1.52   +4.1,-0.0,-0.0
+# iter:   4 23:28:57   -15.156594   -1.04  -1.56   +4.2,-0.0,-0.0
+# iter:   5 23:29:15   -15.249566   -1.34  -1.75   +4.4,-0.0,-0.0
+# iter:   6 23:29:33   -15.158946   -1.61  -2.15   +4.4,+0.0,-0.0
+# iter:   7 23:29:51   -15.156297   -1.64  -2.30   +4.4,+0.0,-0.0
+# iter:   8 23:30:09   -15.141287   -2.13  -2.18   +4.3,+0.0,-0.0
+# iter:   9 23:30:27   -15.141597   -2.42  -2.94   +4.3,+0.0,+0.0
+# iter:  10 23:30:44   -15.142920c  -2.61  -3.05   +4.3,+0.0,-0.0
+# iter:  11 23:31:02   -15.141578c  -2.79  -2.93   +4.3,+0.0,-0.0
+# iter:  12 23:31:20   -15.141680c  -3.01  -3.41   +4.3,+0.0,-0.0
+# iter:  13 23:31:38   -15.141715c  -3.21  -3.49   +4.3,+0.0,-0.0
+# iter:  14 23:31:56   -15.141818c  -3.38  -3.53   +4.3,+0.0,-0.0
+# iter:  15 23:32:14   -15.141778c  -3.57  -3.56   +4.3,+0.0,-0.0
+# iter:  16 23:32:31   -15.141784c  -3.75  -3.66   +4.3,+0.0,-0.0
+# iter:  17 23:32:49   -15.141802c  -3.91  -3.73   +4.3,+0.0,-0.0
+# iter:  18 23:33:07   -15.141782c  -4.08  -3.93   +4.3,+0.0,-0.0
+# iter:  19 23:33:25   -15.141781c  -4.25  -4.16c  +4.3,+0.0,-0.0
+# iter:  20 23:33:43   -15.141783c  -4.41  -4.25c  +4.3,+0.0,-0.0
+# iter:  21 23:34:01   -15.141782c  -4.56  -4.36c  +4.3,+0.0,-0.0
+# iter:  22 23:34:19   -15.141782c  -4.71  -4.37c  +4.3,+0.0,-0.0
+# iter:  23 23:34:37   -15.141783c  -4.87  -4.40c  +4.3,+0.0,-0.0
+# iter:  24 23:34:54   -15.141784c  -5.02  -5.07c  +4.3,+0.0,-0.0
+# iter:  25 23:35:12   -15.141784c  -5.17  -5.19c  +4.3,+0.0,-0.0
+# iter:  26 23:35:30   -15.141784c  -5.31  -5.26c  +4.3,+0.0,-0.0
+# iter:  27 23:35:47   -15.141784c  -5.45  -5.43c  +4.3,+0.0,-0.0
+# iter:  28 23:36:05   -15.141784c  -5.59  -5.46c  +4.3,+0.0,-0.0
+# iter:  29 23:36:23   -15.141784c  -5.72  -5.67c  +4.3,+0.0,+0.0
+# iter:  30 23:36:41   -15.141784c  -5.86  -5.68c  +4.3,+0.0,+0.0
+# iter:  31 23:36:58   -15.141784c  -5.99  -5.67c  +4.3,+0.0,-0.0
+# iter:  32 23:37:16   -15.141784c  -6.13  -5.55c  +4.3,+0.0,-0.0
+# iter:  33 23:37:34   -15.141784c  -6.26  -5.65c  +4.3,+0.0,-0.0
+# iter:  34 23:37:52   -15.141784c  -6.39  -5.66c  +4.3,+0.0,-0.0
+# iter:  35 23:38:10   -15.141784c  -6.52  -5.68c  +4.3,+0.0,+0.0
+# iter:  36 23:38:27   -15.141784c  -6.65  -5.65c  +4.3,+0.0,-0.0
+# iter:  37 23:38:45   -15.141784c  -6.77  -5.60c  +4.3,+0.0,-0.0
+# iter:  38 23:39:03   -15.141784c  -6.90  -5.63c  +4.3,+0.0,-0.0
+# iter:  39 23:39:21   -15.141784c  -7.02  -5.69c  +4.3,+0.0,-0.0
+# iter:  40 23:39:38   -15.141784c  -7.14  -5.59c  +4.3,+0.0,-0.0
+# iter:  41 23:39:56   -15.141784c  -7.26  -5.69c  +4.3,+0.0,-0.0
+# iter:  42 23:40:14   -15.141784c  -7.38  -5.72c  +4.3,+0.0,-0.0
+# iter:  43 23:40:31   -15.141784c  -7.50c -5.92c  +4.3,+0.0,-0.0
+scf_steps: 43
+energies:  # eV
+  coulomb:         -12.458497
+  zero:              0.093443
+  xc:              -17.138140
+  external:          0.000000
+  kinetic:          14.361875
+  spinorbit:         0.000000
+  entropy:          -0.000928
+  total:           -15.142248
+  extrapolated:    -15.141784
+
+dipole moment: [-4.763680, -8.282882, -9.492735]  # |e|*Ang
+
+total magnetic moment: [4.343332, 0.001880, -0.000000]
+
+local magnetic moments: [
+  [ 4.322536, -0.000048, -0.000000],  # Mn 0
+  [-0.003446, -0.005622, -0.000000],  # I  1
+  [-0.001200, -0.006483, -0.000000]]  # I  2
+
+
+Fermi level: -1.215 eV
+Energy: -15.141783863842653 eV
+Magnetic moment: -4.868369158890726e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -15.141783863842653 eV
+Magnetic moment: -4.868369158890726e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -15.141783863842653 eV
+Magnetic moment: -4.868369158890726e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -15.141783863842653 eV
+Magnetic moment: -4.868369158890726e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -15.141783863842653 eV
+Magnetic moment: -4.868369158890726e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -15.141783863842653 eV
+Magnetic moment: -4.868369158890726e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -15.141783863842653 eV
+Magnetic moment: -4.868369158890726e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -15.141783863842653 eV
+Magnetic moment: -4.868369158890726e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -15.141783863842653 eV
+Magnetic moment: -4.868369158890726e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -15.141783863842653 eV
+Magnetic moment: -4.868369158890726e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+Energy: -15.141783863842653 eV
+Magnetic moment: -4.868369158890726e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+
+kpt = [-0.455, -0.455, 0.000], weight = 0.008:
+  Band      eig [eV]   occ [0-1]
+     0       -82.168       1.000
+   ...
+    21        -4.250       1.000
+    22        -4.042       1.000
+    23        -3.752       1.000
+    24        -3.666       1.000
+    25        -3.567       1.000
+    26        -3.553       1.000
+    27        -2.223       1.000
+    28        -2.202       1.000
+    29        -0.320       0.000
+    30        -0.195       0.000
+    31        -0.144       0.000
+    32         0.446       0.000
+    33         0.459       0.000
+    34         1.770       0.000
+    35         2.542       0.000
+    36         3.901       0.000
+   ...
+    41         5.102       0.000
+
+kpt = [-0.455, -0.364, 0.000], weight = 0.008:
+  Band      eig [eV]   occ [0-1]
+     0       -82.168       1.000
+   ...
+    21        -4.051       1.000
+    22        -3.980       1.000
+    23        -3.770       1.000
+    24        -3.655       1.000
+    25        -3.532       1.000
+    26        -3.407       1.000
+    27        -2.275       1.000
+    28        -2.063       1.000
+    29        -0.339       0.000
+    30        -0.255       0.000
+    31        -0.157       0.000
+    32         0.433       0.000
+    33         0.524       0.000
+    34         1.620       0.000
+    35         2.373       0.000
+    36         3.462       0.000
+   ...
+    41         4.754       0.000
+
+kpt = [-0.455, -0.273, 0.000], weight = 0.008:
+  Band      eig [eV]   occ [0-1]
+     0       -82.168       1.000
+   ...
+    21        -3.942       1.000
+    22        -3.736       1.000
+    23        -3.711       1.000
+    24        -3.573       1.000
+    25        -3.447       1.000
+    26        -3.285       1.000
+    27        -2.251       1.000
+    28        -1.940       0.999
+    29        -0.458       0.001
+    30        -0.268       0.000
+    31        -0.154       0.000
+    32         0.433       0.000
+    33         0.562       0.000
+    34         1.472       0.000
+    35         2.163       0.000
+    36         3.051       0.000
+   ...
+    41         4.634       0.000
+(only showing first 3 out of 121 k-points)
+
+Gap: 1.414 eV
+Transition (v -> c):
+  (s=0, k=27, n=28, [-0.27, 0.00, 0.00]) -> (s=0, k=42, n=29, [-0.18, 0.36, 0.00])
+Energy: -15.141783863842653 eV
+Magnetic moment: -4.868369158890726e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.3, 0]
+#  __  _  _
+# | _ |_)|_||  |
+# |__||  | ||/\| - 24.1.0
+
+User:   s194113@n-62-29-16
+Date:   Wed May  1 23:40:31 2024
+Arch:   x86_64
+Pid:    27610
+CWD:    /work3/s194113/10302/10302_NM/MnI2_2D_rough
+Python: 3.8.5
+gpaw:   /zhome/87/8/147075/venv-name/gpaw/gpaw (10808453a8)
+_gpaw:  /zhome/87/8/147075/venv-name/gpaw/
+        _gpaw.cpython-38-x86_64-linux-gnu.so (10808453a8)
+ase:    /zhome/87/8/147075/venv-name/ase/ase (version 3.23.0b1-c36115a2db)
+numpy:  /zhome/87/8/147075/venv-name/lib/python3.8/site-packages/numpy (version 1.24.4)
+scipy:  /zhome/87/8/147075/venv-name/lib/python3.8/site-packages/scipy (version 1.10.1)
+libxc:  4.3.4
+units:  Angstrom and eV
+cores: 12
+OpenMP: False
+OMP_NUM_THREADS: 1
+
+---
+input parameters:
+  kpts: 
+    density: 6.0
+    gamma: True
+  magmoms: [[4.4079912, 0, 0], [0.08032672, 0, 0], [0.08032672, 0, 0]]
+  mixer: 
+    backend: 'pulay'
+    beta: 0.05
+    method: 'sum'
+    nmaxold: 5
+    weight: 100
+  mode: 
+    name: 'pw'
+    ecut: 600.0
+    qspiral: [0.3333333333333333, 0.3, 0]
+  parallel: 
+    kpt: None
+    domain: 1
+    band: 1
+    order: 'kdb'
+    stridebands: False
+    augment_grids: False
+    sl_auto: False
+    sl_default: None
+    sl_diagonalize: None
+    sl_inverse_cholesky: None
+    sl_lcao: None
+    sl_lrtddft: None
+    use_elpa: False
+    elpasolver: '2stage'
+    buffer_size: None
+    gpu: False
+  symmetry: 
+    point_group: False
+    time_reversal: False
+  xc: 
+    name: 'LDA'
+---
+
+timing:  # [seconds]
+  Total: 778.069  # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Init:   12.176  # ━
+  SCF:   765.662  # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Max RSS: 437.469  # MiB
+
+#                        
+#                        
+#                        
+#                        
+#              I         
+#                        
+#                        
+#        Mn              
+#          I             
+#                        
+#                        
+#                        
+#                        
+#                        
+
+atoms: [  # symbols, positions [Ang] and initial magnetic moments
+  [ Mn, [   0.000000,    0.000000,    7.649535], [ 4.408,  0.000,  0.000]], # 0
+  [  I, [   2.082858,    1.202539,    9.299069], [ 0.080,  0.000,  0.000]], # 1
+  [  I, [   0.000000,    2.405077,    6.000000], [ 0.080,  0.000,  0.000]]] # 2
+
+cell: [  # Ang
+#     x            y            z
+  [   4.165716,    0.000000,    0.000000],
+  [  -2.082858,    3.607616,    0.000000],
+  [   0.000000,    0.000000,   15.299069]]
+
+periodic: [True      , True      , False     ]
+lengths:  [  4.165716,   4.165716,  15.299069]  # Ang
+angles:   [ 90.000000,  90.000000, 120.000000]
+
+symmetry:
+  number of symmetries: 1
+  rotations: [
+    [[ 1,  0,  0], [ 0,  1,  0], [ 0,  0,  1]]]
+
+bz sampling:
+  number of bz points: 121
+  number of ibz points: 121
+  monkhorst-pack size: [11, 11, 1]
+  monkhorst-pack shift: [0, 0, 0]
+  points and weights: [
+    [[ -0.45454545,  -0.45454545,   0.00000000], 0.00826446],  # 0
+    [[ -0.45454545,  -0.36363636,   0.00000000], 0.00826446],  # 1
+    [[ -0.45454545,  -0.27272727,   0.00000000], 0.00826446],  # 2
+    [[ -0.45454545,  -0.18181818,   0.00000000], 0.00826446],  # 3
+    [[ -0.45454545,  -0.09090909,   0.00000000], 0.00826446],  # 4
+    [[ -0.45454545,   0.00000000,   0.00000000], 0.00826446],  # 5
+    [[ -0.45454545,   0.09090909,   0.00000000], 0.00826446],  # 6
+    [[ -0.45454545,   0.18181818,   0.00000000], 0.00826446],  # 7
+    [[ -0.45454545,   0.27272727,   0.00000000], 0.00826446],  # 8
+    [[ -0.45454545,   0.36363636,   0.00000000], 0.00826446],  # 9
+    # ...
+    [[  0.45454545,   0.45454545,   0.00000000], 0.00826446]]  # 120
+
+plane wave coefficients: 7719
+cutoff: 600.0 eV
+
+spin-components: 4  # (non-collinear spins)
+bands: 42
+valence electrons: 29.0
+spin-degeneracy: 1
+dtype: complex128
+
+memory:
+    wave functions: 1_248_301_824  # bytes  (104_025_152 per core)
+
+parallelization:
+    kpt:    12
+    domain: 1
+    band:   1
+
+density:
+  components: 4
+  grid points: [24 24 90]
+  charge: 0.0  # |e|
+
+potential:
+  grid points: [24 24 90]
+
+species:
+  Mn:
+    name: Manganese
+    id: 0d715a8018be061a6e9ea6f2d364ac92
+    Z: 25.0
+    valence: 15
+    core: 10
+    charge: 0.0
+    file: /zhome/86/d/1666/PAW/gpaw-setups-0.9.20000/Mn.LDA.gz
+    compensation charges: {type: gauss,
+                           rc: 0.38,
+                           lmax: 2}
+    cutoffs: {filter: 2.14,
+              core: 0.86}
+    valence states:
+      #              energy  rcut
+      - 3s(2.00)   -85.387   1.275
+      - 4s(2.00)    -5.282   1.275
+      - 3p(6.00)   -54.493   1.281
+      - 4p(0.00)    -1.471   1.281
+      - 3d(5.00)    -7.009   1.138
+      -  d          20.203   1.138
+  
+    # Using partial waves for Mn as LCAO basis
+
+  I:
+    name: Iodine
+    id: b559721c0c096a7b4c8fc0e0f4de5cf4
+    Z: 53.0
+    valence: 7
+    core: 46
+    charge: 0.0
+    file: /zhome/86/d/1666/PAW/gpaw-setups-0.9.20000/I.LDA.gz
+    compensation charges: {type: gauss,
+                           rc: 0.37,
+                           lmax: 2}
+    cutoffs: {filter: 2.06,
+              core: 2.90}
+    valence states:
+      #              energy  rcut
+      - 5s(2.00)   -17.626   1.164
+      - 5p(5.00)    -7.241   1.164
+      -  s           9.585   1.164
+      -  p          19.970   1.164
+      -  d           0.000   1.164
+  
+    # Using partial waves for I as LCAO basis
+
+Reference energy: -418222.442431  # eV
+
+eigensolver:
+  name: 'Davidson'
+  niter: 2
+  converge_bands: 'occupied'
+Density mixing:
+  Method: sum
+  Backend: pulay
+  Linear mixing parameter: 0.05
+  old densities: 5
+  Damping of long wavelength oscillations: 100
+occupation numbers:
+  Fermi-Dirac:
+    width: 0.1000  # eV
+  
+
+poisson solver:
+  ecut: 4800.0  # eV
+
+xc functional:
+  name: None
+
+convergence criteria:
+- Maximum [total energy] change in last 3 cyles: 0.0005 eV / valence electron
+- Maximum integral of absolute [dens]ity change: 0.0001 electrons / valence electron
+- Maximum integral of absolute [eigenst]ate change: 4e-08 eV^2 / valence electron
+maximum number of iterations: 333
+
+#      iter     time        total  log10-change:
+#                          energy   eigst   dens
+# iter:   1 23:41:01   -14.676831                  +4.6,+0.0,+0.0
+# iter:   2 23:41:19   -15.142699   -0.09  -1.49   +4.1,-0.0,+0.0
+# iter:   3 23:41:36   -15.138229   -0.72  -1.52   +4.0,-0.0,+0.0
+# iter:   4 23:41:54   -15.156682   -1.03  -1.56   +4.1,-0.0,-0.0
+# iter:   5 23:42:12   -15.252491   -1.32  -1.75   +4.3,-0.0,+0.0
+# iter:   6 23:42:30   -15.157582   -1.59  -2.15   +4.4,+0.0,+0.0
+# iter:   7 23:42:48   -15.152958   -1.66  -2.30   +4.4,+0.0,+0.0
+# iter:   8 23:43:05   -15.141283   -2.12  -2.20   +4.3,+0.0,+0.0
+# iter:   9 23:43:23   -15.141932c  -2.41  -2.95   +4.3,+0.0,+0.0
+# iter:  10 23:43:41   -15.142510c  -2.60  -3.05   +4.3,+0.0,+0.0
+# iter:  11 23:43:59   -15.141634c  -2.78  -2.97   +4.3,+0.0,+0.0
+# iter:  12 23:44:16   -15.141722c  -2.99  -3.35   +4.3,+0.0,+0.0
+# iter:  13 23:44:34   -15.141766c  -3.18  -3.48   +4.3,+0.0,+0.0
+# iter:  14 23:44:52   -15.141877c  -3.36  -3.53   +4.3,+0.0,-0.0
+# iter:  15 23:45:09   -15.141840c  -3.55  -3.53   +4.3,+0.0,-0.0
+# iter:  16 23:45:27   -15.141850c  -3.72  -3.58   +4.3,+0.0,-0.0
+# iter:  17 23:45:45   -15.141876c  -3.88  -3.60   +4.3,+0.0,-0.0
+# iter:  18 23:46:03   -15.141833c  -4.04  -3.78   +4.3,+0.0,-0.0
+# iter:  19 23:46:20   -15.141830c  -4.21  -4.02c  +4.3,+0.0,-0.0
+# iter:  20 23:46:38   -15.141833c  -4.37  -4.10c  +4.3,+0.0,-0.0
+# iter:  21 23:46:56   -15.141831c  -4.51  -4.34c  +4.3,+0.0,-0.0
+# iter:  22 23:47:14   -15.141831c  -4.68  -4.24c  +4.3,+0.0,-0.0
+# iter:  23 23:47:32   -15.141832c  -4.82  -4.33c  +4.3,+0.0,-0.0
+# iter:  24 23:47:50   -15.141832c  -4.97  -4.92c  +4.3,+0.0,-0.0
+# iter:  25 23:48:07   -15.141832c  -5.10  -4.95c  +4.3,+0.0,-0.0
+# iter:  26 23:48:25   -15.141832c  -5.23  -4.81c  +4.3,+0.0,-0.0
+# iter:  27 23:48:43   -15.141833c  -5.37  -4.81c  +4.3,+0.0,-0.0
+# iter:  28 23:49:01   -15.141833c  -5.50  -5.34c  +4.3,+0.0,-0.0
+# iter:  29 23:49:19   -15.141833c  -5.63  -5.24c  +4.3,+0.0,-0.0
+# iter:  30 23:49:36   -15.141833c  -5.76  -5.15c  +4.3,+0.0,-0.0
+# iter:  31 23:49:54   -15.141833c  -5.89  -5.54c  +4.3,+0.0,-0.0
+# iter:  32 23:50:12   -15.141833c  -6.01  -5.72c  +4.3,+0.0,-0.0
+# iter:  33 23:50:30   -15.141833c  -6.14  -5.86c  +4.3,+0.0,-0.0
+# iter:  34 23:50:48   -15.141833c  -6.27  -5.85c  +4.3,+0.0,-0.0
+# iter:  35 23:51:05   -15.141834c  -6.39  -5.86c  +4.3,+0.0,-0.0
+# iter:  36 23:51:23   -15.141834c  -6.52  -5.96c  +4.3,+0.0,-0.0
+# iter:  37 23:51:41   -15.141834c  -6.64  -6.10c  +4.3,+0.0,-0.0
+# iter:  38 23:51:59   -15.141834c  -6.76  -6.24c  +4.3,+0.0,-0.0
+# iter:  39 23:52:16   -15.141834c  -6.89  -6.42c  +4.3,+0.0,-0.0
+# iter:  40 23:52:34   -15.141834c  -7.02  -6.39c  +4.3,+0.0,-0.0
+# iter:  41 23:52:52   -15.141834c  -7.14  -6.20c  +4.3,+0.0,-0.0
+# iter:  42 23:53:10   -15.141834c  -7.27  -6.44c  +4.3,+0.0,-0.0
+# iter:  43 23:53:28   -15.141834c  -7.41c -6.28c  +4.3,+0.0,-0.0
+scf_steps: 43
+energies:  # eV
+  coulomb:         -12.457113
+  zero:              0.093419
+  xc:              -17.137931
+  external:          0.000000
+  kinetic:          14.360253
+  spinorbit:         0.000000
+  entropy:          -0.000923
+  total:           -15.142295
+  extrapolated:    -15.141834
+
+dipole moment: [-4.722187, -8.244158, -9.339780]  # |e|*Ang
+
+total magnetic moment: [4.324608, 0.001184, -0.000000]
+
+local magnetic moments: [
+  [ 4.322407, -0.000026, -0.000000],  # Mn 0
+  [-0.003884, -0.002824, -0.000000],  # I  1
+  [ 0.000501, -0.004776, -0.000000]]  # I  2
+
+
+Fermi level: -1.215 eV
+Energy: -15.141833572788299 eV
+Magnetic moment: -4.701465337453774e-15 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Energy: -15.141833572788299 eV
+Magnetic moment: -4.701465337453774e-15 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Energy: -15.141833572788299 eV
+Magnetic moment: -4.701465337453774e-15 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Energy: -15.141833572788299 eV
+Magnetic moment: -4.701465337453774e-15 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Energy: -15.141833572788299 eV
+Magnetic moment: -4.701465337453774e-15 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Energy: -15.141833572788299 eV
+Magnetic moment: -4.701465337453774e-15 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Energy: -15.141833572788299 eV
+Magnetic moment: -4.701465337453774e-15 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Energy: -15.141833572788299 eV
+Magnetic moment: -4.701465337453774e-15 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Energy: -15.141833572788299 eV
+Magnetic moment: -4.701465337453774e-15 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Energy: -15.141833572788299 eV
+Magnetic moment: -4.701465337453774e-15 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+Energy: -15.141833572788299 eV
+Magnetic moment: -4.701465337453774e-15 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+
+kpt = [-0.455, -0.455, 0.000], weight = 0.008:
+  Band      eig [eV]   occ [0-1]
+     0       -82.167       1.000
+   ...
+    21        -4.266       1.000
+    22        -4.045       1.000
+    23        -3.742       1.000
+    24        -3.672       1.000
+    25        -3.571       1.000
+    26        -3.548       1.000
+    27        -2.233       1.000
+    28        -2.197       1.000
+    29        -0.317       0.000
+    30        -0.193       0.000
+    31        -0.146       0.000
+    32         0.441       0.000
+    33         0.460       0.000
+    34         1.782       0.000
+    35         2.552       0.000
+    36         3.899       0.000
+   ...
+    41         5.165       0.000
+
+kpt = [-0.455, -0.364, 0.000], weight = 0.008:
+  Band      eig [eV]   occ [0-1]
+     0       -82.167       1.000
+   ...
+    21        -4.049       1.000
+    22        -3.982       1.000
+    23        -3.764       1.000
+    24        -3.652       1.000
+    25        -3.530       1.000
+    26        -3.403       1.000
+    27        -2.279       1.000
+    28        -2.070       1.000
+    29        -0.327       0.000
+    30        -0.256       0.000
+    31        -0.161       0.000
+    32         0.425       0.000
+    33         0.521       0.000
+    34         1.652       0.000
+    35         2.397       0.000
+    36         3.513       0.000
+   ...
+    41         4.755       0.000
+
+kpt = [-0.455, -0.273, 0.000], weight = 0.008:
+  Band      eig [eV]   occ [0-1]
+     0       -82.167       1.000
+   ...
+    21        -3.936       1.000
+    22        -3.729       1.000
+    23        -3.696       1.000
+    24        -3.562       1.000
+    25        -3.446       1.000
+    26        -3.276       1.000
+    27        -2.251       1.000
+    28        -1.945       0.999
+    29        -0.454       0.000
+    30        -0.264       0.000
+    31        -0.158       0.000
+    32         0.425       0.000
+    33         0.555       0.000
+    34         1.499       0.000
+    35         2.195       0.000
+    36         3.084       0.000
+   ...
+    41         4.631       0.000
+(only showing first 3 out of 121 k-points)
+
+Gap: 1.420 eV
+Transition (v -> c):
+  (s=0, k=37, n=28, [-0.18, -0.09, 0.00]) -> (s=0, k=78, n=29, [0.18, -0.36, 0.00])
+Energy: -15.141833572788299 eV
+Magnetic moment: -4.701465337453774e-15 Bohr magnetons
+Calculating q=[0.35, 0.3, 0]
+#  __  _  _
+# | _ |_)|_||  |
+# |__||  | ||/\| - 24.1.0
+
+User:   s194113@n-62-29-16
+Date:   Wed May  1 23:53:28 2024
+Arch:   x86_64
+Pid:    27610
+CWD:    /work3/s194113/10302/10302_NM/MnI2_2D_rough
+Python: 3.8.5
+gpaw:   /zhome/87/8/147075/venv-name/gpaw/gpaw (10808453a8)
+_gpaw:  /zhome/87/8/147075/venv-name/gpaw/
+        _gpaw.cpython-38-x86_64-linux-gnu.so (10808453a8)
+ase:    /zhome/87/8/147075/venv-name/ase/ase (version 3.23.0b1-c36115a2db)
+numpy:  /zhome/87/8/147075/venv-name/lib/python3.8/site-packages/numpy (version 1.24.4)
+scipy:  /zhome/87/8/147075/venv-name/lib/python3.8/site-packages/scipy (version 1.10.1)
+libxc:  4.3.4
+units:  Angstrom and eV
+cores: 12
+OpenMP: False
+OMP_NUM_THREADS: 1
+
+---
+input parameters:
+  kpts: 
+    density: 6.0
+    gamma: True
+  magmoms: [[4.4079912, 0, 0], [0.08032672, 0, 0], [0.08032672, 0, 0]]
+  mixer: 
+    backend: 'pulay'
+    beta: 0.05
+    method: 'sum'
+    nmaxold: 5
+    weight: 100
+  mode: 
+    name: 'pw'
+    ecut: 600.0
+    qspiral: [0.35, 0.3, 0]
+  parallel: 
+    kpt: None
+    domain: 1
+    band: 1
+    order: 'kdb'
+    stridebands: False
+    augment_grids: False
+    sl_auto: False
+    sl_default: None
+    sl_diagonalize: None
+    sl_inverse_cholesky: None
+    sl_lcao: None
+    sl_lrtddft: None
+    use_elpa: False
+    elpasolver: '2stage'
+    buffer_size: None
+    gpu: False
+  symmetry: 
+    point_group: False
+    time_reversal: False
+  xc: 
+    name: 'LDA'
+---
+
+timing:  # [seconds]
+  Total: 776.413  # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Init:   12.156  # ━
+  SCF:   764.025  # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Max RSS: 450.969  # MiB
+
+#                        
+#                        
+#                        
+#                        
+#              I         
+#                        
+#                        
+#        Mn              
+#          I             
+#                        
+#                        
+#                        
+#                        
+#                        
+
+atoms: [  # symbols, positions [Ang] and initial magnetic moments
+  [ Mn, [   0.000000,    0.000000,    7.649535], [ 4.408,  0.000,  0.000]], # 0
+  [  I, [   2.082858,    1.202539,    9.299069], [ 0.080,  0.000,  0.000]], # 1
+  [  I, [   0.000000,    2.405077,    6.000000], [ 0.080,  0.000,  0.000]]] # 2
+
+cell: [  # Ang
+#     x            y            z
+  [   4.165716,    0.000000,    0.000000],
+  [  -2.082858,    3.607616,    0.000000],
+  [   0.000000,    0.000000,   15.299069]]
+
+periodic: [True      , True      , False     ]
+lengths:  [  4.165716,   4.165716,  15.299069]  # Ang
+angles:   [ 90.000000,  90.000000, 120.000000]
+
+symmetry:
+  number of symmetries: 1
+  rotations: [
+    [[ 1,  0,  0], [ 0,  1,  0], [ 0,  0,  1]]]
+
+bz sampling:
+  number of bz points: 121
+  number of ibz points: 121
+  monkhorst-pack size: [11, 11, 1]
+  monkhorst-pack shift: [0, 0, 0]
+  points and weights: [
+    [[ -0.45454545,  -0.45454545,   0.00000000], 0.00826446],  # 0
+    [[ -0.45454545,  -0.36363636,   0.00000000], 0.00826446],  # 1
+    [[ -0.45454545,  -0.27272727,   0.00000000], 0.00826446],  # 2
+    [[ -0.45454545,  -0.18181818,   0.00000000], 0.00826446],  # 3
+    [[ -0.45454545,  -0.09090909,   0.00000000], 0.00826446],  # 4
+    [[ -0.45454545,   0.00000000,   0.00000000], 0.00826446],  # 5
+    [[ -0.45454545,   0.09090909,   0.00000000], 0.00826446],  # 6
+    [[ -0.45454545,   0.18181818,   0.00000000], 0.00826446],  # 7
+    [[ -0.45454545,   0.27272727,   0.00000000], 0.00826446],  # 8
+    [[ -0.45454545,   0.36363636,   0.00000000], 0.00826446],  # 9
+    # ...
+    [[  0.45454545,   0.45454545,   0.00000000], 0.00826446]]  # 120
+
+plane wave coefficients: 7719
+cutoff: 600.0 eV
+
+spin-components: 4  # (non-collinear spins)
+bands: 42
+valence electrons: 29.0
+spin-degeneracy: 1
+dtype: complex128
+
+memory:
+    wave functions: 1_248_301_824  # bytes  (104_025_152 per core)
+
+parallelization:
+    kpt:    12
+    domain: 1
+    band:   1
+
+density:
+  components: 4
+  grid points: [24 24 90]
+  charge: 0.0  # |e|
+
+potential:
+  grid points: [24 24 90]
+
+species:
+  Mn:
+    name: Manganese
+    id: 0d715a8018be061a6e9ea6f2d364ac92
+    Z: 25.0
+    valence: 15
+    core: 10
+    charge: 0.0
+    file: /zhome/86/d/1666/PAW/gpaw-setups-0.9.20000/Mn.LDA.gz
+    compensation charges: {type: gauss,
+                           rc: 0.38,
+                           lmax: 2}
+    cutoffs: {filter: 2.14,
+              core: 0.86}
+    valence states:
+      #              energy  rcut
+      - 3s(2.00)   -85.387   1.275
+      - 4s(2.00)    -5.282   1.275
+      - 3p(6.00)   -54.493   1.281
+      - 4p(0.00)    -1.471   1.281
+      - 3d(5.00)    -7.009   1.138
+      -  d          20.203   1.138
+  
+    # Using partial waves for Mn as LCAO basis
+
+  I:
+    name: Iodine
+    id: b559721c0c096a7b4c8fc0e0f4de5cf4
+    Z: 53.0
+    valence: 7
+    core: 46
+    charge: 0.0
+    file: /zhome/86/d/1666/PAW/gpaw-setups-0.9.20000/I.LDA.gz
+    compensation charges: {type: gauss,
+                           rc: 0.37,
+                           lmax: 2}
+    cutoffs: {filter: 2.06,
+              core: 2.90}
+    valence states:
+      #              energy  rcut
+      - 5s(2.00)   -17.626   1.164
+      - 5p(5.00)    -7.241   1.164
+      -  s           9.585   1.164
+      -  p          19.970   1.164
+      -  d           0.000   1.164
+  
+    # Using partial waves for I as LCAO basis
+
+Reference energy: -418222.442431  # eV
+
+eigensolver:
+  name: 'Davidson'
+  niter: 2
+  converge_bands: 'occupied'
+Density mixing:
+  Method: sum
+  Backend: pulay
+  Linear mixing parameter: 0.05
+  old densities: 5
+  Damping of long wavelength oscillations: 100
+occupation numbers:
+  Fermi-Dirac:
+    width: 0.1000  # eV
+  
+
+poisson solver:
+  ecut: 4800.0  # eV
+
+xc functional:
+  name: None
+
+convergence criteria:
+- Maximum [total energy] change in last 3 cyles: 0.0005 eV / valence electron
+- Maximum integral of absolute [dens]ity change: 0.0001 electrons / valence electron
+- Maximum integral of absolute [eigenst]ate change: 4e-08 eV^2 / valence electron
+maximum number of iterations: 333
+
+#      iter     time        total  log10-change:
+#                          energy   eigst   dens
+# iter:   1 23:53:57   -14.639064                  +4.6,+0.0,+0.0
+# iter:   2 23:54:15   -15.137753   -0.07  -1.49   +4.1,-0.0,+0.0
+# iter:   3 23:54:33   -15.137609   -0.70  -1.52   +4.0,-0.0,-0.0
+# iter:   4 23:54:51   -15.156740   -1.02  -1.56   +4.1,-0.0,-0.0
+# iter:   5 23:55:09   -15.255393   -1.31  -1.75   +4.3,-0.0,-0.0
+# iter:   6 23:55:27   -15.156494   -1.57  -2.14   +4.4,-0.0,-0.0
+# iter:   7 23:55:46   -15.149614   -1.68  -2.30   +4.3,+0.0,-0.0
+# iter:   8 23:56:04   -15.141279   -2.12  -2.22   +4.3,+0.0,-0.0
+# iter:   9 23:56:22   -15.142658c  -2.37  -2.95   +4.3,+0.0,-0.0
+# iter:  10 23:56:40   -15.141926c  -2.58  -3.00   +4.3,+0.0,-0.0
+# iter:  11 23:56:57   -15.141664c  -2.78  -3.06   +4.3,+0.0,-0.0
+# iter:  12 23:57:15   -15.141724c  -2.97  -3.29   +4.3,+0.0,-0.0
+# iter:  13 23:57:34   -15.141804c  -3.16  -3.48   +4.3,+0.0,-0.0
+# iter:  14 23:57:52   -15.141835c  -3.34  -3.53   +4.3,+0.0,-0.0
+# iter:  15 23:58:10   -15.141868c  -3.52  -3.56   +4.3,+0.0,-0.0
+# iter:  16 23:58:29   -15.141849c  -3.70  -3.62   +4.3,+0.0,-0.0
+# iter:  17 23:58:47   -15.141853c  -3.88  -3.67   +4.3,+0.0,-0.0
+# iter:  18 23:59:04   -15.141848c  -4.03  -3.69   +4.3,+0.0,-0.0
+# iter:  19 23:59:22   -15.141845c  -4.20  -4.26c  +4.3,+0.0,-0.0
+# iter:  20 23:59:40   -15.141846c  -4.36  -4.54c  +4.3,+0.0,-0.0
+# iter:  21 23:59:58   -15.141849c  -4.52  -4.57c  +4.3,+0.0,-0.0
+# iter:  22 00:00:16   -15.141848c  -4.67  -4.60c  +4.3,+0.0,-0.0
+# iter:  23 00:00:34   -15.141848c  -4.82  -4.86c  +4.3,+0.0,-0.0
+# iter:  24 00:00:52   -15.141848c  -4.97  -4.96c  +4.3,+0.0,-0.0
+# iter:  25 00:01:09   -15.141848c  -5.12  -5.06c  +4.3,+0.0,-0.0
+# iter:  26 00:01:27   -15.141849c  -5.26  -5.10c  +4.3,+0.0,-0.0
+# iter:  27 00:01:45   -15.141849c  -5.40  -5.28c  +4.3,+0.0,-0.0
+# iter:  28 00:02:02   -15.141849c  -5.54  -5.37c  +4.3,+0.0,-0.0
+# iter:  29 00:02:20   -15.141849c  -5.68  -5.60c  +4.3,+0.0,-0.0
+# iter:  30 00:02:38   -15.141849c  -5.81  -5.71c  +4.3,+0.0,-0.0
+# iter:  31 00:02:56   -15.141849c  -5.94  -5.71c  +4.3,+0.0,-0.0
+# iter:  32 00:03:14   -15.141849c  -6.07  -5.67c  +4.3,+0.0,-0.0
+# iter:  33 00:03:31   -15.141849c  -6.20  -5.76c  +4.3,+0.0,+0.0
+# iter:  34 00:03:49   -15.141849c  -6.33  -5.72c  +4.3,+0.0,+0.0
+# iter:  35 00:04:07   -15.141849c  -6.45  -5.61c  +4.3,+0.0,+0.0
+# iter:  36 00:04:25   -15.141849c  -6.58  -5.71c  +4.3,+0.0,-0.0
+# iter:  37 00:04:42   -15.141849c  -6.70  -5.64c  +4.3,+0.0,-0.0
+# iter:  38 00:05:00   -15.141849c  -6.82  -5.67c  +4.3,+0.0,-0.0
+# iter:  39 00:05:18   -15.141849c  -6.95  -5.73c  +4.3,+0.0,-0.0
+# iter:  40 00:05:36   -15.141849c  -7.07  -5.64c  +4.3,+0.0,-0.0
+# iter:  41 00:05:54   -15.141849c  -7.18  -5.59c  +4.3,+0.0,-0.0
+# iter:  42 00:06:12   -15.141849c  -7.30  -5.72c  +4.3,+0.0,-0.0
+# iter:  43 00:06:31   -15.141849c  -7.41c -5.68c  +4.3,+0.0,-0.0
+scf_steps: 43
+energies:  # eV
+  coulomb:         -12.459004
+  zero:              0.093524
+  xc:              -17.138073
+  external:          0.000000
+  kinetic:          14.362165
+  spinorbit:         0.000000
+  entropy:          -0.000922
+  total:           -15.142310
+  extrapolated:    -15.141849
+
+dipole moment: [-4.680587, -8.206428, -9.189442]  # |e|*Ang
+
+total magnetic moment: [4.306240, 0.000515, -0.000000]
+
+local magnetic moments: [
+Energy: -15.141849058988772 eV
+Magnetic moment: -4.059163385948446e-15 Bohr magnetons
+Energy: -15.141849058988772 eV
+Magnetic moment: -4.059163385948446e-15 Bohr magnetons
+Energy: -15.141849058988772 eV
+Magnetic moment: -4.059163385948446e-15 Bohr magnetons
+Energy: -15.141849058988772 eV
+Magnetic moment: -4.059163385948446e-15 Bohr magnetons
+Energy: -15.141849058988772 eV
+Magnetic moment: -4.059163385948446e-15 Bohr magnetons
+  [ 4.322414, -0.000006, -0.000000],  # Mn 0
+  [-0.004031, -0.000002, -0.000000],  # I  1
+  [ 0.002368, -0.003262, -0.000000]]  # I  2
+
+
+Fermi level: -1.215 eV
+Energy: -15.141849058988772 eV
+Magnetic moment: -4.059163385948446e-15 Bohr magnetons
+Energy: -15.141849058988772 eV
+Magnetic moment: -4.059163385948446e-15 Bohr magnetons
+Energy: -15.141849058988772 eV
+Magnetic moment: -4.059163385948446e-15 Bohr magnetons
+Energy: -15.141849058988772 eV
+Magnetic moment: -4.059163385948446e-15 Bohr magnetons
+Energy: -15.141849058988772 eV
+Magnetic moment: -4.059163385948446e-15 Bohr magnetons
+Energy: -15.141849058988772 eV
+Magnetic moment: -4.059163385948446e-15 Bohr magnetons
+
+kpt = [-0.455, -0.455, 0.000], weight = 0.008:
+  Band      eig [eV]   occ [0-1]
+     0       -82.167       1.000
+   ...
+    21        -4.279       1.000
+    22        -4.048       1.000
+    23        -3.732       1.000
+    24        -3.678       1.000
+    25        -3.575       1.000
+    26        -3.543       1.000
+    27        -2.242       1.000
+    28        -2.191       1.000
+    29        -0.315       0.000
+    30        -0.191       0.000
+    31        -0.148       0.000
+    32         0.434       0.000
+    33         0.465       0.000
+    34         1.792       0.000
+    35         2.562       0.000
+    36         3.889       0.000
+   ...
+    41         5.226       0.000
+
+kpt = [-0.455, -0.364, 0.000], weight = 0.008:
+  Band      eig [eV]   occ [0-1]
+     0       -82.167       1.000
+   ...
+    21        -4.044       1.000
+    22        -3.985       1.000
+    23        -3.758       1.000
+    24        -3.647       1.000
+    25        -3.528       1.000
+    26        -3.398       1.000
+    27        -2.282       1.000
+    28        -2.076       1.000
+    29        -0.316       0.000
+    30        -0.257       0.000
+    31        -0.164       0.000
+    32         0.417       0.000
+    33         0.519       0.000
+    34         1.685       0.000
+    35         2.422       0.000
+    36         3.558       0.000
+   ...
+    41         4.771       0.000
+
+kpt = [-0.455, -0.273, 0.000], weight = 0.008:
+  Band      eig [eV]   occ [0-1]
+     0       -82.167       1.000
+   ...
+    21        -3.930       1.000
+    22        -3.721       1.000
+    23        -3.680       1.000
+    24        -3.550       1.000
+    25        -3.443       1.000
+    26        -3.268       1.000
+    27        -2.252       1.000
+    28        -1.951       0.999
+    29        -0.448       0.000
+    30        -0.260       0.000
+    31        -0.163       0.000
+    32         0.417       0.000
+    33         0.547       0.000
+    34         1.529       0.000
+    35         2.228       0.000
+    36         3.121       0.000
+   ...
+    41         4.628       0.000
+(only showing first 3 out of 121 k-points)
+
+Gap: 1.426 eV
+Transition (v -> c):
+  (s=0, k=93, n=28, [0.27, 0.00, 0.00]) -> (s=0, k=92, n=29, [0.27, -0.09, 0.00])
+Energy: -15.141849058988772 eV
+Magnetic moment: -4.059163385948446e-15 Bohr magnetons
+---
+
+timing:  # [seconds]
+  Total: 783.058  # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Init:   12.151  # ━
+  SCF:   770.816  # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Max RSS: 471.125  # MiB
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21666948: <H_18.0.py> in cluster <dcc> Done
+
+Job <H_18.0.py> was submitted from host <n-62-27-18> by user <s194113> in cluster <dcc> at Wed May  1 17:16:03 2024
+Job was executed on host(s) <12*n-62-29-16>, in queue <hpc>, as user <s194113> in cluster <dcc> at Wed May  1 23:14:47 2024
+</zhome/87/8/147075> was used as the home directory.
+</work3/s194113/10302/10302_NM/MnI2_2D_rough> was used as the working directory.
+Started at Wed May  1 23:14:47 2024
+Terminated at Thu May  2 00:06:32 2024
+Results reported at Thu May  2 00:06:32 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash -l
+id=$LSB_JOBID
+mq=/work3/s194113/10302/10302_NM/.myqueue/lsf-$id
+source /zhome/87/8/147075/venv-name/bin/activate
+echo "venv: /zhome/87/8/147075/venv-name/bin/activate"
+(touch $mq-0 && \
+ cd '/work3/s194113/10302/10302_NM/MnI2_2D_rough' && \
+ mpiexec python3 H_18.0.py && \
+ touch $mq-1) || \
+(touch $mq-2; exit 1)
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   37254.82 sec.
+    Max Memory :                                 4691 MB
+    Average Memory :                             4130.36 MB
+    Total Requested Memory :                     73728.00 MB
+    Delta Memory :                               69037.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              17
+    Max Threads :                                57
+    Run time :                                   3104 sec.
+    Turnaround time :                            24629 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work3/s194113/10302/10302_NM/MnI2_2D_rough/H_18.0.py.21666948.err> for stderr output of this job.
+

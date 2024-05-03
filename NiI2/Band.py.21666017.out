@@ -1,0 +1,61 @@
+venv: /zhome/87/8/147075/venv-name/bin/activate
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating q=[0. 0. 0.]
+[1714561367.228132] [n-62-29-7:25758:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714561367.228642] [n-62-29-7:25758:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21666017: <Band.py> in cluster <dcc> Exited
+
+Job <Band.py> was submitted from host <n-62-27-18> by user <s194113> in cluster <dcc> at Wed May  1 13:02:42 2024
+Job was executed on host(s) <n-62-29-7>, in queue <hpc>, as user <s194113> in cluster <dcc> at Wed May  1 13:02:43 2024
+</zhome/87/8/147075> was used as the home directory.
+</work3/s194113/10302/10302_NM/NiI2> was used as the working directory.
+Started at Wed May  1 13:02:43 2024
+Terminated at Wed May  1 13:02:54 2024
+Results reported at Wed May  1 13:02:54 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash -l
+id=$LSB_JOBID
+mq=/work3/s194113/10302/10302_NM/.myqueue/lsf-$id
+source /zhome/87/8/147075/venv-name/bin/activate
+echo "venv: /zhome/87/8/147075/venv-name/bin/activate"
+(touch $mq-0 && \
+ cd '/work3/s194113/10302/10302_NM/NiI2' && \
+ python3 Band.py && \
+ touch $mq-1) || \
+(touch $mq-2; exit 1)
+
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 130.
+
+Resource usage summary:
+
+    CPU time :                                   8.24 sec.
+    Max Memory :                                 194 MB
+    Average Memory :                             194.00 MB
+    Total Requested Memory :                     6144.00 MB
+    Delta Memory :                               5950.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                13
+    Run time :                                   60 sec.
+    Turnaround time :                            12 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work3/s194113/10302/10302_NM/NiI2/Band.py.21666017.err> for stderr output of this job.
+
