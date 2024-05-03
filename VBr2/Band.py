@@ -4,10 +4,10 @@ from ase.visualize import view
 from gpaw.new.ase_interface import GPAW
 import numpy as np
 import os
-ecut = int("600")
-k = float("6")
+ecut = float("800")
+k = float("8")
 v = float("6")
-folder = "Band"
+folder = "Band_Conv"
 type = "Band"
 n = int("101")
 

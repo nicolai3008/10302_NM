@@ -9,7 +9,7 @@ Type = "Conv_K"
 Type = "2D"
 
 
-mol = "MnI2"
+mol = "VBr2"
 
 xyz = "Materials/1{}-1.xyz".format(mol)
 if Type == "2D":
@@ -127,9 +127,9 @@ elif Type == "Conv_K":
 elif Type == "2D":
     if not os.path.exists("{}_2D".format(mol)):
         os.makedirs("{}_2D".format(mol))
-    k = 6
+    k = 8
     v = 6
-    E = 600
+    E = 800
     n = 31
     h = np.linspace(0,40,41)
     for i in range(len(h)):
