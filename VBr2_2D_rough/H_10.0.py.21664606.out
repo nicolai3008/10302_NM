@@ -1,0 +1,181 @@
+venv: /zhome/87/8/147075/venv-name/bin/activate
+[1714554741.808046] [n-62-28-34:12648:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714554741.808081] [n-62-28-34:12648:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714554741.808063] [n-62-28-34:12649:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714554741.808100] [n-62-28-34:12649:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714554741.808131] [n-62-28-34:12636:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714554741.808168] [n-62-28-34:12636:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714554741.808139] [n-62-28-34:12650:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714554741.808173] [n-62-28-34:12650:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714554741.808211] [n-62-28-34:12637:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714554741.808246] [n-62-28-34:12637:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714554741.808155] [n-62-28-34:12638:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714554741.808188] [n-62-28-34:12638:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714554741.808312] [n-62-28-34:12639:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714554741.808344] [n-62-28-34:12639:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714554741.808212] [n-62-28-34:12640:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714554741.808257] [n-62-28-34:12640:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714554741.808173] [n-62-28-34:12641:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714554741.808206] [n-62-28-34:12641:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714554741.808514] [n-62-28-34:12642:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714554741.808564] [n-62-28-34:12642:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714554741.808219] [n-62-28-34:12644:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714554741.808249] [n-62-28-34:12644:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714554741.808241] [n-62-28-34:12647:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714554741.808274] [n-62-28-34:12647:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+Calculating ground state
+16 q-points in the path
+=====================================
+Calculating ground state
+16 q-points in the path
+=====================================
+Calculating ground state
+16 q-points in the path
+=====================================
+Calculating ground state
+16 q-points in the path
+=====================================
+Calculating q=[0.16666666666666666, 0.16666666666666666, 0]
+Calculating ground state
+16 q-points in the path
+=====================================
+Calculating q=[0.16666666666666666, 0.16666666666666666, 0]
+Calculating ground state
+16 q-points in the path
+=====================================
+Calculating q=[0.16666666666666666, 0.16666666666666666, 0]
+Calculating ground state
+16 q-points in the path
+=====================================
+Calculating q=[0.16666666666666666, 0.16666666666666666, 0]
+Calculating q=[0.16666666666666666, 0.16666666666666666, 0]
+Calculating ground state
+16 q-points in the path
+=====================================
+Calculating q=[0.16666666666666666, 0.16666666666666666, 0]
+Calculating q=[0.16666666666666666, 0.16666666666666666, 0]
+Calculating ground state
+16 q-points in the path
+=====================================
+Calculating q=[0.16666666666666666, 0.16666666666666666, 0]
+Calculating ground state
+16 q-points in the path
+=====================================
+Calculating q=[0.16666666666666666, 0.16666666666666666, 0]
+Calculating ground state
+16 q-points in the path
+=====================================
+Calculating q=[0.16666666666666666, 0.16666666666666666, 0]
+Calculating ground state
+16 q-points in the path
+=====================================
+Calculating q=[0.16666666666666666, 0.16666666666666666, 0]
+Calculating q=[0.16666666666666666, 0.16666666666666666, 0]
+Energy: -15.661261836350082 eV
+Magnetic moment: 6.2625328053155246e-15 Bohr magnetons
+Calculating q=[0.18333333333333332, 0.16666666666666666, 0]
+Energy: -15.661261836350082 eV
+Magnetic moment: 6.2625328053155246e-15 Bohr magnetons
+Calculating q=[0.18333333333333332, 0.16666666666666666, 0]
+Energy: -15.661261836350082 eV
+Magnetic moment: 6.2625328053155246e-15 Bohr magnetons
+Calculating q=[0.18333333333333332, 0.16666666666666666, 0]
+Energy: -15.661261836350082 eV
+Magnetic moment: 6.2625328053155246e-15 Bohr magnetons
+Calculating q=[0.18333333333333332, 0.16666666666666666, 0]
+Energy: -15.661261836350082 eV
+Magnetic moment: 6.2625328053155246e-15 Bohr magnetons
+Calculating q=[0.18333333333333332, 0.16666666666666666, 0]
+Energy: -15.661261836350082 eV
+Magnetic moment: 6.2625328053155246e-15 Bohr magnetons
+Calculating q=[0.18333333333333332, 0.16666666666666666, 0]
+Energy: -15.661261836350082 eV
+Magnetic moment: 6.2625328053155246e-15 Bohr magnetons
+Calculating q=[0.18333333333333332, 0.16666666666666666, 0]
+Energy: -15.661261836350082 eV
+Magnetic moment: 6.2625328053155246e-15 Bohr magnetons
+Calculating q=[0.18333333333333332, 0.16666666666666666, 0]
+Energy: -15.661261836350082 eV
+Magnetic moment: 6.2625328053155246e-15 Bohr magnetons
+Calculating q=[0.18333333333333332, 0.16666666666666666, 0]
+Energy: -15.661261836350082 eV
+Magnetic moment: 6.2625328053155246e-15 Bohr magnetons
+Calculating q=[0.18333333333333332, 0.16666666666666666, 0]
+Energy: -15.661261836350082 eV
+Magnetic moment: 6.2625328053155246e-15 Bohr magnetons
+Calculating q=[0.18333333333333332, 0.16666666666666666, 0]
+Energy: -15.661261836350082 eV
+Magnetic moment: 6.2625328053155246e-15 Bohr magnetons
+Calculating q=[0.18333333333333332, 0.16666666666666666, 0]
+Energy: -15.662517326438465 eV
+Magnetic moment: -1.2401019364914981e-14 Bohr magnetons
+Calculating q=[0.2, 0.16666666666666666, 0]
+Energy: -15.662517326438465 eV
+Magnetic moment: -1.2401019364914981e-14 Bohr magnetons
+Calculating q=[0.2, 0.16666666666666666, 0]
+Energy: -15.662517326438465 eV
+Magnetic moment: -1.2401019364914981e-14 Bohr magnetons
+Calculating q=[0.2, 0.16666666666666666, 0]
+Energy: -15.662517326438465 eV
+Magnetic moment: -1.2401019364914981e-14 Bohr magnetons
+Calculating q=[0.2, 0.16666666666666666, 0]
+Energy: -15.662517326438465 eV
+Magnetic moment: -1.2401019364914981e-14 Bohr magnetons
+Calculating q=[0.2, 0.16666666666666666, 0]
+Energy: -15.662517326438465 eV
+Magnetic moment: -1.2401019364914981e-14 Bohr magnetons
+Calculating q=[0.2, 0.16666666666666666, 0]
+Energy: -15.662517326438465 eV
+Magnetic moment: -1.2401019364914981e-14 Bohr magnetons
+Calculating q=[0.2, 0.16666666666666666, 0]
+Energy: -15.662517326438465 eV
+Magnetic moment: -1.2401019364914981e-14 Bohr magnetons
+Calculating q=[0.2, 0.16666666666666666, 0]
+Energy: -15.662517326438465 eV
+Magnetic moment: -1.2401019364914981e-14 Bohr magnetons
+Calculating q=[0.2, 0.16666666666666666, 0]
+Energy: -15.662517326438465 eV
+Magnetic moment: -1.2401019364914981e-14 Bohr magnetons
+Calculating q=[0.2, 0.16666666666666666, 0]
+Energy: -15.662517326438465 eV
+Magnetic moment: -1.2401019364914981e-14 Bohr magnetons
+Calculating q=[0.2, 0.16666666666666666, 0]
+Energy: -15.662517326438465 eV
+Magnetic moment: -1.2401019364914981e-14 Bohr magnetons
+Calculating q=[0.2, 0.16666666666666666, 0]
+Energy: -15.6637043118462 eV
+Magnetic moment: 6.358035812618111e-15 Bohr magnetons
+Calculating q=[0.21666666666666667, 0.16666666666666666, 0]
+Energy: -15.6637043118462 eV
+Magnetic moment: 6.358035812618111e-15 Bohr magnetons
+Calculating q=[0.21666666666666667, 0.16666666666666666, 0]
+Energy: -15.6637043118462 eV
+Magnetic moment: 6.358035812618111e-15 Bohr magnetons
+Calculating q=[0.21666666666666667, 0.16666666666666666, 0]
+Energy: -15.6637043118462 eV
+Magnetic moment: 6.358035812618111e-15 Bohr magnetons
+Calculating q=[0.21666666666666667, 0.16666666666666666, 0]
+Energy: -15.6637043118462 eV
+Magnetic moment: 6.358035812618111e-15 Bohr magnetons
+Calculating q=[0.21666666666666667, 0.16666666666666666, 0]
+Energy: -15.6637043118462 eV
+Magnetic moment: 6.358035812618111e-15 Bohr magnetons
+Calculating q=[0.21666666666666667, 0.16666666666666666, 0]
+Energy: -15.6637043118462 eV
+Magnetic moment: 6.358035812618111e-15 Bohr magnetons
+Calculating q=[0.21666666666666667, 0.16666666666666666, 0]
+Energy: -15.6637043118462 eV
+Magnetic moment: 6.358035812618111e-15 Bohr magnetons
+Calculating q=[0.21666666666666667, 0.16666666666666666, 0]
+Energy: -15.6637043118462 eV
+Magnetic moment: 6.358035812618111e-15 Bohr magnetons
+Calculating q=[0.21666666666666667, 0.16666666666666666, 0]
+Energy: -15.6637043118462 eV
+Magnetic moment: 6.358035812618111e-15 Bohr magnetons
+Calculating q=[0.21666666666666667, 0.16666666666666666, 0]
+Energy: -15.6637043118462 eV
+Magnetic moment: 6.358035812618111e-15 Bohr magnetons
+Calculating q=[0.21666666666666667, 0.16666666666666666, 0]
+Energy: -15.6637043118462 eV
+Magnetic moment: 6.358035812618111e-15 Bohr magnetons
+Calculating q=[0.21666666666666667, 0.16666666666666666, 0]

@@ -1,0 +1,150 @@
+venv: /zhome/87/8/147075/venv-name/bin/activate
+[1714492733.360600] [n-62-29-11:24446:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714492733.360640] [n-62-29-11:24447:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714492733.360680] [n-62-29-11:24447:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714492733.361891] [n-62-29-11:24438:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714492733.361923] [n-62-29-11:24438:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714492733.360674] [n-62-29-11:24446:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714492733.362964] [n-62-29-11:24436:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714492733.362991] [n-62-29-11:24436:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714492733.362816] [n-62-29-11:24440:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714492733.362843] [n-62-29-11:24440:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714492733.363001] [n-62-29-11:24441:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714492733.363028] [n-62-29-11:24441:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714492733.362149] [n-62-29-11:24442:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714492733.362181] [n-62-29-11:24442:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714492733.362518] [n-62-29-11:24443:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714492733.362574] [n-62-29-11:24443:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714492733.362455] [n-62-29-11:24444:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714492733.362489] [n-62-29-11:24444:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714492733.363500] [n-62-29-11:24437:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714492733.363533] [n-62-29-11:24437:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714492733.363318] [n-62-29-11:24439:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714492733.363351] [n-62-29-11:24439:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714492733.363239] [n-62-29-11:24445:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714492733.363273] [n-62-29-11:24445:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+Calculating ground state
+Calculating ground state
+1 q-points in the path
+=====================================
+Calculating ground state
+1 q-points in the path
+=====================================
+Calculating q=[0.3333333333333333, 0.3333333333333333, 0]
+Calculating ground state
+1 q-points in the path
+=====================================
+Calculating q=[0.3333333333333333, 0.3333333333333333, 0]
+Calculating ground state
+1 q-points in the path
+=====================================
+Calculating q=[0.3333333333333333, 0.3333333333333333, 0]
+Calculating ground state
+1 q-points in the path
+=====================================
+Calculating q=[0.3333333333333333, 0.3333333333333333, 0]
+Calculating ground state
+1 q-points in the path
+=====================================
+Calculating q=[0.3333333333333333, 0.3333333333333333, 0]
+Calculating ground state
+1 q-points in the path
+=====================================
+Calculating q=[0.3333333333333333, 0.3333333333333333, 0]
+Calculating ground state
+1 q-points in the path
+=====================================
+Calculating q=[0.3333333333333333, 0.3333333333333333, 0]
+Calculating ground state
+1 q-points in the path
+=====================================
+Calculating q=[0.3333333333333333, 0.3333333333333333, 0]
+Calculating ground state
+1 q-points in the path
+=====================================
+Calculating q=[0.3333333333333333, 0.3333333333333333, 0]
+Calculating q=[0.3333333333333333, 0.3333333333333333, 0]
+1 q-points in the path
+=====================================
+Calculating q=[0.3333333333333333, 0.3333333333333333, 0]
+Calculating ground state
+1 q-points in the path
+=====================================
+Calculating q=[0.3333333333333333, 0.3333333333333333, 0]
+Energy: -12.294205192096502 eV
+Magnetic moment: -9.651608153552273e-13 Bohr magnetons
+Energy: -12.294205192096502 eV
+Magnetic moment: -9.651608153552273e-13 Bohr magnetons
+Energy: -12.294205192096502 eV
+Magnetic moment: -9.651608153552273e-13 Bohr magnetons
+Energy: -12.294205192096502 eV
+Magnetic moment: -9.651608153552273e-13 Bohr magnetons
+Energy: -12.294205192096502 eV
+Magnetic moment: -9.651608153552273e-13 Bohr magnetons
+Energy: -12.294205192096502 eV
+Magnetic moment: -9.651608153552273e-13 Bohr magnetons
+Energy: -12.294205192096502 eV
+Magnetic moment: -9.651608153552273e-13 Bohr magnetons
+Energy: -12.294205192096502 eV
+Magnetic moment: -9.651608153552273e-13 Bohr magnetons
+Energy: -12.294205192096502 eV
+Magnetic moment: -9.651608153552273e-13 Bohr magnetons
+Energy: -12.294205192096502 eV
+Magnetic moment: -9.651608153552273e-13 Bohr magnetons
+Energy: -12.294205192096502 eV
+Magnetic moment: -9.651608153552273e-13 Bohr magnetons
+Energy: -12.294205192096502 eV
+Magnetic moment: -9.651608153552273e-13 Bohr magnetons
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21660659: <H_20.0.py> in cluster <dcc> Done
+
+Job <H_20.0.py> was submitted from host <n-62-27-23> by user <s194113> in cluster <dcc> at Tue Apr 30 10:20:42 2024
+Job was executed on host(s) <12*n-62-29-11>, in queue <hpc>, as user <s194113> in cluster <dcc> at Tue Apr 30 17:58:49 2024
+</zhome/87/8/147075> was used as the home directory.
+</work3/s194113/10302/10302_NM/NiI2_2D> was used as the working directory.
+Started at Tue Apr 30 17:58:49 2024
+Terminated at Tue Apr 30 18:13:28 2024
+Results reported at Tue Apr 30 18:13:28 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash -l
+id=$LSB_JOBID
+mq=/work3/s194113/10302/10302_NM/.myqueue/lsf-$id
+source /zhome/87/8/147075/venv-name/bin/activate
+echo "venv: /zhome/87/8/147075/venv-name/bin/activate"
+(touch $mq-0 && \
+ cd '/work3/s194113/10302/10302_NM/NiI2_2D' && \
+ mpiexec python3 H_20.0.py && \
+ touch $mq-1) || \
+(touch $mq-2; exit 1)
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10503.58 sec.
+    Max Memory :                                 3621 MB
+    Average Memory :                             3291.11 MB
+    Total Requested Memory :                     73728.00 MB
+    Delta Memory :                               70107.00 MB
+    Max Swap :                                   -
+    Max Processes :                              17
+    Max Threads :                                57
+    Run time :                                   881 sec.
+    Turnaround time :                            28366 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work3/s194113/10302/10302_NM/NiI2_2D/H_20.0.py.21660659.err> for stderr output of this job.
+
