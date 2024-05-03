@@ -1,0 +1,186 @@
+venv: /zhome/87/8/147075/venv-name/bin/activate
+[1714563516.616440] [n-62-29-28:28786:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714563516.616456] [n-62-29-28:28790:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714563516.616483] [n-62-29-28:28790:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714563516.616446] [n-62-29-28:28791:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714563516.616483] [n-62-29-28:28791:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714563516.616484] [n-62-29-28:28785:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714563516.616537] [n-62-29-28:28785:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714563516.616484] [n-62-29-28:28789:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714563516.616526] [n-62-29-28:28789:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714563516.616510] [n-62-29-28:28794:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714563516.616549] [n-62-29-28:28794:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714563516.616511] [n-62-29-28:28797:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714563516.616548] [n-62-29-28:28797:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714563516.616631] [n-62-29-28:28787:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714563516.616682] [n-62-29-28:28787:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714563516.616559] [n-62-29-28:28788:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714563516.616593] [n-62-29-28:28788:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714563516.616623] [n-62-29-28:28786:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714563516.617163] [n-62-29-28:28792:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714563516.617203] [n-62-29-28:28792:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714563516.616612] [n-62-29-28:28798:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714563516.616645] [n-62-29-28:28798:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714563516.616542] [n-62-29-28:28799:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714563516.616576] [n-62-29-28:28799:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+Calculating ground state
+2 q-points in the path
+Calculating ground state
+2 q-points in the path
+=====================================
+Calculating ground state
+2 q-points in the path
+=====================================
+Calculating ground state
+2 q-points in the path
+=====================================
+Calculating ground state
+2 q-points in the path
+=====================================
+Calculating ground state
+2 q-points in the path
+=====================================
+Calculating q=[0.31666666666666665, 0.31666666666666665, 0]
+Calculating ground state
+2 q-points in the path
+=====================================
+Calculating q=[0.31666666666666665, 0.31666666666666665, 0]
+=====================================
+Calculating q=[0.31666666666666665, 0.31666666666666665, 0]
+Calculating q=[0.31666666666666665, 0.31666666666666665, 0]
+Calculating ground state
+2 q-points in the path
+=====================================
+Calculating q=[0.31666666666666665, 0.31666666666666665, 0]
+Calculating ground state
+2 q-points in the path
+=====================================
+Calculating q=[0.31666666666666665, 0.31666666666666665, 0]
+Calculating q=[0.31666666666666665, 0.31666666666666665, 0]
+Calculating ground state
+2 q-points in the path
+=====================================
+Calculating q=[0.31666666666666665, 0.31666666666666665, 0]
+Calculating ground state
+2 q-points in the path
+=====================================
+Calculating q=[0.31666666666666665, 0.31666666666666665, 0]
+Calculating q=[0.31666666666666665, 0.31666666666666665, 0]
+Calculating ground state
+2 q-points in the path
+=====================================
+Calculating q=[0.31666666666666665, 0.31666666666666665, 0]
+Calculating q=[0.31666666666666665, 0.31666666666666665, 0]
+Energy: -15.674265744390079 eV
+Magnetic moment: -8.891243000661325e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.31666666666666665, 0]
+Energy: -15.674265744390079 eV
+Magnetic moment: -8.891243000661325e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.31666666666666665, 0]
+Energy: -15.674265744390079 eV
+Magnetic moment: -8.891243000661325e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.31666666666666665, 0]
+Energy: -15.674265744390079 eV
+Energy: -15.674265744390079 eV
+Magnetic moment: -8.891243000661325e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.31666666666666665, 0]
+Energy: -15.674265744390079 eV
+Magnetic moment: -8.891243000661325e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.31666666666666665, 0]
+Energy: -15.674265744390079 eV
+Magnetic moment: -8.891243000661325e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.31666666666666665, 0]
+Energy: -15.674265744390079 eV
+Energy: -15.674265744390079 eV
+Magnetic moment: -8.891243000661325e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.31666666666666665, 0]
+Energy: -15.674265744390079 eV
+Magnetic moment: -8.891243000661325e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.31666666666666665, 0]
+Energy: -15.674265744390079 eV
+Magnetic moment: -8.891243000661325e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.31666666666666665, 0]
+Energy: -15.674265744390079 eV
+Magnetic moment: -8.891243000661325e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.31666666666666665, 0]
+Magnetic moment: -8.891243000661325e-15 Bohr magnetons
+Magnetic moment: -8.891243000661325e-15 Bohr magnetons
+Calculating q=[0.3333333333333333, 0.31666666666666665, 0]
+Calculating q=[0.3333333333333333, 0.31666666666666665, 0]
+Energy: -15.674364049453214 eV
+Magnetic moment: 4.140339114563095e-15 Bohr magnetons
+Energy: -15.674364049453214 eV
+Magnetic moment: 4.140339114563095e-15 Bohr magnetons
+Energy: -15.674364049453214 eV
+Magnetic moment: 4.140339114563095e-15 Bohr magnetons
+Energy: -15.674364049453214 eV
+Magnetic moment: 4.140339114563095e-15 Bohr magnetons
+Energy: -15.674364049453214 eV
+Magnetic moment: 4.140339114563095e-15 Bohr magnetons
+Energy: -15.674364049453214 eV
+Magnetic moment: 4.140339114563095e-15 Bohr magnetons
+Energy: -15.674364049453214 eV
+Magnetic moment: 4.140339114563095e-15 Bohr magnetons
+Energy: -15.674364049453214 eV
+Magnetic moment: 4.140339114563095e-15 Bohr magnetons
+Energy: -15.674364049453214 eV
+Magnetic moment: 4.140339114563095e-15 Bohr magnetons
+Energy: -15.674364049453214 eV
+Magnetic moment: 4.140339114563095e-15 Bohr magnetons
+Energy: -15.674364049453214 eV
+Magnetic moment: 4.140339114563095e-15 Bohr magnetons
+Energy: -15.674364049453214 eV
+Magnetic moment: 4.140339114563095e-15 Bohr magnetons
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21664615: <H_19.0.py> in cluster <dcc> Done
+
+Job <H_19.0.py> was submitted from host <n-62-27-18> by user <s194113> in cluster <dcc> at Wed May  1 11:12:25 2024
+Job was executed on host(s) <12*n-62-29-28>, in queue <hpc>, as user <s194113> in cluster <dcc> at Wed May  1 13:38:30 2024
+</zhome/87/8/147075> was used as the home directory.
+</work3/s194113/10302/10302_NM/VBr2_2D_rough> was used as the working directory.
+Started at Wed May  1 13:38:30 2024
+Terminated at Wed May  1 13:54:16 2024
+Results reported at Wed May  1 13:54:16 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash -l
+id=$LSB_JOBID
+mq=/work3/s194113/10302/10302_NM/.myqueue/lsf-$id
+source /zhome/87/8/147075/venv-name/bin/activate
+echo "venv: /zhome/87/8/147075/venv-name/bin/activate"
+(touch $mq-0 && \
+ cd '/work3/s194113/10302/10302_NM/VBr2_2D_rough' && \
+ mpiexec python3 H_19.0.py && \
+ touch $mq-1) || \
+(touch $mq-2; exit 1)
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11275.24 sec.
+    Max Memory :                                 3937 MB
+    Average Memory :                             3548.25 MB
+    Total Requested Memory :                     73728.00 MB
+    Delta Memory :                               69791.00 MB
+    Max Swap :                                   -
+    Max Processes :                              17
+    Max Threads :                                57
+    Run time :                                   1008 sec.
+    Turnaround time :                            9711 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work3/s194113/10302/10302_NM/VBr2_2D_rough/H_19.0.py.21664615.err> for stderr output of this job.
+
