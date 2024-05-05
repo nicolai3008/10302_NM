@@ -1,0 +1,57 @@
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating q=[0. 0. 0.]
+Energy: -15.121366034732572 eV
+Magnetic moment: -5.55545522607613e-10 Bohr magnetons
+Calculating q=[0.01388889 0.         0.        ]
+Energy: -15.121448433553104 eV
+Magnetic moment: -9.868076586277313e-14 Bohr magnetons
+Calculating q=[0.02777778 0.         0.        ]
+Energy: -15.121692199266395 eV
+Magnetic moment: -1.29740777485014e-14 Bohr magnetons
+Calculating q=[0.04166667 0.         0.        ]
+Energy: -15.122090900537527 eV
+Magnetic moment: -4.819861931258944e-13 Bohr magnetons
+Calculating q=[0.05555556 0.         0.        ]
+Energy: -15.12263513832479 eV
+Magnetic moment: 1.2909558982527325e-12 Bohr magnetons
+Calculating q=[0.06944444 0.         0.        ]
+Energy: -15.123310642651958 eV
+Magnetic moment: 6.399222083913865e-15 Bohr magnetons
+Calculating q=[0.08333333 0.         0.        ]
+Energy: -15.124101283483752 eV
+Magnetic moment: -2.133356127886602e-14 Bohr magnetons
+Calculating q=[0.09722222 0.         0.        ]
+Energy: -15.124987633824542 eV
+Magnetic moment: -7.203117679076166e-15 Bohr magnetons
+Calculating q=[0.11111111 0.         0.        ]
+Energy: -15.125951093792724 eV
+Magnetic moment: 2.466202655411716e-13 Bohr magnetons
+Calculating q=[0.125 0.    0.   ]
+Energy: -15.126969106882646 eV
+Magnetic moment: 3.241539885089124e-14 Bohr magnetons
+Calculating q=[0.13888889 0.         0.        ]
+Energy: -15.12802177976775 eV
+Magnetic moment: 9.031749080745998e-12 Bohr magnetons
+Calculating q=[0.15277778 0.         0.        ]
+Energy: -15.129087405491173 eV
+Magnetic moment: -3.04101591529152e-14 Bohr magnetons
+Calculating q=[0.16666667 0.         0.        ]
+Energy: -15.130147473806757 eV
+Magnetic moment: 1.5995946415634355e-13 Bohr magnetons
+Calculating q=[0.18055556 0.         0.        ]
+Energy: -15.13118418604543 eV
+Magnetic moment: -5.398250294015181e-14 Bohr magnetons
+Calculating q=[0.19444444 0.         0.        ]
+Energy: -15.132181798685238 eV
+Magnetic moment: 1.8595085480509108e-13 Bohr magnetons
+Calculating q=[0.20833333 0.         0.        ]
+Energy: -15.133126551057556 eV
+Magnetic moment: 1.3773124291242184e-13 Bohr magnetons
+Calculating q=[0.22222222 0.         0.        ]
+Energy: -15.134007348195688 eV
+Magnetic moment: -1.0047743380567126e-12 Bohr magnetons
+Calculating q=[0.23611111 0.         0.        ]
+[1714728240.309717] [n-62-29-26:25430:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714728240.310047] [n-62-29-26:25430:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.

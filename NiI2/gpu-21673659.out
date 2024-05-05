@@ -1,0 +1,48 @@
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating q=[0. 0. 0.]
+Energy: -12.29012970790177 eV
+Magnetic moment: -6.280073599994448e-08 Bohr magnetons
+Calculating q=[0.01388889 0.         0.        ]
+Energy: -12.290379602987642 eV
+Magnetic moment: 1.1602844520812774e-12 Bohr magnetons
+Calculating q=[0.02777778 0.         0.        ]
+Energy: -12.291202300891154 eV
+Magnetic moment: -4.712698208896307e-13 Bohr magnetons
+Calculating q=[0.04166667 0.         0.        ]
+Energy: -12.292546481495389 eV
+Magnetic moment: 3.3813918969447978e-12 Bohr magnetons
+Calculating q=[0.05555556 0.         0.        ]
+Energy: -12.294275154771816 eV
+Magnetic moment: -1.6163192294169513e-12 Bohr magnetons
+Calculating q=[0.06944444 0.         0.        ]
+Energy: -12.296525994703764 eV
+Magnetic moment: -4.039836469151521e-12 Bohr magnetons
+Calculating q=[0.08333333 0.         0.        ]
+Energy: -12.2989643466711 eV
+Magnetic moment: 8.805316695673569e-13 Bohr magnetons
+Calculating q=[0.09722222 0.         0.        ]
+Energy: -12.30163738881414 eV
+Magnetic moment: 1.5333488934200481e-12 Bohr magnetons
+Calculating q=[0.11111111 0.         0.        ]
+Energy: -12.304402482774751 eV
+Magnetic moment: 1.0923133547277517e-12 Bohr magnetons
+Calculating q=[0.125 0.    0.   ]
+Energy: -12.307137912173053 eV
+Magnetic moment: 1.7358804688999952e-13 Bohr magnetons
+Calculating q=[0.13888889 0.         0.        ]
+Energy: -12.30960246087557 eV
+Magnetic moment: -2.738744230347805e-12 Bohr magnetons
+Calculating q=[0.15277778 0.         0.        ]
+Energy: -12.312036137354953 eV
+Magnetic moment: 2.978008728930166e-12 Bohr magnetons
+Calculating q=[0.16666667 0.         0.        ]
+Energy: -12.313963106726042 eV
+Magnetic moment: -1.5900360744589119e-13 Bohr magnetons
+Calculating q=[0.18055556 0.         0.        ]
+Energy: -12.315426010530619 eV
+Magnetic moment: -4.553139777092222e-13 Bohr magnetons
+Calculating q=[0.19444444 0.         0.        ]
+[1714728286.302331] [n-62-31-17:11732:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714728286.302833] [n-62-31-17:11732:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.

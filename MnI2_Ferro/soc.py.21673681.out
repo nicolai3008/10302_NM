@@ -23,3 +23,56 @@ venv: /zhome/87/8/147075/venv-name/bin/activate
 [1714728549.069403] [n-62-29-34:27175:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
 [1714728549.069065] [n-62-29-34:27177:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
 [1714728549.069100] [n-62-29-34:27177:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21673681: <soc.py> in cluster <dcc> Done
+
+Job <soc.py> was submitted from host <n-62-27-19> by user <s194113> in cluster <dcc> at Fri May  3 11:29:04 2024
+Job was executed on host(s) <12*n-62-29-34>, in queue <hpc>, as user <s194113> in cluster <dcc> at Fri May  3 11:29:04 2024
+</zhome/87/8/147075> was used as the home directory.
+</work3/s194113/10302/10302_NM/MnI2_Ferro> was used as the working directory.
+Started at Fri May  3 11:29:04 2024
+Terminated at Fri May  3 12:57:35 2024
+Results reported at Fri May  3 12:57:35 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash -l
+id=$LSB_JOBID
+mq=/work3/s194113/10302/10302_NM/.myqueue/lsf-$id
+source /zhome/87/8/147075/venv-name/bin/activate
+echo "venv: /zhome/87/8/147075/venv-name/bin/activate"
+(touch $mq-0 && \
+ cd '/work3/s194113/10302/10302_NM/MnI2_Ferro' && \
+ mpiexec python3 soc.py && \
+ touch $mq-1) || \
+(touch $mq-2; exit 1)
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   63664.56 sec.
+    Max Memory :                                 1272 MB
+    Average Memory :                             1247.90 MB
+    Total Requested Memory :                     73728.00 MB
+    Delta Memory :                               72456.00 MB
+    Max Swap :                                   -
+    Max Processes :                              17
+    Max Threads :                                57
+    Run time :                                   5385 sec.
+    Turnaround time :                            5311 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work3/s194113/10302/10302_NM/MnI2_Ferro/soc.py.21673681.err> for stderr output of this job.
+

@@ -1,0 +1,109 @@
+venv: /zhome/87/8/147075/venv-name/bin/activate
+[1714946166.188268] [n-62-29-10:14711:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714946166.188303] [n-62-29-10:14724:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714946166.188342] [n-62-29-10:14724:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714946166.188279] [n-62-29-10:14728:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714946166.188326] [n-62-29-10:14728:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714946166.188327] [n-62-29-10:14705:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714946166.188394] [n-62-29-10:14705:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714946166.188338] [n-62-29-10:14708:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714946166.188399] [n-62-29-10:14708:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714946166.188309] [n-62-29-10:14709:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714946166.188374] [n-62-29-10:14709:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714946166.188363] [n-62-29-10:14710:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714946166.188411] [n-62-29-10:14710:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714946166.188354] [n-62-29-10:14713:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714946166.188415] [n-62-29-10:14713:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714946166.188314] [n-62-29-10:14720:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714946166.188352] [n-62-29-10:14720:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714946166.188316] [n-62-29-10:14723:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714946166.188377] [n-62-29-10:14723:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714946166.188348] [n-62-29-10:14725:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714946166.188403] [n-62-29-10:14725:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714946166.188958] [n-62-29-10:14706:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714946166.189001] [n-62-29-10:14706:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714946166.188813] [n-62-29-10:14707:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714946166.188866] [n-62-29-10:14707:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714946166.188927] [n-62-29-10:14721:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714946166.188970] [n-62-29-10:14721:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714946166.188413] [n-62-29-10:14722:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714946166.188455] [n-62-29-10:14722:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714946166.188532] [n-62-29-10:14711:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714946166.188492] [n-62-29-10:14726:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714946166.188534] [n-62-29-10:14726:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714946166.189119] [n-62-29-10:14729:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714946166.189159] [n-62-29-10:14729:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1714946166.188689] [n-62-29-10:14730:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1714946166.188731] [n-62-29-10:14730:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating ground state
+101 q-points in the path
+=====================================
+Calculating q=[0. 0. 0.]
+Calculating q=[0. 0. 0.]
+Calculating q=[0. 0. 0.]
+Calculating q=[0. 0. 0.]
+Calculating q=[0. 0. 0.]
+Calculating q=[0. 0. 0.]
+Calculating q=[0. 0. 0.]
+Calculating q=[0. 0. 0.]
+Calculating q=[0. 0. 0.]
+Calculating q=[0. 0. 0.]
+Calculating q=[0. 0. 0.]
+Calculating q=[0. 0. 0.]
+Calculating q=[0. 0. 0.]
+Calculating q=[0. 0. 0.]
+Calculating q=[0. 0. 0.]
+Calculating q=[0. 0. 0.]
+Calculating q=[0. 0. 0.]
+Calculating q=[0. 0. 0.]

@@ -12,3 +12,38 @@ Loading python/3.8.5
 Loading scalapack/2.1.0
   Loading requirement: numactl/2.0.12 libxml2/2.9.10 hwloc/2.2.0 knem/1.1.4
     ucx/1.8.1 openmpi/4.0.4
+(null): Forwarding signal 18 to job
+Traceback (most recent call last):
+  File "Band.py", line 52, in <module>
+    energy = atoms.get_potential_energy()
+  File "/zhome/87/8/147075/venv-name/ase/ase/atoms.py", line 755, in get_potential_energy
+    energy = self._calc.get_potential_energy(self)
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 253, in get_potential_energy
+    return self.calculate_property(atoms,
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 167, in calculate_property
+    self.converge()
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/ase_interface.py", line 226, in converge
+    self.calculation.converge(calculate_forces=self._calculate_forces)
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 171, in converge
+    for step, _ in enumerate(self.iconverge(convergence,
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/calculation.py", line 158, in iconverge
+    yield from self.scf_loop.iterate(self.state,
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/scf.py", line 78, in iterate
+    wfs_error = self.eigensolver.iterate(state, self.hamiltonian)
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 110, in iterate
+    e = self.iterate1(wfs, Ht, dH, dS_aii, weight_n)
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 184, in iterate1
+    me(psit2_nX, psit2_nX, function=Ht)
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pwfd/davidson.py", line 150, in me
+    return a.matrix_elements(b,
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/arrays.py", line 152, in matrix_elements
+    other = function(other)
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/new/pw/hamiltonian.py", line 168, in apply
+    p_sG.ifft(out=f_sR)
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/core/plane_waves.py", line 364, in ifft
+    plan.ifft_sphere(coef_G, self.desc, out1)
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/fftw.py", line 149, in ifft_sphere
+    self.ifft()
+  File "/zhome/87/8/147075/venv-name/gpaw/gpaw/fftw.py", line 172, in ifft
+    _gpaw.FFTWExecute(self._ifftplan)
+KeyboardInterrupt
