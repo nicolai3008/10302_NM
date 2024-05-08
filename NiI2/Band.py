@@ -7,7 +7,7 @@ import os
 ecut = float("800")
 k = float("8")
 v = float("6")
-folder = "Band_Conv"
+folder = "Comp"
 type = "Band"
 n = int("101")
 
@@ -23,6 +23,7 @@ magmoms_q = []
 q = []
 # Construct list of q-vectors
 path = atoms.cell.bandpath('GMKG', npoints=n).kpts
+path = [[1/7,1/7,0],[1/7,0,0]]
 print('Calculating ground state')
 print(len(path), "q-points in the path")
 print("=====================================")
@@ -47,10 +48,10 @@ if type == "Band":
                     parallel={'domain': 1, 'band': 1},
                     magmoms=magmoms,
                     kpts={'density': k, 'gamma': True},
-                    txt=f'{folder}/gsq-{i:02}.txt')
+                    txt=f'{folder}/gsq-{i:02}-SC.txt')
         atoms.calc = calc
         energy = atoms.get_potential_energy()
-        calc.write(f'{folder}/gsq-{i:02}.gpw')
+        calc.write(f'{folder}/gsq-{i:02}-SC.gpw')
         magmom = atoms.calc.get_magnetic_moment()
         energies_q.append(energy)
         magmoms_q.append(magmom)
@@ -60,7 +61,7 @@ if type == "Band":
     energies_q = np.array(energies_q)
     magmoms_q = np.array(magmoms_q)
     q = np.array(q)
-    np.savez('data_{}_{}_{}.npz'.format(ecut,k,v), energies=energies_q, magmoms=magmoms_q, q=q)
+    np.savez('data_{}_{}_{}-7.npz'.format(ecut,k,v), energies=energies_q, magmoms=magmoms_q, q=q)
 
 elif type == "Conv":
     p = folder.split('/')
