@@ -1,17 +1,5 @@
 #!/bin/bash
-mq submit H_0.0.py -R 12:3d
-mq submit H_1.0.py -R 12:3d
-mq submit H_2.0.py -R 12:3d
-mq submit H_3.0.py -R 12:3d
-mq submit H_4.0.py -R 12:3d
-mq submit H_5.0.py -R 12:3d
-mq submit H_6.0.py -R 12:3d
-mq submit H_7.0.py -R 12:3d
-mq submit H_8.0.py -R 12:3d
-mq submit H_9.0.py -R 12:3d
-mq submit H_10.0.py -R 12:3d
-mq submit H_11.0.py -R 12:3d
-mq submit H_12.0.py -R 12:3d
+    mq submit H_12.0.py -R 12:3d
 mq submit H_13.0.py -R 12:3d
 mq submit H_14.0.py -R 12:3d
 mq submit H_15.0.py -R 12:3d

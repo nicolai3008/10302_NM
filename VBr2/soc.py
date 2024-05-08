@@ -46,14 +46,14 @@ def sphere_points(distance=None):
     return thetas * 180 / math.pi, phis * 180 / math.pi
 
 
-energies = np.load('data_600_6.0_6.0.npz')['energies']
+energies = np.load('data_800.0_8.0_6.0.npz')['energies']
 minimum = np.argmin(energies)
 
 theta_tp, phi_tp = sphere_points(distance=1)
 theta_tp = np.concatenate((theta_tp, 180+theta_tp))
 phi_tp = np.concatenate((phi_tp, phi_tp))
 
-calc = GPAW(f'Band/gsq-{minimum:02}.gpw')
+calc = GPAW(f'Band_Conv/gsq-{minimum:02}.gpw')
 occcalc = create_occ_calc({'name': 'fermi-dirac', 'width': 0.001})
 soc_tp = []
 
@@ -63,5 +63,6 @@ for theta, phi in zip(theta_tp, phi_tp):
     soc_tp.append(en_soc)
 
 np.savez('soc_data.npz', soc=soc_tp, theta=theta_tp, phi=phi_tp)
+
 
 

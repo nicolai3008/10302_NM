@@ -41,7 +41,7 @@ sc.set_initial_magnetic_moments(MM)
 
 # Align the magnetic moment in the xy-plane
 magmoms = [MAG, [0, 0, 0], [0, 0, 0],[MAG[0]*np.cos(np.deg2rad(120)),MAG[0]*np.sin(np.deg2rad(120)),0], [0, 0, 0], [0, 0, 0],[MAG[0]*np.cos(np.deg2rad(120)),-MAG[0]*np.sin(np.deg2rad(120)),0], [0, 0, 0], [0, 0, 0]]
-magmoms = [MAG, [0, 0, 0], [0, 0, 0],MAG, [0, 0, 0], [0, 0, 0],MAG, [0, 0, 0], [0, 0, 0]]
+#magmoms = [MAG, [0, 0, 0], [0, 0, 0],MAG, [0, 0, 0], [0, 0, 0],MAG, [0, 0, 0], [0, 0, 0]]
 
 
 os.makedirs(folder, exist_ok=True)
