@@ -58,22 +58,22 @@ occcalc = create_occ_calc({'name': 'fermi-dirac', 'width': 0.001})
 pso_tp = []
 soc_tp = []
 
-for theta, phi in zip(theta_tp, phi_tp):
-    print(theta,phi)
-    en_soc = soc_eigenstates(calc=calc, projected=True, theta=theta, phi=phi,
-                             occcalc=occcalc).calculate_band_energy()
-    pso_tp.append(en_soc)
-
-np.savez('pso_data.npz', soc=pso_tp, theta=theta_tp, phi=phi_tp)
-
-
 #for theta, phi in zip(theta_tp, phi_tp):
 #    print(theta,phi)
-#    en_soc = soc_eigenstates(calc=calc, projected=False, theta=theta, phi=phi,
+#    en_soc = soc_eigenstates(calc=calc, projected=True, theta=theta, phi=phi,
 #                             occcalc=occcalc).calculate_band_energy()
-#    soc_tp.append(en_soc)
+#    pso_tp.append(en_soc)
+#
+#np.savez('pso_data.npz', soc=pso_tp, theta=theta_tp, phi=phi_tp)
 
-#np.savez('soc_data.npz', soc=soc_tp, theta=theta_tp, phi=phi_tp)
+
+for theta, phi in zip(theta_tp, phi_tp):
+    print(theta,phi)
+    en_soc = soc_eigenstates(calc=calc, projected=False, theta=theta, phi=phi,
+                             occcalc=occcalc).calculate_band_energy()
+    soc_tp.append(en_soc)
+
+np.savez('soc_data.npz', soc=soc_tp, theta=theta_tp, phi=phi_tp)
 
 
 

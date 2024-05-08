@@ -41,6 +41,7 @@ sc.set_initial_magnetic_moments(MM)
 
 # Align the magnetic moment in the xy-plane
 magmoms = [MAG, [0, 0, 0], [0, 0, 0],[MAG[0]*np.cos(np.deg2rad(120)),MAG[0]*np.sin(np.deg2rad(120)),0], [0, 0, 0], [0, 0, 0],[MAG[0]*np.cos(np.deg2rad(120)),-MAG[0]*np.sin(np.deg2rad(120)),0], [0, 0, 0], [0, 0, 0]]
+magmoms = [MAG, [0, 0, 0], [0, 0, 0],MAG, [0, 0, 0], [0, 0, 0],MAG, [0, 0, 0], [0, 0, 0]]
 
 
 os.makedirs(folder, exist_ok=True)
@@ -56,15 +57,15 @@ calc = GPAW(mode={'name': 'pw',
         parallel={'domain': 1, 'band': 1},
         magmoms=magmoms,
         kpts={'density': k, 'gamma': True},
-        txt=f'{folder}/gsq-sc.txt')
+        txt=f'{folder}/gsq-sc-f.txt')
 sc.calc = calc
 energy = sc.get_potential_energy()
-calc.write(f'{folder}/gsq-sc.gpw')
+calc.write(f'{folder}/gsq-sc-f.gpw')
 magmom = sc.calc.get_magnetic_moment()
 print(f'Energy: {energy} eV')
 print(f'Magnetic moment: {magmom} Bohr magnetons')
 
 energies_q = np.array(energy)
 magmoms_q = np.array(magmom)
-q = np.array([1/3,1/3,0])
-np.savez('data_{}_{}_{}_2.npz'.format(ecut,k,v), energies=energies_q, magmoms=magmoms_q, q=q)
+q = np.array([0,0,0])
+np.savez('data_{}_{}_{}-f.npz'.format(ecut,k,v), energies=energies_q, magmoms=magmoms_q, q=q)

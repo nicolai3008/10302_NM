@@ -1,0 +1,80 @@
+Modules Release 4.8.0 (2021-07-14)
+DCC-SW: Added modules (2023-aug/XeonE5-2660v3)
+DCC-SW: Removed standard modules: /apps/dcc/etc/ModulesSL73/modulefiles
+DCC-SW: Using gnu/12.3.0 compiler (requested)
+DCC-SW: Released modules (2023-aug/XeonE5-2660v3)
+DCC-SW: Added modules (2020-aug/XeonE5-2660v3)
+DCC-SW: Removed standard modules: /apps/dcc/etc/ModulesSL73/modulefiles
+DCC-SW: Using gnu/9.3.0 compiler
+Loading python/3.8.5
+  Loading requirement: build-tools/1.0 gcc/9.3.0 zlib/1.2.11 expat/2.2.0
+    libffi/3.3
+Loading scalapack/2.1.0
+  Loading requirement: numactl/2.0.12 libxml2/2.9.10 hwloc/2.2.0 knem/1.1.4
+    ucx/1.8.1 openmpi/4.0.4
+rank=4 L0: Traceback (most recent call last):
+rank=4 L1:   File "soc.py", line 71, in <module>
+rank=4 L2:     en_soc = soc_eigenstates(calc=calc, projected=False, theta=theta, phi=phi,
+rank=4 L3:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/spinorbit.py", line 520, in soc_eigenstates
+rank=4 L4:     bzwfs = soc_eigenstates_raw(ibzwfs,
+rank=4 L5:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/spinorbit.py", line 370, in soc_eigenstates_raw
+rank=4 L6:     for ibz_index, ibzwf in ibzwfs:
+rank=4 L7:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/spinorbit.py", line 442, in extract_ibz_wave_functions
+rank=4 L8:     projections.matrix.array[:] = P1_nI[n1:n2]
+rank=4 L9: ValueError: could not broadcast input array from shape (262,308) into shape (262,616)
+rank=8 L0: Traceback (most recent call last):
+rank=8 L1:   File "soc.py", line 71, in <module>
+rank=8 L2:     en_soc = soc_eigenstates(calc=calc, projected=False, theta=theta, phi=phi,
+rank=8 L3:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/spinorbit.py", line 520, in soc_eigenstates
+rank=8 L4:     bzwfs = soc_eigenstates_raw(ibzwfs,
+rank=8 L5:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/spinorbit.py", line 370, in soc_eigenstates_raw
+rank=8 L6:     for ibz_index, ibzwf in ibzwfs:
+rank=8 L7:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/spinorbit.py", line 442, in extract_ibz_wave_functions
+rank=8 L8:     projections.matrix.array[:] = P1_nI[n1:n2]
+rank=8 L9: ValueError: could not broadcast input array from shape (262,308) into shape (262,616)
+rank=0 L0: Traceback (most recent call last):
+rank=0 L1:   File "soc.py", line 71, in <module>
+rank=0 L2:     en_soc = soc_eigenstates(calc=calc, projected=False, theta=theta, phi=phi,
+rank=0 L3:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/spinorbit.py", line 520, in soc_eigenstates
+rank=0 L4:     bzwfs = soc_eigenstates_raw(ibzwfs,
+rank=0 L5:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/spinorbit.py", line 370, in soc_eigenstates_raw
+rank=0 L6:     for ibz_index, ibzwf in ibzwfs:
+rank=0 L7:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/spinorbit.py", line 442, in extract_ibz_wave_functions
+rank=0 L8:     projections.matrix.array[:] = P1_nI[n1:n2]
+rank=0 L9: ValueError: could not broadcast input array from shape (262,308) into shape (262,616)
+GPAW CLEANUP (node 0): <class 'ValueError'> occurred.  Calling MPI_Abort!
+rank=2 L0: Traceback (most recent call last):
+rank=2 L1:   File "soc.py", line 71, in <module>
+rank=2 L2:     en_soc = soc_eigenstates(calc=calc, projected=False, theta=theta, phi=phi,
+rank=2 L3:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/spinorbit.py", line 520, in soc_eigenstates
+rank=2 L4:     bzwfs = soc_eigenstates_raw(ibzwfs,
+rank=2 L5:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/spinorbit.py", line 370, in soc_eigenstates_raw
+rank=2 L6:     for ibz_index, ibzwf in ibzwfs:
+rank=2 L7:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/spinorbit.py", line 442, in extract_ibz_wave_functions
+rank=2 L8:     projections.matrix.array[:] = P1_nI[n1:n2]
+rank=2 L9: ValueError: could not broadcast input array from shape (262,308) into shape (262,616)
+GPAW CLEANUP (node 2): <class 'ValueError'> occurred.  Calling MPI_Abort!
+rank=6 L0: Traceback (most recent call last):
+rank=6 L1:   File "soc.py", line 71, in <module>
+rank=6 L2:     en_soc = soc_eigenstates(calc=calc, projected=False, theta=theta, phi=phi,
+rank=6 L3:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/spinorbit.py", line 520, in soc_eigenstates
+rank=6 L4:     bzwfs = soc_eigenstates_raw(ibzwfs,
+rank=6 L5:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/spinorbit.py", line 370, in soc_eigenstates_raw
+rank=6 L6:     for ibz_index, ibzwf in ibzwfs:
+rank=6 L7:   File "/zhome/87/8/147075/venv-name/gpaw/gpaw/spinorbit.py", line 442, in extract_ibz_wave_functions
+rank=6 L8:     projections.matrix.array[:] = P1_nI[n1:n2]
+rank=6 L9: ValueError: could not broadcast input array from shape (262,308) into shape (262,616)
+GPAW CLEANUP (node 6): <class 'ValueError'> occurred.  Calling MPI_Abort!
+GPAW CLEANUP (node 4): <class 'ValueError'> occurred.  Calling MPI_Abort!
+GPAW CLEANUP (node 8): <class 'ValueError'> occurred.  Calling MPI_Abort!
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 2 in communicator MPI_COMM_WORLD
+with errorcode 42.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[n-62-29-32:08440] PMIX ERROR: UNREACHABLE in file ../../../../../../../opal/mca/pmix/pmix3x/pmix/src/server/pmix_server.c at line 2193
+[n-62-29-32:08440] 4 more processes have sent help message help-mpi-api.txt / mpi-abort
+[n-62-29-32:08440] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

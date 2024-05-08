@@ -1,0 +1,102 @@
+venv: /zhome/87/8/147075/venv-name/bin/activate
+[1715043626.586064] [n-62-29-13:28005:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715043626.586094] [n-62-29-13:28005:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715043626.586082] [n-62-29-13:28008:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715043626.586118] [n-62-29-13:28008:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715043626.586665] [n-62-29-13:28006:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715043626.586693] [n-62-29-13:28006:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715043626.586554] [n-62-29-13:28007:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715043626.586584] [n-62-29-13:28007:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715043626.587565] [n-62-29-13:28009:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715043626.587596] [n-62-29-13:28009:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715043626.586344] [n-62-29-13:28010:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715043626.586378] [n-62-29-13:28010:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715043626.586755] [n-62-29-13:28011:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715043626.586783] [n-62-29-13:28011:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715043626.586588] [n-62-29-13:28012:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715043626.586623] [n-62-29-13:28012:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715043626.586459] [n-62-29-13:28013:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715043626.586488] [n-62-29-13:28013:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715043626.587136] [n-62-29-13:28015:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715043626.587169] [n-62-29-13:28015:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715043626.586967] [n-62-29-13:28016:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715043626.586995] [n-62-29-13:28016:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715043626.586527] [n-62-29-13:28017:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715043626.586554] [n-62-29-13:28017:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+Energy: -45.361841548318154 eV
+Magnetic moment: 9.202952653775994e-10 Bohr magnetons
+Energy: -45.361841548318154 eV
+Magnetic moment: 9.202952653775994e-10 Bohr magnetons
+Energy: -45.361841548318154 eV
+Energy: -45.361841548318154 eV
+Magnetic moment: 9.202952653775994e-10 Bohr magnetons
+Energy: -45.361841548318154 eV
+Magnetic moment: 9.202952653775994e-10 Bohr magnetons
+Energy: -45.361841548318154 eV
+Magnetic moment: 9.202952653775994e-10 Bohr magnetons
+Energy: -45.361841548318154 eV
+Magnetic moment: 9.202952653775994e-10 Bohr magnetons
+Energy: -45.361841548318154 eV
+Magnetic moment: 9.202952653775994e-10 Bohr magnetons
+Energy: -45.361841548318154 eV
+Magnetic moment: 9.202952653775994e-10 Bohr magnetons
+Energy: -45.361841548318154 eV
+Magnetic moment: 9.202952653775994e-10 Bohr magnetons
+Energy: -45.361841548318154 eV
+Magnetic moment: 9.202952653775994e-10 Bohr magnetons
+Energy: -45.361841548318154 eV
+Magnetic moment: 9.202952653775994e-10 Bohr magnetons
+Magnetic moment: 9.202952653775994e-10 Bohr magnetons
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21688329: <SC.py> in cluster <dcc> Done
+
+Job <SC.py> was submitted from host <gbarlogin2> by user <s194113> in cluster <dcc> at Mon May  6 16:48:15 2024
+Job was executed on host(s) <12*n-62-29-13>, in queue <hpc>, as user <s194113> in cluster <dcc> at Tue May  7 03:00:22 2024
+</zhome/87/8/147075> was used as the home directory.
+</work3/s194113/10302/10302_NM/MnI2_Supercell> was used as the working directory.
+Started at Tue May  7 03:00:22 2024
+Terminated at Tue May  7 03:43:30 2024
+Results reported at Tue May  7 03:43:30 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash -l
+id=$LSB_JOBID
+mq=/work3/s194113/10302/10302_NM/.myqueue/lsf-$id
+source /zhome/87/8/147075/venv-name/bin/activate
+echo "venv: /zhome/87/8/147075/venv-name/bin/activate"
+(touch $mq-0 && \
+ cd '/work3/s194113/10302/10302_NM/MnI2_Supercell' && \
+ mpiexec python3 SC.py && \
+ touch $mq-1) || \
+(touch $mq-2; exit 1)
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   30999.36 sec.
+    Max Memory :                                 11562 MB
+    Average Memory :                             9761.10 MB
+    Total Requested Memory :                     73728.00 MB
+    Delta Memory :                               62166.00 MB
+    Max Swap :                                   -
+    Max Processes :                              17
+    Max Threads :                                57
+    Run time :                                   2589 sec.
+    Turnaround time :                            39315 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work3/s194113/10302/10302_NM/MnI2_Supercell/SC.py.21688329.err> for stderr output of this job.
+
