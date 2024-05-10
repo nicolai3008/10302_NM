@@ -1,5 +1,4 @@
 #!/bin/bash
-    mq submit H_12.0.py -R 12:3d
 mq submit H_13.0.py -R 12:3d
 mq submit H_14.0.py -R 12:3d
 mq submit H_15.0.py -R 12:3d
