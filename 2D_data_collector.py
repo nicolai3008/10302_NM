@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 
 # Take all numpy data files and combine them into a single file
 
-folder = "VBr2_2D_rough"
-n = 21
+folder = "NiI2_2D"
+n = 41
 
 energies = []
 q = []
