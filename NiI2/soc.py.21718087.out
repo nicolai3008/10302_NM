@@ -1,0 +1,78 @@
+venv: /zhome/87/8/147075/venv-name/bin/activate
+[1715385549.964619] [n-62-29-7:20241:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715385549.964651] [n-62-29-7:20241:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715385549.964610] [n-62-29-7:20242:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715385549.964651] [n-62-29-7:20242:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715385549.964642] [n-62-29-7:20248:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715385549.964679] [n-62-29-7:20248:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715385549.964624] [n-62-29-7:20250:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715385549.964655] [n-62-29-7:20250:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715385549.964619] [n-62-29-7:20251:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715385549.964651] [n-62-29-7:20251:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715385549.964699] [n-62-29-7:20238:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715385549.964737] [n-62-29-7:20238:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715385549.964688] [n-62-29-7:20240:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715385549.964728] [n-62-29-7:20240:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715385549.964664] [n-62-29-7:20243:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715385549.964699] [n-62-29-7:20243:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715385549.964645] [n-62-29-7:20245:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715385549.964699] [n-62-29-7:20245:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715385549.964707] [n-62-29-7:20253:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715385549.964747] [n-62-29-7:20253:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715385549.964763] [n-62-29-7:20244:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715385549.964802] [n-62-29-7:20244:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715385549.964724] [n-62-29-7:20246:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715385549.964774] [n-62-29-7:20246:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21718087: <soc.py> in cluster <dcc> Done
+
+Job <soc.py> was submitted from host <gbarlogin2> by user <s194113> in cluster <dcc> at Fri May 10 12:50:41 2024
+Job was executed on host(s) <12*n-62-29-7>, in queue <hpc>, as user <s194113> in cluster <dcc> at Sat May 11 01:59:00 2024
+</zhome/87/8/147075> was used as the home directory.
+</work3/s194113/10302/10302_NM/NiI2> was used as the working directory.
+Started at Sat May 11 01:59:00 2024
+Terminated at Sat May 11 03:05:45 2024
+Results reported at Sat May 11 03:05:45 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash -l
+id=$LSB_JOBID
+mq=/work3/s194113/10302/10302_NM/.myqueue/lsf-$id
+source /zhome/87/8/147075/venv-name/bin/activate
+echo "venv: /zhome/87/8/147075/venv-name/bin/activate"
+(touch $mq-0 && \
+ cd '/work3/s194113/10302/10302_NM/NiI2' && \
+ mpiexec python3 soc.py && \
+ touch $mq-1) || \
+(touch $mq-2; exit 1)
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   47899.61 sec.
+    Max Memory :                                 1410 MB
+    Average Memory :                             1366.62 MB
+    Total Requested Memory :                     73728.00 MB
+    Delta Memory :                               72318.00 MB
+    Max Swap :                                   -
+    Max Processes :                              17
+    Max Threads :                                57
+    Run time :                                   4004 sec.
+    Turnaround time :                            51304 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work3/s194113/10302/10302_NM/NiI2/soc.py.21718087.err> for stderr output of this job.
+

@@ -12,3 +12,10 @@ Loading python/3.8.5
 Loading scalapack/2.1.0
   Loading requirement: numactl/2.0.12 libxml2/2.9.10 hwloc/2.2.0 knem/1.1.4
     ucx/1.8.1 openmpi/4.0.4
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpiexec noticed that process rank 11 with PID 0 on node n-62-28-17 exited on signal 9 (Killed).
+--------------------------------------------------------------------------
