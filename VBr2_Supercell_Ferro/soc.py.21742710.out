@@ -1,0 +1,25 @@
+venv: /zhome/87/8/147075/venv-name/bin/activate
+[1715681750.732534] [n-62-28-17:29911:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715681750.732570] [n-62-28-17:29911:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715681750.732546] [n-62-28-17:29915:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715681750.732579] [n-62-28-17:29915:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715681750.732541] [n-62-28-17:29920:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715681750.732572] [n-62-28-17:29920:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715681750.732519] [n-62-28-17:29922:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715681750.732555] [n-62-28-17:29922:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715681750.732532] [n-62-28-17:29923:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715681750.732564] [n-62-28-17:29923:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715681750.732546] [n-62-28-17:29926:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715681750.732580] [n-62-28-17:29926:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715681750.732566] [n-62-28-17:29912:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715681750.732603] [n-62-28-17:29912:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715681750.732591] [n-62-28-17:29913:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715681750.732646] [n-62-28-17:29913:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715681750.732586] [n-62-28-17:29916:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715681750.732634] [n-62-28-17:29916:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715681750.732557] [n-62-28-17:29918:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715681750.732590] [n-62-28-17:29918:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715681750.732572] [n-62-28-17:29925:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715681750.732602] [n-62-28-17:29925:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+[1715681750.732724] [n-62-28-17:29914:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1715681750.732756] [n-62-28-17:29914:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.

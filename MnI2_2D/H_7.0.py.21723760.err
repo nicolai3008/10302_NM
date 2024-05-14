@@ -1,0 +1,21 @@
+Modules Release 4.8.0 (2021-07-14)
+DCC-SW: Added modules (2023-aug/XeonE5-2660v3)
+DCC-SW: Removed standard modules: /apps/dcc/etc/ModulesSL73/modulefiles
+DCC-SW: Using gnu/12.3.0 compiler (requested)
+DCC-SW: Released modules (2023-aug/XeonE5-2660v3)
+DCC-SW: Added modules (2020-aug/XeonE5-2660v3)
+DCC-SW: Removed standard modules: /apps/dcc/etc/ModulesSL73/modulefiles
+DCC-SW: Using gnu/9.3.0 compiler
+Loading python/3.8.5
+  Loading requirement: build-tools/1.0 gcc/9.3.0 zlib/1.2.11 expat/2.2.0
+    libffi/3.3
+Loading scalapack/2.1.0
+  Loading requirement: numactl/2.0.12 libxml2/2.9.10 hwloc/2.2.0 knem/1.1.4
+    ucx/1.8.1 openmpi/4.0.4
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpiexec noticed that process rank 9 with PID 0 on node n-62-28-21 exited on signal 9 (Killed).
+--------------------------------------------------------------------------

@@ -50,7 +50,7 @@ theta_tp, phi_tp = sphere_points(distance=1)
 theta_tp = np.concatenate((theta_tp, 180+theta_tp))
 phi_tp = np.concatenate((phi_tp, phi_tp))
 
-calc = GPAW('../MnI2/Band_Conv/gsq-00.gpw')
+calc = GPAW('../VBr2_Supercell/SC/gsq-sc-f.gpw')
 occcalc = create_occ_calc({'name': 'fermi-dirac', 'width': 0.001})
 pso_tp = []
 soc_tp = []
@@ -63,12 +63,12 @@ for theta, phi in zip(theta_tp, phi_tp):
 np.savez('pso_data.npz', soc=pso_tp, theta=theta_tp, phi=phi_tp)
 
 
-#for theta, phi in zip(theta_tp, phi_tp):
-#    en_soc = soc_eigenstates(calc=calc, projected=False, theta=theta, phi=phi,
-#                             occcalc=occcalc).calculate_band_energy()
-#    soc_tp.append(en_soc)
+for theta, phi in zip(theta_tp, phi_tp):
+    en_soc = soc_eigenstates(calc=calc, projected=False, theta=theta, phi=phi,
+                             occcalc=occcalc).calculate_band_energy()
+    soc_tp.append(en_soc)
 
-#np.savez('soc_data.npz', soc=soc_tp, theta=theta_tp, phi=phi_tp)
+np.savez('soc_data.npz', soc=soc_tp, theta=theta_tp, phi=phi_tp)
 
 
 

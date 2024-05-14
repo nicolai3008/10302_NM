@@ -64,12 +64,12 @@ for theta, phi in zip(theta_tp, phi_tp):
 np.savez('pso_data.npz', soc=pso_tp, theta=theta_tp, phi=phi_tp)
 
 
-for theta, phi in zip(theta_tp, phi_tp):
-    en_soc = soc_eigenstates(calc=calc, projected=False, theta=theta, phi=phi,
-                             occcalc=occcalc).calculate_band_energy()
-    soc_tp.append(en_soc)
+#for theta, phi in zip(theta_tp, phi_tp):
+#    en_soc = soc_eigenstates(calc=calc, projected=False, theta=theta, phi=phi,
+#                             occcalc=occcalc).calculate_band_energy()
+#    soc_tp.append(en_soc)
 
-np.savez('soc_data.npz', soc=soc_tp, theta=theta_tp, phi=phi_tp)
+#np.savez('soc_data.npz', soc=soc_tp, theta=theta_tp, phi=phi_tp)
 
 
 
