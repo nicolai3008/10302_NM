@@ -88,7 +88,7 @@ plt.savefig('PSO_3D.png', dpi=300, bbox_inches='tight')
 #%%
 
 
-print(np.max(e)/3)
+print(np.max(e)/7)
 
 print(theta[np.argmin(e)]-180, phi[np.argmin(e)])
 print(theta[np.argmin(e)], phi[np.argmin(e)])
