@@ -1,7 +1,7 @@
 import numpy as np
 import os
 
-folder = "VBr2"
+folder = "NiI2"
 subs = ["Conv_E","Conv_K", "Conv_V"]
 maxes = [[800.0,1000],[7.5,8],[6.5,7]]
 
